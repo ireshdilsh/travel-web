@@ -40,11 +40,15 @@ body{
     border-radius: 360px;
     width: 30px;
     position: absolute;
-    top: 55px;
+    top: 190px;
     left: 380px;
 }
 
 #home .left-side .sub-title p{
     font-size: 44px;
     font-weight: 900;
+}
+
+#home .left-side .discription{
+    margin-top: -10px;
 }

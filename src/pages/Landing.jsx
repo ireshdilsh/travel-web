@@ -1,9 +1,13 @@
 import React from 'react'
 import '../styles/Landing.css'
+import Header from "../components/Header.jsx";
 
 export default function Landing() {
     return (
         <div>
+            {/* adding Header.jsx file */}
+            <Header/>
+
             <section id="home">
                 <div className="left-side">
                     <div className="title">
@@ -20,7 +24,11 @@ export default function Landing() {
                         <button className="btn btn-primary" style={{height:"45px", width:"160px",fontSize:"14px",fontWeight:500}}>Create Account</button>
                     </div>
                 </div>
-                <div className="right-side"></div>
+                <div className="right-side" style={{border:"1px solid black",height:"400px",width:"400px"}}>
+                    <div className="blob">
+
+                    </div>
+                </div>
             </section>
         </div>
     )
