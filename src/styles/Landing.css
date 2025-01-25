@@ -7,9 +7,44 @@
 }
 
 body{
-    background-color: #fff;
     color: #333;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-size: 14px;
+    padding: 0 120px;
+}
+
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#home .left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#home .left-side .title p{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#home .left-side .title hr{
+    border: none;
+    background-color: #333333;
+    height: 3px;
+    border-radius: 360px;
+    width: 30px;
+    position: absolute;
+    top: 55px;
+    left: 380px;
+}
+
+#home .left-side .sub-title p{
+    font-size: 44px;
+    font-weight: 900;
 }
