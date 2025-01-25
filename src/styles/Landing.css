@@ -7,8 +7,9 @@
 }
 
 body{
-    background-color: #fcfcfc;
+    background-color: #fff;
     color: #333;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
+    font-size: 14px;
 }
