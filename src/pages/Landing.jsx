@@ -29,6 +29,7 @@ export default function Landing() {
                     </div>
                 </div>
                 <div className="right-side">
+                    {/* Adding inline css for image frames (easy stylling purpose) */}
                     <div className="img-frame-1">
                         <img style={{width:"300px"}} src={img1} alt="img-1"/>
                         <img style={{width:"300px",height:"170px"}} src={img2} alt="img-2"/>
