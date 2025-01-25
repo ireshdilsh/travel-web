@@ -1,7 +1,10 @@
 import React from 'react'
+import Landing from "./pages/Landing.jsx";
 
 export default function Controller() {
     return (
-        <div>Controller Page</div>
+        <div>
+            <Landing/>
+        </div>
     )
 }
