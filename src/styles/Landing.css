@@ -186,3 +186,11 @@ nav .links a:hover{
     align-items: center;
     gap: 20px;
 }
+
+#blogs{
+    margin-top: 50px;
+}
+
+#blogs h4{
+    font-weight: 700;
+}

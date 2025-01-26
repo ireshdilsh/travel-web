@@ -94,16 +94,16 @@ export default function Landing() {
                 <h4>Explore Sri Lanka</h4>
                 <p>Experience the magic of Sri Lanka, where stunning landscapes, rich culture, and warm hospitality await.</p>
                 <div className="frame-1">
-                    <img src={img1} style={{overflow:'hidden',borderRadius:'10px'}} alt="frame-1 img 1"/>
-                    <img src={img2} style={{overflow:'hidden',borderRadius:'10px',height:'230px'}} alt="frame-1 img 1"/>
-                    <img src={img3} style={{overflow:'hidden',borderRadius:'10px',height:'230px'}} alt="frame-1 img 1"/>
+                {/* Need Add Photos */}
                 </div>
                 <div className="frame-2">
-                    <img src={img4} style={{overflow:'hidden',borderRadius:'10px'}}alt="frame-1 img 1"/>
-                    <img src={img1} style={{overflow:'hidden',borderRadius:'10px'}} alt="frame-1 img 1"/>
-                    <img src={img2} style={{overflow:'hidden',borderRadius:'10px',height:'230px'}} alt="frame-1 img 1"/>
-                    <img src={img4} style={{overflow:'hidden',borderRadius:'10px'}}alt="frame-1 img 1"/>
+                {/* Need Add Photos */}
                 </div>
+            </section>
+
+            <section id="blogs">
+                <h4>Sri Lanka Uncovered</h4>
+                <p>Dive into our blog section, "Sri Lanka Uncovered," where we share captivating stories, travel tips, and insider insights about this beautiful island.</p>
             </section>
         </div>
     )
