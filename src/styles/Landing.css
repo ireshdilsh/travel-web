@@ -173,8 +173,16 @@ nav .links a:hover{
     display: flex;
     justify-content: left;
     align-items: flex-start;
+    flex-direction: column;
 }
 
 #places h4{
     font-weight: 700;
+}
+
+#places .frame-1, #places .frame-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }

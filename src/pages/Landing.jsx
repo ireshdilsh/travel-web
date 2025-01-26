@@ -13,7 +13,7 @@ export default function Landing() {
                     <p>Thynk.<span className="text text-primary">Travel</span></p>
                 </div>
                 <div className="links">
-                    <a href="">Home</a>
+                    <a href="#home">Home</a>
                     <a href="#places">Places</a>
                     <a href="">Blogs</a>
                     <a href="">Services</a>
@@ -92,6 +92,18 @@ export default function Landing() {
 
             <section id="places">
                 <h4>Explore Sri Lanka</h4>
+                <p>Experience the magic of Sri Lanka, where stunning landscapes, rich culture, and warm hospitality await.</p>
+                <div className="frame-1">
+                    <img src={img1} style={{overflow:'hidden',borderRadius:'10px'}} alt="frame-1 img 1"/>
+                    <img src={img2} style={{overflow:'hidden',borderRadius:'10px',height:'230px'}} alt="frame-1 img 1"/>
+                    <img src={img3} style={{overflow:'hidden',borderRadius:'10px',height:'230px'}} alt="frame-1 img 1"/>
+                </div>
+                <div className="frame-2">
+                    <img src={img4} style={{overflow:'hidden',borderRadius:'10px'}}alt="frame-1 img 1"/>
+                    <img src={img1} style={{overflow:'hidden',borderRadius:'10px'}} alt="frame-1 img 1"/>
+                    <img src={img2} style={{overflow:'hidden',borderRadius:'10px',height:'230px'}} alt="frame-1 img 1"/>
+                    <img src={img4} style={{overflow:'hidden',borderRadius:'10px'}}alt="frame-1 img 1"/>
+                </div>
             </section>
         </div>
     )
