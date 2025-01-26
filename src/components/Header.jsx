@@ -9,7 +9,6 @@ export default function Header() {
                 </div>
                 <div className="links">
                     <a href="">Home</a>
-                    <a href="">About us</a>
                     <a href="">Places</a>
                     <a href="">Blogs</a>
                     <a href="">Services</a>

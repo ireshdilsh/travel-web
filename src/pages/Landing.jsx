@@ -40,6 +40,10 @@ export default function Landing() {
                     </div>
                 </div>
             </section>
+
+            <div className="place-search-card">
+               
+            </div>
         </div>
     )
 }
