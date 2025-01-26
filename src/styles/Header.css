@@ -54,5 +54,8 @@ nav .links a::after{
 
 nav .links a:hover::after{
     transform: scaleX(1);
-    font-weight: 700;
+}
+
+nav .links a:hover{
+    font-weight: 600;
 }
