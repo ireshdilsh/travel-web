@@ -19,7 +19,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    gap: 82px;
+    gap: 70px;
 }
 
 #home .left-side{
@@ -76,3 +76,45 @@ body{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.place-search-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.01) 0px 4px 12px;
+}
+
+.place-search-card .place input,.place-search-card .date input,.place-search-card .member-count input{
+    height: 45px;
+    width: 350px;
+}
+
+.offers{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.offers .offer-box{
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid silver;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offers h3,.offers .offer-box .left .title h4{
+    font-weight: 700;
+}
+
+.offers .offer-box .right img{
+    overflow: hidden;
+    border-radius: 8px;
+    height: 100px;
+}

@@ -42,7 +42,39 @@ export default function Landing() {
             </section>
 
             <div className="place-search-card">
-               
+                <div className="place">
+                    <input type="text" className="form-control" placeholder="Where are you going ?"/>
+                </div>
+                <div className="date">
+                    <input type="text" className="form-control" placeholder="Check-in Date ?"/>
+                </div>
+                <div className="member-count">
+                    <input type="text" className="form-control" placeholder="Member Count ?"/>
+                </div>
+                <div className="search-btn">
+                    <button className="btn btn-primary" style={{fontWeight:500,fontSize:"14px",height:"45px",width:"100px"}}>Search</button>
+                </div>
+            </div>
+
+            <div className="offers">
+                <h3>Offers</h3>
+                <p>Promotions, deals and special offers for you</p>
+                <div className="offer-box">
+                    <div className="left">
+                        <div className="title">
+                            <h4>Save on stays worldwide</h4>
+                        </div>
+                        <div className="discription">
+                            <p>Start your year with a sense of adventure, saving 15% or more with Early 2025 Deals.</p>
+                        </div>
+                        <div className="get-btn">
+                            <button className="btn btn-primary" style={{fontWeight:500,fontSize:"14px",height:"40px",width:"150px"}}>Save 15% Now</button>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <img src={img4} alt="offer-image"/>
+                    </div>
+                </div>
             </div>
         </div>
     )
