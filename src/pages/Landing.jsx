@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/Landing.css'
-import Header from "../components/Header.jsx";
 import img1 from "../assets/img-1.jpg"
 import img2 from "../assets/img-2.jpg"
 import img3 from "../assets/img-3.jpg"
@@ -9,8 +8,21 @@ import img4 from "../assets/img-4.jpg"
 export default function Landing() {
     return (
         <div>
-            {/* adding Header.jsx file */}
-            <Header/>
+            <nav>
+                <div className="logo">
+                    <p>Thynk.<span className="text text-primary">Travel</span></p>
+                </div>
+                <div className="links">
+                    <a href="">Home</a>
+                    <a href="#places">Places</a>
+                    <a href="">Blogs</a>
+                    <a href="">Services</a>
+                    <a href="">Contact me</a>
+                </div>
+                <div className="signup-btn">
+                    <button className="btn btn-primary" style={{height:"45px", width:"120px",fontSize:"14px",fontWeight:500}}>Sign In</button>
+                </div>
+            </nav>
 
             <section id="home">
                 <div className="left-side">
