@@ -76,6 +76,10 @@ export default function Landing() {
                     </div>
                 </div>
             </div>
+
+            <section id="places">
+                <h4>Explore Sri Lanka</h4>
+            </section>
         </div>
     )
 }

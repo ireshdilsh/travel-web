@@ -120,3 +120,14 @@ body{
     border-radius: 8px;
     height: 100px;
 }
+
+#places{
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+#places h4{
+    font-weight: 700;
+}
