@@ -188,9 +188,28 @@ nav .links a:hover{
 }
 
 #blogs{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
     margin-top: 50px;
 }
 
 #blogs h4{
     font-weight: 700;
 }
+
+#blogs .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#blogs .cards .set-1 ,#blogs .cards .set-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+

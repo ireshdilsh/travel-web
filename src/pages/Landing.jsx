@@ -15,7 +15,7 @@ export default function Landing() {
                 <div className="links">
                     <a href="#home">Home</a>
                     <a href="#places">Places</a>
-                    <a href="">Blogs</a>
+                    <a href="#blogs">Blogs</a>
                     <a href="">Services</a>
                     <a href="">Contact me</a>
                 </div>
@@ -104,6 +104,76 @@ export default function Landing() {
             <section id="blogs">
                 <h4>Sri Lanka Uncovered</h4>
                 <p>Dive into our blog section, "Sri Lanka Uncovered," where we share captivating stories, travel tips, and insider insights about this beautiful island.</p>
+                <div className="cards">
+                    <div className="set-1">
+                        <div className="card" style={{width: '19rem'}}>
+                            <img src={img1} className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">A Coastal Paradise</h5>
+                                <p className="card-text">Dive into the sun-kissed shores of Sri Lanka as we explore the most breathtaking beaches on the island.</p>
+                            </div>
+                        </div>
+
+                        <div className="card" style={{width: '19rem'}}>
+                            <img src={img2} style={{height:'177px'}} className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">Sri Lanka's Ancient Temples</h5>
+                                <p className="card-text">Step back in time and explore the rich history of Sri Lanka through its ancient temples.</p>
+                            </div>
+                        </div>
+
+                        <div className="card" style={{width: '19rem'}}>
+                            <img src={img3} style={{height:'177px'}} className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">Culinary Delights</h5>
+                                <p className="card-text">Embark on a culinary adventure in Sri Lanka! From spicy curries to sweet desserts, discover the flavors in Sri Lanka.</p>
+                            </div>
+                        </div>
+
+                        <div className="card" style={{width: '19rem'}}>
+                            <img src={img4} style={{height:'177px'}} className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">Wildlife Wonders</h5>
+                                <p className="card-text"> Experience the incredible biodiversity of Sri Lanka as we explore its national parks. From the majestic elephants of Yala.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className="set-2" style={{marginTop:'20px'}}>
+                        <div className="card" style={{width: '19rem'}}>
+                            <img src={img1} className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">A Coastal Paradise</h5>
+                                <p className="card-text">Dive into the sun-kissed shores of Sri Lanka as we explore the most breathtaking beaches on the island.</p>
+                            </div>
+                        </div>
+
+                        <div className="card" style={{width: '19rem'}}>
+                            <img src={img2} style={{height:'177px'}} className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">Sri Lanka's Ancient Temples</h5>
+                                <p className="card-text">Step back in time and explore the rich history of Sri Lanka through its ancient temples.</p>
+                            </div>
+                        </div>
+
+                        <div className="card" style={{width: '19rem'}}>
+                            <img src={img3} style={{height:'177px'}} className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">Culinary Delights</h5>
+                                <p className="card-text">Embark on a culinary adventure in Sri Lanka! From spicy curries to sweet desserts, discover the flavors in Sri Lanka.</p>
+                            </div>
+                        </div>
+
+                        <div className="card" style={{width: '19rem'}}>
+                            <img src={img4} style={{height:'177px'}} className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">Wildlife Wonders</h5>
+                                <p className="card-text"> Experience the incredible biodiversity of Sri Lanka as we explore its national parks. From the majestic elephants of Yala.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </section>
         </div>
     )
