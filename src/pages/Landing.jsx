@@ -175,6 +175,9 @@ export default function Landing() {
                     </div>
                 </div>
             </section>
+
+            <section id="services"></section>
+            <section id="contact"></section>
         </div>
     )
 }
