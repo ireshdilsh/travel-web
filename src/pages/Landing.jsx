@@ -95,6 +95,7 @@ export default function Landing() {
                 <p>Experience the magic of Sri Lanka, where stunning landscapes, rich culture, and warm hospitality await.</p>
                 <div className="frame-1">
                 {/* Need Add Photos */}
+                <img src={img1} alt=""/>
                 </div>
                 <div className="frame-2">
                 {/* Need Add Photos */}
