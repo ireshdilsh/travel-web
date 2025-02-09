@@ -8,7 +8,7 @@ body{
     color: #333;
     font-size: 14px;
     font-weight: 400;
-    font-family: "Poppins", serif;
+    font-family: "Poppins";
     font-style: normal;
 }
 
@@ -64,4 +64,84 @@ nav .signup-btn button{
     width: 120px;
     font-size: 14px;
     font-weight: 500;
+}
+
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+
+#home .left-side{
+    margin-top: 50px;
+}
+
+#home .left-side h1,
+#home .left-side h1 span{
+    font-weight: 600;
+}
+
+#home .left-side h1 span{
+    color: #0d6efd;
+}
+
+#home .left-side .signin-btn button{
+    font-size: 14px;
+    font-weight: 500;
+    height: 45px;
+    width: 120px;
+}
+
+#home .left-side .title{
+    font-size: 17px;
+}
+
+#home .left-side .discription{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#home .left-side hr{
+    border: none;
+    background-color: #333;
+    height: 3px;
+    border-radius: 50px;
+    width: 30px;
+    position: absolute;
+    left: 415px;
+    top: 175px;
+}
+
+#home .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#home .right-side img{
+    height: 250px;
+}
+
+#home .right-side .img1{
+    rotate: -20deg;
+    z-index: -1;
+    position: absolute;
+    left: 930px;
+    top: 130px;
+}
+
+#home .right-side .img3{
+    rotate: 20deg;
+    z-index: -1;
+    position: absolute;
+    left: 1180px;
+    top: 130px;
+}
+
+#home .right-side .img2{
+    position: absolute;
+    top: 100px;
+    left: 1050px;
 }

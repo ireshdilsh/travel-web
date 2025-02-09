@@ -1,5 +1,9 @@
 import React from 'react'
 import "../styles/Landing.css"
+import img1 from "../assets/book-1.png"
+import img2 from "../assets/book-2.png"
+import img3 from "../assets/book-3.png"
+
 export default function Landing() {
   return (
     <div>
@@ -8,7 +12,7 @@ export default function Landing() {
                 <h4>Literary <span>Haven</span></h4>
             </div>
             <div className="links">
-                <a href="">Home</a>
+                <a href="#home">Home</a>
                 <a href="">Books</a>
                 <a href="">Offers</a>
                 <a href="">Service</a>
@@ -18,6 +22,24 @@ export default function Landing() {
                 <button className='btn btn-primary'>Sign Up</button>
             </div>
         </nav>
+
+        <section id="home">
+            <div className="left-side">
+            <p className="title">Discover Your Next Great Read</p>
+            <hr />
+            <h1>Where Every Book <span>Tells a Story</span></h1>
+            <p className="discription">Explore a world of stories at Literary Haven. From bestsellers to hidden gems, find your <br />
+             next favorite book and ignite your imagination today!</p>
+             <div className="signin-btn">
+                <button className="btn btn-primary">Sign In</button>
+             </div>
+            </div>
+            <div className="right-side">
+                <img src={img1} className="img1" alt="" />
+                <img src={img2} className="img2" alt="" />
+                <img src={img3} className="img3" alt="" />
+            </div>
+        </section>
     </div>
   )
 }
