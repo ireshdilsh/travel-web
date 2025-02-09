@@ -3,7 +3,7 @@ import "../styles/Landing.css"
 export default function Landing() {
   return (
     <div>
-      
+     ksldfk lksdf
     </div>
   )
 }
