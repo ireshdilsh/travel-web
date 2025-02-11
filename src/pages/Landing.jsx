@@ -22,6 +22,7 @@ export default function Landing() {
                 <button className='btn btn-primary'>Sign Up</button>
             </div>
 
+
         </nav>
 
         <section id="home">
