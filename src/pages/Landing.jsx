@@ -13,13 +13,13 @@ export default function Landing() {
             </div>
             <div className="links">
                 <a href="#home">Home</a>
-                <a href="">Books</a>
+                <a href="#books">Books</a>
                 <a href="">Offers</a>
                 <a href="">Service</a>
                 <a href="">Get in Touch</a>
             </div>
-            <div className="signup-btn">
-                <button className='btn btn-primary'>Sign Up</button>
+            <div className="signin-btn">
+                <button className='btn btn-primary'>Sign In</button>
             </div>
 
 
@@ -32,8 +32,14 @@ export default function Landing() {
             <h1>Where Every Book <span>Tells a Story</span></h1>
             <p className="discription">Explore a world of stories at Literary Haven. From bestsellers to hidden gems, find your <br />
              next favorite book and ignite your imagination today!</p>
-             <div className="signin-btn">
-                <button className="btn btn-primary">Sign In</button>
+                <div className="icons">
+                    <i className="bi bi-facebook"></i>
+                    <i className="bi bi-instagram"></i>
+                    <i className="bi bi-twitter"></i>
+                    <i className="bi bi-google"></i>
+                </div>
+                <div className="signup-btn">
+                <button className="btn btn-primary">Create Account</button>
              </div>
             </div>
             <div className="right-side">
@@ -42,6 +48,23 @@ export default function Landing() {
                 <img src={img3} className="img3" alt="" />
             </div>
         </section>
+
+        <div className="mesh">
+            <div className="mesh-line1">
+                <div className="square"></div>
+                <div className="square"></div>
+                <div className="square"></div>
+                <div className="square"></div>
+                <div className="square"></div>
+            </div>
+            <div className="mesh-line2">
+                <div className="square"></div>
+                <div className="square"></div>
+                <div className="square"></div>
+                <div className="square"></div>
+                <div className="square"></div>
+            </div>
+        </div>
     </div>
   )
 }

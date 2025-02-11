@@ -59,7 +59,7 @@ nav .links a:hover::after{
     transform: scaleX(-1);
 }
 
-nav .signup-btn button{
+nav .signin-btn button{
     height: 45px;
     width: 120px;
     font-size: 14px;
@@ -74,7 +74,8 @@ nav .signup-btn button{
 }
 
 #home .left-side{
-    margin-top: 50px;
+    background-color: #fff;
+    padding: 50px 0px;
 }
 
 #home .left-side h1,
@@ -86,11 +87,12 @@ nav .signup-btn button{
     color: #0d6efd;
 }
 
-#home .left-side .signin-btn button{
+#home .left-side .signup-btn button{
     font-size: 14px;
     font-weight: 500;
     height: 45px;
-    width: 120px;
+    margin-top: 10px;
+    width: 170px;
 }
 
 #home .left-side .title{
@@ -115,6 +117,18 @@ nav .signup-btn button{
     top: 175px;
 }
 
+#home .icons{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+#home .icons i{
+    font-size: 15px;
+}
+
 #home .right-side {
     display: flex;
     justify-content: center;
@@ -131,19 +145,44 @@ nav .signup-btn button{
     z-index: -1;
     position: absolute;
     left: 930px;
-    top: 130px;
+    top: 170px;
 }
 
 #home .right-side .img3{
     rotate: 20deg;
     z-index: -1;
     position: absolute;
-    left: 1180px;
-    top: 130px;
+    left: 1190px;
+    top: 170px;
 }
 
 #home .right-side .img2{
     position: absolute;
-    top: 100px;
-    left: 1050px;
+    top: 140px;
+    left: 1060px;
+}
+
+.mesh{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mesh .mesh-line1,
+.mesh .mesh-line2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mesh .mesh-line1 .square,
+.mesh .mesh-line2 .square{
+    height: 260px;
+    width: 280px;
+    border: 1px solid #fafafa;
 }
