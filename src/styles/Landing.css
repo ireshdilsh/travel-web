@@ -182,7 +182,20 @@ nav .signin-btn button{
 
 .mesh .mesh-line1 .square,
 .mesh .mesh-line2 .square{
-    height: 260px;
+    height: 250px;
     width: 280px;
     border: 1px solid #fafafa;
+}
+
+#books{
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px 150px;
+}
+
+#books h4{
+    font-weight: 500;
 }

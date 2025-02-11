@@ -29,7 +29,7 @@ export default function Landing() {
             <div className="left-side">
             <p className="title">Discover Your Next Great Read</p>
             <hr />
-            <h1>Where Every Book <span>Tells a Story</span></h1>
+            <h1>Where Every Book <span>Tells a Story.</span></h1>
             <p className="discription">Explore a world of stories at Literary Haven. From bestsellers to hidden gems, find your <br />
              next favorite book and ignite your imagination today!</p>
                 <div className="icons">
@@ -65,6 +65,13 @@ export default function Landing() {
                 <div className="square"></div>
             </div>
         </div>
+
+        <section id="books">
+            <h4>Favourite Books</h4>
+            <div className="section-body">
+
+            </div>
+        </section>
     </div>
   )
 }
