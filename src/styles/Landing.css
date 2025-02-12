@@ -199,9 +199,55 @@ nav .signin-btn button{
     justify-content: left;
     align-items: flex-start;
     flex-direction: column;
-    padding: 20px 150px;
+    padding: 10px 150px;
 }
 
 #books h4{
     font-weight: 500;
+}
+
+#offers{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 20px 150px;
+}
+
+
+#service{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 20px 150px;
+}
+
+
+#contact{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 20px 150px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 20px 150px 0px;
+    color: #fcfcfc;
+    background-color: #333333;
+}
+
+footer p{
+    font-size: 12px;
 }

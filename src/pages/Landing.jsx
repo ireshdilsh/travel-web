@@ -15,9 +15,9 @@ export default function Landing() {
             <div className="links">
                 <a href="#home">Home</a>
                 <a href="#books">Books</a>
-                <a href="">Offers</a>
-                <a href="">Service</a>
-                <a href="">Get in Touch</a>
+                <a href="#offers">Offers</a>
+                <a href="#service">Service</a>
+                <a href="#contact">Get in Touch</a>
             </div>
             <div className="signin-btn">
                 <Button>Sign In</Button>
@@ -75,6 +75,27 @@ export default function Landing() {
                </div>
             </div>
         </section>
+
+        <section id="offers">
+            <h4>Hot Offers</h4>
+        </section>
+
+        <section id="service">
+            <h4>Our Services</h4>
+        </section>
+
+        <section id="contact">
+            <h4>Get In Touch</h4>
+        </section>
+
+        <footer>
+            <div className="footer-body">
+                <div className="left"></div>
+                <div className="middle"></div>
+                <div className="right"></div>
+            </div>
+            <p>© 2023 Literary Haven. All rights reserved. Connect with Us!</p>
+        </footer>
     </div>
   )
 }
