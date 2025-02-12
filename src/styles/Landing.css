@@ -296,6 +296,10 @@ nav .signin-btn button{
     padding: 20px 150px;
 }
 
+#service #accordionFlushExample{
+    width: 100%;
+}
+
 #contact{
     display: flex;
     justify-content: left;
