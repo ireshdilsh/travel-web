@@ -126,14 +126,67 @@ export default function Landing() {
 
         <section id="offers">
             <h4>Hot Offers</h4>
+            <p>Don't miss our Hot Offers section! Grab amazing discounts on bestselling books and exclusive deals for a limited time!</p>
+            <div className="cards">
+                <div className="card-1">
+                    <div className="title">
+                        <h5>Bestseller Discount</h5>
+                    </div>
+                    <div className="discription">
+                        <h6>20% Off Bestsellers</h6>
+                        <p>Enjoy 20% off our top-selling books! Limited time only.</p>
+                    </div>
+                    <div className="button">
+                        <Button>Shop Now</Button>
+                    </div>
+                </div>
+                <div className="card-2">
+                    <div className="title">
+                        <h5>Buy One, Get One Free</h5>
+                    </div>
+                    <div className="discription">
+                        <h6>Buy One, Get One Free</h6>
+                        <p>Buy any book and get another of equal or lesser value for free!</p>
+                    </div>
+                    <div className="button">
+                        <Button>Shop Now</Button>
+                    </div>
+                </div>
+                <div className="card-3">
+                    <div className="title">
+                        <h5>Seasonal Sale</h5>
+                    </div>
+                    <div className="discription">
+                        <h6>Seasonal Sale: Up to 50% Off</h6>
+                        <p>Save up to 50% on select titles this season. Don’t miss out!</p>
+                    </div>
+                    <div className="button">
+                        <Button>Shop Now</Button>
+                    </div>
+                </div>
+                <div className="card-4">
+                    <div className="title">
+                        <h5>Membership Perks</h5>
+                    </div>
+                    <div className="discription">
+                        <h6>Join Our Book Club</h6>
+                        <p>Sign up for our membership and enjoy exclusive discounts and early access to new releases!</p>
+                    </div>
+                    <div className="button">
+                        <Button>Shop Now</Button>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="service">
             <h4>Our Services</h4>
+            <p>We offer a wide range of services, including personalized book recommendations, gift wrapping, and fast shipping to enhance your shopping experience.</p>
         </section>
 
         <section id="contact">
             <h4>Get In Touch</h4>
+            <p>Have questions or need assistance? Reach out to us anytime through our contact form, email, or phone. We're here to help!</p>
         </section>
 
         <footer>

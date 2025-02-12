@@ -250,6 +250,30 @@ nav .signin-btn button{
     padding: 20px 150px;
 }
 
+#offers .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#offers .cards .card-1,
+#offers .cards .card-2,
+#offers .cards .card-3,
+#offers .cards .card-4{
+    border: 1.8px solid #fafafa;
+    padding: 20px;
+    border-radius: 7px;
+    width: 168vh;
+    margin-top: 10px;
+}
+
+#offers .cards .card-1 .discription p,
+#offers .cards .card-2 .discription p,
+#offers .cards .card-3 .discription p,
+#offers .cards .card-4 .discription p{
+    font-size: 12px;
+}
 
 #service{
     display: flex;
