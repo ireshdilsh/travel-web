@@ -77,8 +77,11 @@ export default function Landing() {
                        <div className="title">
                         <h5>Young Wizard</h5>
                        </div>
-                       <div className="price-and-button">
-
+                       <div className="author">
+                           <h6>Aaron Loeb</h6>
+                       </div>
+                       <div className="price">
+                           <p>49.99$</p>
                        </div>
                    </div>
                    <div className="card-2">
@@ -86,8 +89,11 @@ export default function Landing() {
                        <div className="title">
                            <h5>Conquest of Flames</h5>
                        </div>
-                       <div className="price-and-button">
-
+                       <div className="author">
+                           <h6>Shawn Garcia</h6>
+                       </div>
+                       <div className="price">
+                           <p>49.99$</p>
                        </div>
                    </div>
                    <div className="card-3">
@@ -95,8 +101,11 @@ export default function Landing() {
                        <div className="title">
                            <h5>Cybernetic Stargazer</h5>
                        </div>
-                       <div className="price-and-button">
-
+                       <div className="author">
+                           <h6>Shawn Garcia</h6>
+                       </div>
+                       <div className="price">
+                            <p>49.99$</p>
                        </div>
                    </div>
                    <div className="card-4">
@@ -104,8 +113,11 @@ export default function Landing() {
                        <div className="title">
                            <h5>Young Wizard</h5>
                        </div>
-                       <div className="price-and-button">
-
+                       <div className="author">
+                           <h6>Aaron Loeb</h6>
+                       </div>
+                       <div className="price">
+                           <p>49.99$</p>
                        </div>
                    </div>
                </div>

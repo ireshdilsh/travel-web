@@ -222,9 +222,16 @@ nav .signin-btn button{
     justify-content: left;
     align-items: flex-start;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 20px 2px;
     border: 1.8px solid #fafafa;
     border-radius: 7px;
+}
+
+#books .section-body .cards .card-1 .title,
+#books .section-body .cards .card-2 .title,
+#books .section-body .cards .card-3 .title,
+#books .section-body .cards .card-4 .title{
+    margin-top: 15px;
 }
 
 #books .section-body .cards .card-1 img,
