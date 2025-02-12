@@ -194,7 +194,7 @@ nav .signin-btn button{
 }
 
 #books{
-    margin-top: 50px;
+    margin-top: 60px;
     display: flex;
     justify-content: left;
     align-items: flex-start;
@@ -204,6 +204,34 @@ nav .signin-btn button{
 
 #books h4{
     font-weight: 500;
+}
+
+#books .section-body .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+#books .section-body .cards .card-1,
+#books .section-body .cards .card-2,
+#books .section-body .cards .card-3,
+#books .section-body .cards .card-4{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    border: 1.8px solid #fafafa;
+    border-radius: 7px;
+}
+
+#books .section-body .cards .card-1 img,
+#books .section-body .cards .card-2 img,
+#books .section-body .cards .card-3 img,
+#books .section-body .cards .card-4 img{
+    width: 245px;
 }
 
 #offers{
@@ -234,8 +262,6 @@ nav .signin-btn button{
     margin-top: 70px;
     padding: 20px 150px;
 }
-
-
 
 footer{
     display: flex;

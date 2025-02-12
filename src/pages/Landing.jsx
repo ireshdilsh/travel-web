@@ -69,9 +69,45 @@ export default function Landing() {
 
         <section id="books">
             <h4>Favourite Books</h4>
+            <p>Explore our Popular Books section for the latest bestsellers and must-reads across all genres!</p>
             <div className="section-body">
                <div className="cards">
+                   <div className="card-1">
+                       <img src={img1} alt=""/>
+                       <div className="title">
+                        <h5>Young Wizard</h5>
+                       </div>
+                       <div className="price-and-button">
 
+                       </div>
+                   </div>
+                   <div className="card-2">
+                       <img src={img2} alt=""/>
+                       <div className="title">
+                           <h5>Conquest of Flames</h5>
+                       </div>
+                       <div className="price-and-button">
+
+                       </div>
+                   </div>
+                   <div className="card-3">
+                       <img src={img3} alt=""/>
+                       <div className="title">
+                           <h5>Cybernetic Stargazer</h5>
+                       </div>
+                       <div className="price-and-button">
+
+                       </div>
+                   </div>
+                   <div className="card-4">
+                       <img src={img1} alt=""/>
+                       <div className="title">
+                           <h5>Young Wizard</h5>
+                       </div>
+                       <div className="price-and-button">
+
+                       </div>
+                   </div>
                </div>
             </div>
         </section>
