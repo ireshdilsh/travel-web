@@ -3,6 +3,7 @@ import "../styles/Landing.css"
 import img1 from "../assets/book-1.png"
 import img2 from "../assets/book-2.png"
 import img3 from "../assets/book-3.png"
+import {Button} from "@mui/material";
 
 export default function Landing() {
   return (
@@ -19,7 +20,7 @@ export default function Landing() {
                 <a href="">Get in Touch</a>
             </div>
             <div className="signin-btn">
-                <button className='btn btn-primary'>Sign In</button>
+                <Button>Sign In</Button>
             </div>
 
 
@@ -39,7 +40,7 @@ export default function Landing() {
                     <i className="bi bi-google"></i>
                 </div>
                 <div className="signup-btn">
-                <button className="btn btn-primary">Create Account</button>
+                <Button>Create Account</Button>
              </div>
             </div>
             <div className="right-side">
@@ -69,7 +70,9 @@ export default function Landing() {
         <section id="books">
             <h4>Favourite Books</h4>
             <div className="section-body">
+               <div className="cards">
 
+               </div>
             </div>
         </section>
     </div>

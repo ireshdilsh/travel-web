@@ -62,6 +62,9 @@ nav .links a:hover::after{
 nav .signin-btn button{
     height: 45px;
     width: 120px;
+    background-color: #0d6efd;
+    font-family: "Poppins Medium";
+    color: #fcfcfc;
     font-size: 14px;
     font-weight: 500;
 }
@@ -92,6 +95,9 @@ nav .signin-btn button{
     font-weight: 500;
     height: 45px;
     margin-top: 10px;
+    background-color: #0d6efd;
+    color: #fcfcfc;
+    font-family: "Poppins";
     width: 170px;
 }
 
