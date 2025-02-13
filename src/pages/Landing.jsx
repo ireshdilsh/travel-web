@@ -2,6 +2,7 @@ import "../styles/Landing.css"
 import img1 from "../assets/book-1.png"
 import img2 from "../assets/book-2.png"
 import img3 from "../assets/book-3.png"
+import logo from "../assets/Literary.png"
 import { Button } from "@mui/material";
 
 export default function Landing() {
@@ -10,7 +11,7 @@ export default function Landing() {
         <div>
             <nav>
                 <div className="logo-name">
-                    <h4>Literary <span>Haven</span></h4>
+                   <img src={logo} alt="" />
                 </div>
                 <div className="links">
                     <a href="#home">Home</a>
