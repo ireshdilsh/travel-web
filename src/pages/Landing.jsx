@@ -10,7 +10,7 @@ export default function Landing() {
     return (
         <div>
             <nav>
-                <div className="logo-name">
+                <div className="logo">
                    <img src={logo} alt="" />
                 </div>
                 <div className="links">

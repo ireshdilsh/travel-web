@@ -16,16 +16,15 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 150px;
+    padding: 0px 150px;
+    margin-top: 10px;
 }
 
-nav .logo-name h4 ,
-nav .logo-name h4 span{
-    font-weight: 600;
-}
-
-nav .logo-name h4 span{
-    color: #0d6efd;
+nav .logo img{
+    background-size: cover;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 360px;
 }
 
 nav .links{
@@ -120,7 +119,7 @@ nav .signin-btn button{
     width: 30px;
     position: absolute;
     left: 415px;
-    top: 175px;
+    top: 179px;
 }
 
 #home .icons{
@@ -151,7 +150,7 @@ nav .signin-btn button{
     z-index: -1;
     position: absolute;
     left: 930px;
-    top: 170px;
+    top: 175px;
 }
 
 #home .right-side .img3{
@@ -159,12 +158,12 @@ nav .signin-btn button{
     z-index: -1;
     position: absolute;
     left: 1190px;
-    top: 170px;
+    top: 175px;
 }
 
 #home .right-side .img2{
     position: absolute;
-    top: 140px;
+    top: 145px;
     left: 1060px;
 }
 
