@@ -14,7 +14,7 @@ export default function Login() {
                         <h4>Sign your Account</h4>
                     </div>
                     <div className="discription">
-                        <p>Enter your credintails for sing in your account!</p>
+                        <p>Enter your credintails for sign in your account!</p>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -31,6 +31,13 @@ export default function Login() {
                     <div className="line-and-or">
                         <hr />
                         <label>Or</label>
+                    </div>
+                    <div className="continue-google">
+                        <button className="btn btn-light">Continue with Google <i class="bi bi-google"></i></button>
+                    </div>
+                    <div className="link-and-text">
+                        <p>If you haven't an account ?</p>
+                        <a href="">Create Account</a>
                     </div>
                 </div>
             </div>
