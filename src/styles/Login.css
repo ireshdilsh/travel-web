@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #333333;
+    font-size: 14px;
+    font-family: "Poppins Medium";
+    font-weight: 400;
+    font-style: normal;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.login-card .card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-card .card-body .logo img{
+    height: 120px;
+}
+
+.login-card .card-body .signin-btn button{
+    color: #fcfcfc;
+    width: 325px;
+    height: 40px;
+    font-weight: 500;
+    margin: 15px 0px;
+    font-size: 14px;
+}

@@ -75,11 +75,6 @@ nav .signin-btn button{
     padding: 20px 150px;
 }
 
-#home .left-side{
-    background-color: #fff;
-    padding: 50px 0px;
-}
-
 #home .left-side h1,
 #home .left-side h1 span{
     font-weight: 600;
@@ -189,7 +184,7 @@ nav .signin-btn button{
 .mesh .mesh-line2 .square{
     height: 250px;
     width: 280px;
-    border: 1px solid #fafafa;
+    border: 1.5px solid #fafafa;
 }
 
 #books{
