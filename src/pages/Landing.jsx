@@ -187,14 +187,13 @@ export default function Landing() {
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseOne" aria-expanded="false"
                                 aria-controls="flush-collapseOne">
-                            Accordion Item #1
+                            Personalized Book Recommendations #
                         </button>
                     </h2>
                     <div id="flush-collapseOne" className="accordion-collapse collapse"
                          aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">Placeholder content for this accordion, which is intended to
-                            demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
-                            body.
+                        <div className="accordion-body">
+                        Discover your next favorite read with our personalized book recommendation service. Our knowledgeable staff will take the time to understand your reading preferences and suggest titles tailored just for you. Whether you love fiction, non-fiction, or niche genres, we’re here to help you find the perfect book!
                         </div>
                     </div>
                 </div>
@@ -203,14 +202,13 @@ export default function Landing() {
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                 aria-controls="flush-collapseTwo">
-                            Accordion Item #2
+                            Book Club Support #
                         </button>
                     </h2>
                     <div id="flush-collapseTwo" className="accordion-collapse collapse"
                          aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">Placeholder content for this accordion, which is intended to
-                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
-                            body. Let's imagine this being filled with some actual content.
+                        <div className="accordion-body">
+                        Join our vibrant community of book lovers! We offer support for book clubs, including curated reading lists, discussion guides, and exclusive discounts for bulk purchases. Whether you’re starting a new club or looking to enhance your existing one, we’re here to help make your reading experience more enjoyable.
                         </div>
                     </div>
                 </div>
@@ -219,16 +217,13 @@ export default function Landing() {
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseThree" aria-expanded="false"
                                 aria-controls="flush-collapseThree">
-                            Accordion Item #3
+                            Author Events and Signings #
                         </button>
                     </h2>
                     <div id="flush-collapseThree" className="accordion-collapse collapse"
                          aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">Placeholder content for this accordion, which is intended to
-                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
-                            body. Nothing more exciting happening here in terms of content, but just filling up the
-                            space to make it look, at least at first glance, a bit more representative of how this would
-                            look in a real-world application.
+                        <div className="accordion-body">
+                        Meet your favorite authors at our exclusive events! We host regular book signings, readings, and Q&A sessions with both local and renowned authors. Stay updated on our event calendar and join us for an unforgettable experience that brings readers and writers together.
                         </div>
                     </div>
                 </div>
@@ -237,14 +232,13 @@ export default function Landing() {
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseFour" aria-expanded="false"
                                 aria-controls="flush-collapseFour">
-                            Accordion Item #4
+                            Gift Wrapping and Personalization #
                         </button>
                     </h2>
                     <div id="flush-collapseFour" className="accordion-collapse collapse"
                          aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">Placeholder content for this accordion, which is intended to
-                            demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
-                            body.
+                        <div className="accordion-body">
+                        Make your gift extra special with our complimentary gift wrapping service! Choose from a selection of beautiful wrapping papers and add a personalized message to your gift. Perfect for birthdays, holidays, or any occasion, we ensure your gift is beautifully presented and ready to delight.
                         </div>
                     </div>
                 </div>
@@ -253,14 +247,13 @@ export default function Landing() {
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseFive" aria-expanded="false"
                                 aria-controls="flush-collapseFive">
-                            Accordion Item #5
+                            Online Ordering and Home Delivery #
                         </button>
                     </h2>
                     <div id="flush-collapseFive" className="accordion-collapse collapse"
                          aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">Placeholder content for this accordion, which is intended to
-                            demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
-                            body.
+                        <div className="accordion-body">
+                        Enjoy the convenience of shopping from home with our online ordering service. Browse our extensive collection of books, place your order, and have it delivered right to your doorstep. We offer fast and reliable shipping options, so you can dive into your next read without delay!
                         </div>
                     </div>
                 </div>

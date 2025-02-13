@@ -2,6 +2,7 @@ import React from 'react'
 import Landing from "./pages/Landing.jsx";
 
 export default function Controller() {
+
     return (
         <div>
             <Landing/>
