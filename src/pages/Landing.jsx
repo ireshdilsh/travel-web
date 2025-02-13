@@ -3,6 +3,7 @@ import img1 from "../assets/book-1.png"
 import img2 from "../assets/book-2.png"
 import img3 from "../assets/book-3.png"
 import logo from "../assets/Literary.png"
+import { Button } from "@mui/material";
 
 export default function Landing() {
 
@@ -143,7 +144,7 @@ export default function Landing() {
                             <p>Enjoy 20% off our top-selling books! Limited time only.</p>
                         </div>
                         <div className="button">
-                            <Button>Shop Now</Button>
+                            <button className="btn btn-primary">Shop Now</button>
                         </div>
                     </div>
                     <div className="card-2">
@@ -155,7 +156,7 @@ export default function Landing() {
                             <p>Buy any book and get another of equal or lesser value for free!</p>
                         </div>
                         <div className="button">
-                            <Button>Shop Now</Button>
+                            <button className="btn btn-primary">Shop Now</button>
                         </div>
                     </div>
                     <div className="card-3">
@@ -167,7 +168,7 @@ export default function Landing() {
                             <p>Save up to 50% on select titles this season. Don’t miss out!</p>
                         </div>
                         <div className="button">
-                            <Button>Shop Now</Button>
+                            <button className="btn btn-primary">Shop Now</button>
                         </div>
                     </div>
                     <div className="card-4">
@@ -179,7 +180,7 @@ export default function Landing() {
                             <p>Sign up for our membership and enjoy exclusive discounts and early access to new releases!</p>
                         </div>
                         <div className="button">
-                            <Button>Shop Now</Button>
+                            <button className="btn btn-primary">Shop Now</button>
                         </div>
                     </div>
                 </div>
