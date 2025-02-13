@@ -3,7 +3,6 @@ import img1 from "../assets/book-1.png"
 import img2 from "../assets/book-2.png"
 import img3 from "../assets/book-3.png"
 import logo from "../assets/Literary.png"
-import { Button } from "@mui/material";
 
 export default function Landing() {
 
@@ -29,7 +28,7 @@ export default function Landing() {
                     <a href="#contact">Get in Touch</a>
                 </div>
                 <div className="signin-btn">
-                    <Button>Sign In</Button>
+                    <button className="btn btn-primary">Sign In</button>
                 </div>
             </nav>
 
@@ -47,7 +46,7 @@ export default function Landing() {
                         <i className="bi bi-google"></i>
                     </div>
                     <div className="signup-btn">
-                        <Button>Create Account</Button>
+                        <button className="btn btn-primary">Create Account</button>
                     </div>
                 </div>
                 <div className="right-side">
