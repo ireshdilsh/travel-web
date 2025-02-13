@@ -9,14 +9,7 @@ export default function Landing() {
 
     return (
         <div>
-
-
-            {/* Modal Start */}
-
-                                
-
-            {/* Modal End */}
-
+            
             <nav>
                 <div className="logo">
                    <img src={logo} alt="" />
