@@ -36,8 +36,34 @@ body{
 .login-card .card-body .signin-btn button{
     color: #fcfcfc;
     width: 325px;
-    height: 40px;
+    height: 45px;
     font-weight: 500;
-    margin: 15px 0px;
+    margin: 0px 0px 10px;
     font-size: 14px;
+}
+
+.login-card .card-body input{
+    width: 325px;
+    height: 45px;
+    font-size: 14px;
+}
+
+.login-card .card-body label{
+    font-size: 13px;
+}
+
+.login-card .card-body .line-and-or hr{
+    border: none;
+    background-color: #dcdcdc;
+    width: 325px;
+    height: 2px;
+    border-width: 3px;
+}
+
+.login-card .card-body .line-and-or label{
+    position: absolute;
+    left: 750px;
+    top: 508px;
+    background-color: #fff;
+    padding: 0 10px;
 }

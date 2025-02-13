@@ -3,32 +3,37 @@ import "../styles/Login.css"
 import logo from "../assets/Literary.png"
 
 export default function Login() {
-  return (
-    <div>
-     <div className="login-card">
-        <div className="card-body">
-            <div className="logo">
-                <img src={logo} alt="" />
-            </div>
-            <div className="title">
-                <h4>Sign your Account</h4>
-            </div>
-            <div className="discription">
-                <p>Enter your credintails for sing in your account!</p>
-            </div>
-            <div className="email-field">
-                <label> Email Address</label>
-                <input type="text" required/>
-            </div>
-            <div className="password-field">
-                <label>Password</label>
-                <input type="text" required/>
-            </div>
-            <div className="signin-btn">
-                <button className="btn btn-primary" type="submit">Sign In</button>
+    return (
+        <div>
+            <div className="login-card">
+                <div className="card-body">
+                    <div className="logo">
+                        <img src={logo} alt="" />
+                    </div>
+                    <div className="title">
+                        <h4>Sign your Account</h4>
+                    </div>
+                    <div className="discription">
+                        <p>Enter your credintails for sing in your account!</p>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" />
+                    </div>
+                    <div className="signin-btn">
+                        <button className="btn btn-primary" type="submit">Sign In</button>
+                    </div>
+                    <div className="line-and-or">
+                        <hr />
+                        <label>Or</label>
+                    </div>
+                </div>
             </div>
         </div>
-     </div>
-    </div>
-  )
+    )
 }

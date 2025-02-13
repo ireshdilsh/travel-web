@@ -3,13 +3,12 @@ import img1 from "../assets/book-1.png"
 import img2 from "../assets/book-2.png"
 import img3 from "../assets/book-3.png"
 import logo from "../assets/Literary.png"
-import { Button } from "@mui/material";
 
 export default function Landing() {
 
     return (
         <div>
-            
+
             <nav>
                 <div className="logo">
                    <img src={logo} alt="" />
