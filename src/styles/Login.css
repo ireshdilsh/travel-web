@@ -78,6 +78,7 @@ body{
     text-decoration: none;
     color: #333333;
     position: relative;
+    font-size: 14px;
 }
 
 .login-card .card-body .link-and-text a::after{
