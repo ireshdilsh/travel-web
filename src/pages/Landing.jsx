@@ -3,8 +3,19 @@ import img1 from "../assets/book-1.png"
 import img2 from "../assets/book-2.png"
 import img3 from "../assets/book-3.png"
 import logo from "../assets/Literary.png"
+import {useNavigate} from "react-router-dom";
 
 export default function Landing() {
+
+    const navigate = useNavigate();
+
+    const  gotoLogin = () => {
+        navigate("/sign%in");
+    }
+
+    const gotoRegister = () => {
+        navigate("/create%account");
+    }
 
     return (
         <div>
@@ -21,7 +32,7 @@ export default function Landing() {
                     <a href="#contact">Get in Touch</a>
                 </div>
                 <div className="signin-btn">
-                    <button className="btn btn-primary">Sign In</button>
+                    <button className="btn btn-primary" onClick={gotoLogin}>Sign In</button>
                 </div>
             </nav>
 
@@ -39,7 +50,7 @@ export default function Landing() {
                         <i className="bi bi-google"></i>
                     </div>
                     <div className="signup-btn">
-                        <button className="btn btn-primary">Create Account</button>
+                        <button className="btn btn-primary" onClick={gotoRegister}>Create Account</button>
                     </div>
                 </div>
                 <div className="right-side">

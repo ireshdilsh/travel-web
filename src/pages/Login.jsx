@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/Login.css"
 import logo from "../assets/Literary.png"
+import {Link} from "react-router-dom";
 
 export default function Login() {
 
@@ -38,7 +39,7 @@ export default function Login() {
                     </div>
                     <div className="link-and-text">
                         <p>If you haven't an account ?</p>
-                        <a href="">Create Account</a>
+                        <Link href = "/create%account">Create Account</Link>
                     </div>
                 </div>
             </div>
