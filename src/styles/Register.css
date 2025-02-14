@@ -14,3 +14,48 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.register-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.register-card .card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.register-card .card-body .logo img{
+    height: 120px;
+}
+
+.register-card .card-body .register-btn button,
+.register-card .card-body .continue-google-btn button{
+    font-size: 14px;
+    height: 45px;
+    width: 325px;
+}
+
+.register-card .card-body .or-and-line label{
+    position: absolute;
+    left: 750px;
+    top: 508px;
+    padding: 10px 0px;
+    background-color: #ffffff;
+}
+
+.register-card .card-body .or-and-line hr{
+    border: none;
+    background-color: #dcdcdc;
+    width: 325px;
+    height: 2px;
+    border-width: 3px;
+}
+
+.register-card .card-body .goto-login{
+    display: flex;
+    gap: 40px;
+}
