@@ -39,7 +39,7 @@ export default function Login() {
                     </div>
                     <div className="link-and-text">
                         <p>If you haven't an account ?</p>
-                        <Link href = "/literary%haven/create%account">Create Account</Link>
+                        <Link href = "/auth/create%account">Create Account</Link>
                     </div>
                 </div>
             </div>
