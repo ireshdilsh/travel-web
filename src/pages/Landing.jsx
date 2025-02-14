@@ -10,11 +10,11 @@ export default function Landing() {
     const navigate = useNavigate();
 
     const  gotoLogin = () => {
-        navigate("/sign%in");
+        navigate("/literary%haven/auth/sign%in");
     }
 
     const gotoRegister = () => {
-        navigate("/create%account");
+        navigate("/literary%haven/create%account");
     }
 
     return (

@@ -12,8 +12,8 @@ export default function Controller() {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Landing/>}></Route>
-                    <Route path="/sign%in" element={<Login/>}></Route>
-                    <Route path="/create%account" element={<Register/>}></Route>
+                    <Route path="/literary%haven/auth/sign%in" element={<Login/>}></Route>
+                    <Route path="/literary%haven/create%account" element={<Register/>}></Route>
                 </Routes>
             </BrowserRouter>
         </div>
