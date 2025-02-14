@@ -2,8 +2,22 @@ import React from 'react'
 import "../styles/Register.css"
 import logo from "../assets/Literary.png"
 import {Link} from "react-router-dom";
+import Swal from "sweetalert2";
 
 export default function Register() {
+
+    const sweetAlertSuccess = () => {
+        Swal.fire({
+            title: "Account Created",
+            text: "Welcome to Literary Haven E-Store !",
+            icon: "success"
+        });
+    }
+
+    const gotoDashboard = () => {
+        sweetAlertSuccess();
+    }
+    
     return (
         <div>
             <div className="register-card">
@@ -34,7 +48,7 @@ export default function Register() {
                     </div>
 
                     <div className="register-btn">
-                        <button className="btn btn-primary" type="submit">Create Account</button>
+                        <button className="btn btn-primary" onClick={gotoDashboard} type="submit">Create Account</button>
                     </div>
                     <div className="or-and-line">
                         <hr/>
