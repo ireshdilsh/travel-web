@@ -1,10 +1,13 @@
 import React, {useState} from 'react'
 import "../styles/Register.css"
 import logo from "../assets/Literary.png"
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import Swal from "sweetalert2";
+import axios from 'axios';
 
 export default function Register() {
+
+    const navigate = useNavigate();
 
     const sweetAlertSuccess = () => {
         Swal.fire({
@@ -36,8 +39,14 @@ export default function Register() {
     const gotoDashboard = async (e) => {
         try {
             e.preventDefault();
-            // logic eke liyanna one save wena
+            const data = {
+                "email" : email,
+                "password" : password
+            }
+            const resp = await axios.post("http://localhost:8081/api/literary_haven/user/create/account",data);
+            console.log(resp);
             sweetAlertSuccess();
+            navigate("/literay_haven/user/dashboard");
         }catch (e) {
             sweetAlertError();
             console.log(e);
