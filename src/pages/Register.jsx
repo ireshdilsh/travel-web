@@ -39,12 +39,12 @@ export default function Register() {
     const gotoDashboard = async (e) => {
         try {
             e.preventDefault();
-            const data = {
-                "email" : email,
-                "password" : password
-            }
-            const resp = await axios.post("http://localhost:8081/api/literary_haven/user/create/account",data);
-            console.log(resp);
+            // const data = {
+            //     "email" : email,
+            //     "password" : password
+            // }
+            // const resp = await axios.post("http://localhost:8081/api/literary_haven/user/create/account",data);
+            // console.log(resp);
             sweetAlertSuccess();
             navigate("/literay_haven/user/dashboard");
         }catch (e) {
