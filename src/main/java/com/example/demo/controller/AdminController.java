@@ -19,9 +19,5 @@ public class AdminController {
     public AdminEntity addAdmin(@RequestBody AdminDto adminDto) {
         return adminService.addAdmin(adminDto);
     }
-    
-    @GetMapping("/get/all/admin")
-    public List<AdminEntity> getAllAdmins() {
-        return adminService.getAllAdmins();
-    }
+
 }

@@ -27,8 +27,4 @@ public class AdminServiceImpl implements AdminService {
         return adminRepository.save(adminEntity);
     }
 
-    @Override
-    public List<AdminEntity> getAllAdmins() {
-        return adminRepository.findAll();
-    }
 }

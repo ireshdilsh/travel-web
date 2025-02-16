@@ -10,5 +10,4 @@ import java.util.List;
 public interface AdminService {
     AdminEntity addAdmin(AdminDto adminDto);
 
-    List<AdminEntity> getAllAdmins();
 }
