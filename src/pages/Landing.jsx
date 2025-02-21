@@ -5,6 +5,25 @@ import heroImage from "../assets/hero-image.png"
 export default function Landing() {
   return (
     <div>
+
+      <nav>
+        <div className="logo-and-name">
+
+        </div>
+        <div className="links">
+          <a href="#home"></a>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+        </div>
+        <div className="sign-btn">
+            <a href="">Sign In</a>
+        </div>
+      </nav>
+
       <section id='home'>
         <div className="left-side">
             <p className='title'>Unlock Your Potential <span>Learn <br />Anytime,</span> Anywhere.</p>
