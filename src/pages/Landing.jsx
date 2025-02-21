@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/Landing.css"
+import heroImage from "../assets/hero-image.png"
 
 export default function Landing() {
   return (
@@ -14,7 +15,7 @@ export default function Landing() {
         </div>
         <div className="right-side">
           <div className="image">
-
+            <img src={heroImage} alt="" />
           </div>
             <div className="circle"></div>
             <div className="smaill-circle-1"></div>
