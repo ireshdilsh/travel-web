@@ -5,6 +5,9 @@ import gif1 from "../assets/Learning.gif"
 import gif2 from "../assets/aboutus.gif"
 import gif3 from "../assets/Webinar.gif"
 import gif4 from "../assets/Blogging.gif"
+import gif5 from "../assets/resources.gif"
+import gif6 from "../assets/faq.gif"
+import gif7 from "../assets/contact.gif"
 
 export default function Landing() {
   return (
