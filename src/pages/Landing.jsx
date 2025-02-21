@@ -14,11 +14,11 @@ export default function Landing() {
         </div>
         <div className="right-side">
           <div className="image">
-            
-          </div>
-            <div className="circle">
 
-            </div>
+          </div>
+            <div className="circle"></div>
+            <div className="smaill-circle-1"></div>
+            <div className="smaill-circle-2"></div>
         </div>
       </section>
     </div>

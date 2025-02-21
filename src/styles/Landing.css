@@ -17,8 +17,8 @@ body{
 }
 
 #home{
-    margin-top: 50px;
-    padding: 0px 120px;
+    margin-top: 80px;
+    padding: 0px 150px;
     gap: 150px;
     display: flex;
     justify-content: space-between;
@@ -32,7 +32,7 @@ body{
 }
 
 #home .left-side .title span{
-    background: linear-gradient(to right,#D38312,#A83279);
+    background: linear-gradient(to right,#ad76d7,#799be0);
     color: transparent;
     background-clip: text;
 }
@@ -58,7 +58,7 @@ body{
     height: 300px;
     width: 300px;
     border: 1px solid #333;
-    background-color: #fcfcfc;
+   
 }
 
 #home .right-side .circle{
@@ -69,5 +69,29 @@ body{
     height: 350px;
     width: 350px;
     z-index: -1;
-    background: linear-gradient(45deg,#d3821289,#a8327996);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background: linear-gradient(45deg,#B993D6,#8CA6DB);
+}
+
+#home .right-side .smaill-circle-1,
+#home .right-side .smaill-circle-2{
+    height: 175px;
+    width: 175px;
+    border: 1px solid silver;
+    position: absolute;
+    z-index: -2; 
+    background: linear-gradient(45deg,#8CA6DB,#B993D6);
+    opacity: 0.6;
+}
+
+#home .right-side .smaill-circle-1{
+    top: 0;
+    left: 1060px;
+    border-radius: 0 0 0 100%;   
+}
+
+#home .right-side .smaill-circle-2{
+    top: 300px;
+    right: 0;
+    border-radius: 0 0 0 100%;
 }
