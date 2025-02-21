@@ -13,7 +13,10 @@ export default function Landing() {
             </div>
         </div>
         <div className="right-side">
-            <div className="border">
+          <div className="image">
+            
+          </div>
+            <div className="circle">
 
             </div>
         </div>

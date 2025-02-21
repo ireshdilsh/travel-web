@@ -12,6 +12,10 @@
     font-size: 14px;
 }
 
+body{
+    position: relative;
+}
+
 #home{
     margin-top: 50px;
     padding: 0px 120px;
@@ -33,12 +37,6 @@
     background-clip: text;
 }
 
-#home .right-side .border{
-    height: 400px;
-    width: 400px;
-    border: 1px solid #333;
-}
-
 #home .left-side .btns{
     margin-top: 25px;
     display: flex;
@@ -49,6 +47,27 @@
     text-decoration: none;
     font-size: 15px;
     border: 1px solid #333;
-    padding: 11px 40px;
+    padding: 10px 30px;
     border-radius: 5px;
+    color: #fcfcfc;
+    font-weight: 500;
+    background-color: #333;
+}
+
+#home .right-side .image{
+    height: 300px;
+    width: 300px;
+    border: 1px solid #333;
+    background-color: #fcfcfc;
+}
+
+#home .right-side .circle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 0 0 100%;
+    height: 350px;
+    width: 350px;
+    z-index: -1;
+    background: linear-gradient(45deg,#d3821289,#a8327996);
 }
