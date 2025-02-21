@@ -9,4 +9,32 @@
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-size: 14px;
+}
+
+#home{
+    margin-top: 50px;
+    padding: 0px 120px;
+    gap: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home .left-side .title,
+#home .left-side .title span{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#home .left-side .title span{
+    background: linear-gradient(to left,#D38312,#A83279);
+    color: transparent;
+    background-clip: text;
+}
+
+#home .right-side .border{
+    height: 400px;
+    width: 400px;
+    border: 1px solid #333;
 }
