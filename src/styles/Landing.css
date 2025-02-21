@@ -16,6 +16,61 @@ body{
     position: relative;
 }
 
+nav{
+    margin-top: 30px;
+    padding: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .links a{
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    font-weight: 500;
+}
+
+nav .logo-and-name h3{
+    font-weight: 700;
+    background: linear-gradient(to right,#ad76d7,#799be0);
+    color: transparent;
+    background-clip: text;
+}
+
+nav .links a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 25px;
+    height: 1.2px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #333;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+
+nav .links a:hover::after{
+    transform: scaleX(-1);
+}
+
+nav .sign-btn a{
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fcfcfc;
+    font-weight: 500;
+}
+
 #home{
     margin-top: 80px;
     padding: 0px 150px;
@@ -43,7 +98,7 @@ body{
     gap: 50px;
 }
 
-#home .left-side a{
+#home .left-side .btns a{
     text-decoration: none;
     font-size: 15px;
     border: 1.6px solid #333;
@@ -96,4 +151,40 @@ body{
     top: 300px;
     right: 0;
     border-radius: 0 0 0 100%;
+}
+
+#courses{
+    margin-top: 80px;
+    padding: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#courses .right-side{
+    width: 500px;
+}
+
+#courses .right-side h1{
+    font-weight: 600;
+}
+
+#courses .right-side p{
+    text-align: justify;
+    color: #818181;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+#courses .right-side .explore-btn{
+    margin-top: 30px;
+}
+
+#courses .right-side .explore-btn a{
+    text-decoration: none;
+    background-color: #333;
+    color: #fcfcfc;
+    font-weight: 500;
+    padding: 14px 30px;
+    border-radius: 5px;
 }
