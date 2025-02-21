@@ -2,6 +2,9 @@ import React from 'react'
 import "../styles/Landing.css"
 import heroImage from "../assets/hero-image.png"
 import gif1 from "../assets/Learning.gif"
+import gif2 from "../assets/aboutus.gif"
+import gif3 from "../assets/Webinar.gif"
+import gif4 from "../assets/Blogging.gif"
 
 export default function Landing() {
   return (
@@ -14,12 +17,12 @@ export default function Landing() {
         <div className="links">
           <a href="#home">Home</a>
           <a href="#courses">Courses</a>
-          <a href="">About Us</a>
-          <a href="">Instructors</a>
-          <a href="">Blogs</a>
-          <a href="">Resources </a>
-          <a href="">FAQS</a>
-          <a href="">Contact Us</a>
+          <a href="#aboutus">About Us</a>
+          <a href="#instructors">Instructors</a>
+          <a href="#blogs">Blogs</a>
+          <a href="#resources">Resources </a>
+          <a href="#faqs">FAQS</a>
+          <a href="#contact">Contact Us</a>
         </div>
         <div className="sign-btn">
             <a href="">Sign In</a>
@@ -54,6 +57,41 @@ export default function Landing() {
          <div className="explore-btn">
          <a href="">Explore Courses</a>
          </div>
+        </div>
+      </section>
+
+      <section id='aboutus'>
+        <div className="left-side">
+          <h1>About LearnSphere</h1>
+          <p>At LearnSphere, we believe in the power of education to transform lives. Our mission is to provide accessible, high-quality learning experiences for everyone. Learn more about our vision, values, and the team dedicated to your success.</p>
+          <div className="icons">
+            <div className="facebook"><i class="bi bi-facebook"></i></div>
+            <div className="instagram"><i class="bi bi-instagram"></i></div>
+            <div className="linkedid"><i class="bi bi-linkedin"></i></div>
+            <div className="twitter"><i class="bi bi-twitter"></i></div>
+          </div>
+        </div>
+        <div className="right-side">
+          <img src={gif2} alt="" />
+        </div>
+      </section>
+
+      <section id='instructors'>
+        <div className="left-side">
+          <img src={gif3} alt="" />
+        </div>
+        <div className="right-side">
+          <h1>Meet Our Instructors</h1>
+          <p>Our instructors are industry experts and passionate educators committed to providing you with the best learning experience. Get to know our team of professionals who bring their knowledge and expertise to the classroom, guiding you on your educational journey.</p>
+        </div>
+      </section>
+      <section id='blogs'>
+        <div className="left-side">
+          <h1>Insights & Resources</h1>
+          <p>Stay updated with the latest trends in education, tips for effective learning, and inspiring stories from our community. Our blog features articles, guides, and resources to help you make the most of your learning experience.</p>
+        </div>
+        <div className="right-side">
+          <img src={gif4} alt="" />
         </div>
       </section>
     </div>
