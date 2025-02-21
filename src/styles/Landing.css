@@ -71,7 +71,14 @@ nav .sign-btn a{
     font-weight: 500;
 }
 
-#home,#courses,#aboutus,#instructors,#blogs{
+#home,
+#courses,
+#aboutus,
+#instructors,
+#blogs,
+#resources,
+#faqs,
+#contact{
     margin-top: 80px;
     padding: 0px 150px;
     gap: 120px;
@@ -156,32 +163,43 @@ nav .sign-btn a{
 #courses .right-side,
 #aboutus .left-side,
 #instructors .right-side,
-#blogs .left-side{
+#blogs .left-side,
+#resources .right-side,
+#faqs .left-side,
+#contact .right-side{
     width: 500px;
 }
 
 #courses .right-side h1,
 #aboutus .left-side h1,
 #instructors .right-side h1,
-#blogs .left-side h1{
+#blogs .left-side h1,
+#resources .right-side h1,
+#faqs .left-side h1,
+#contact .right-side h1{
     font-weight: 600;
 }
 
 #courses .right-side p,
 #aboutus .left-side p,
 #instructors .right-side p,
-#blogs .left-side p{
+#blogs .left-side p,
+#resources .right-side p,
+#faqs .left-side p,
+#contact .right-side p{
     text-align: justify;
     color: #818181;
     font-size: 15px;
     margin-top: 30px;
 }
 
-#courses .right-side .explore-btn{
+#courses .right-side .explore-btn,
+#resources .right-side .explore-resources-btn{
     margin-top: 30px;
 }
 
-#courses .right-side .explore-btn a{
+#courses .right-side .explore-btn a,
+#resources .right-side .explore-resources-btn a{
     text-decoration: none;
     background-color: #333;
     color: #fcfcfc;
@@ -218,4 +236,15 @@ nav .sign-btn a{
     font-size: 17px;
 }
 
+#contact .right-side .contact-details{
+    margin-top: 30px;
+}
 
+#contact .right-side .contact-details h5{
+    font-weight: 600;
+}
+
+#contact .right-side .contact-details p{
+    font-size: 15px;
+    margin-top: 0px;
+}

@@ -97,6 +97,50 @@ export default function Landing() {
           <img src={gif4} alt="" />
         </div>
       </section>
+
+      <section id='resources'>
+        <div className="left-side">
+          <img src={gif5} alt="" />
+        </div>
+        <div className="right-side">
+          <h1>Learning Resources</h1>
+          <p>Access a wealth of additional materials, guides, and tools to enhance your learning experience. From study tips to downloadable resources, our collection is designed to support you in achieving your educational goals.</p>
+          <div className="explore-resources-btn">
+            <a href="">Explore Resouces</a>
+          </div>
+        </div>
+      </section>
+
+      <section id='faqs'>
+      <div className="left-side">
+        <h1>Frequently Asked Questions</h1>
+        <p>Find answers to common questions about our platform, courses, and policies. Our FAQ section is designed to provide you with the information you need to navigate your learning journey with confidence.</p>
+      </div>
+      <div className="right-side">
+        <img src={gif6} alt="" />
+      </div>
+      </section>
+      
+      <section id='contact'>
+      <div className="left-side">
+        <img src={gif7} alt="" />
+      </div>
+      <div className="right-side">
+        <h1>Get in Touch</h1>
+        <p>Find answers to common questions about our platform, courses, and policies. Our FAQ section is designed to provide you with the information you need to navigate your learning journey with confidence.</p>
+        <div className="contact-details">
+            <div className="email">
+              <h5>Email Address</h5>
+              <p>ireshsample@gmail.com</p>
+            </div>
+            <div className="mobile">
+              <h5>Mobile No</h5>
+              <p>+94 77 123 4567</p>
+            </div>
+        </div>
+      </div>
+      </section>
+
     </div>
   )
 }
