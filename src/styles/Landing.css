@@ -1,250 +1,60 @@
-/* import robot font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #333;
-    font-family: "Roboto", serif;
+    font-family: "Poppins", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    color: rgb(115, 115, 115);
     font-size: 14px;
 }
 
 body{
-    position: relative;
+    overflow-x: hidden;
 }
 
-nav{
-    margin-top: 30px;
-    padding: 0px 150px;
+#home{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-nav .links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-nav .links a{
-    color: #333;
-    text-decoration: none;
-    position: relative;
-    font-weight: 500;
-}
-
-nav .logo-and-name h3{
-    font-weight: 700;
-    background: linear-gradient(to right,#ad76d7,#799be0);
-    color: transparent;
-    background-clip: text;
-}
-
-nav .links a::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 25px;
-    height: 1.2px;
-    width: 100%;
-    border-radius: 50px;
-    background-color: #333;
-    transform: scaleX(0);
-    transition: transform 0.3s;
-}
-
-nav .links a:hover::after{
-    transform: scaleX(-1);
-}
-
-nav .sign-btn a{
-    text-decoration: none;
-    padding: 12px 30px;
-    border-radius: 5px;
-    background-color: #333;
-    color: #fcfcfc;
-    font-weight: 500;
-}
-
-#home,
-#courses,
-#aboutus,
-#instructors,
-#blogs,
-#resources,
-#faqs,
-#contact{
-    margin-top: 80px;
-    padding: 0px 150px;
     gap: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 0 120px;
+    margin-top: 50px;
 }
 
-#home .left-side .title,
-#home .left-side .title span{
-    font-weight: 700;
-    font-size: 40px;
+#home .left{
+    width: 600px;
 }
 
-#home .left-side .title span{
-    background: linear-gradient(to right,#ad76d7,#799be0);
-    color: transparent;
-    background-clip: text;
-}
-
-#home .left-side .btns{
-    margin-top: 25px;
-    display: flex;
-    gap: 50px;
-}
-
-#home .left-side .btns a{
-    text-decoration: none;
-    font-size: 15px;
-    border: 1.6px solid #333;
-    padding: 10px 30px;
-    border-radius: 5px;
+#home .left .title,
+#home .left .title span{
+    font-size: 48px;
     color: #333;
-    font-weight: 500;
-    background-color: #fff;
+    font-weight: 700;
+}
+
+#home .left .title span{
+    color: #6366f1;
+}
+
+#home .left .btns{
+    margin-top: 35px;
+}
+
+#home .left .btns a{
+    padding: 12px 30px;
+    background-color: #6366f1;
+    color: #fcfcfc;
+    border-radius: 6px;
+    text-decoration: none;
 
     &:hover{
-        background-color: #333;
-        color: #fcfcfc;
+        background-color: #5456cb;
     }
 }
 
-#home .right-side .image img{
-    height: 380px;   
-}
-
-#home .right-side .circle{
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 0 0 0 100%;
+#home .right img{
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 350px;
-    width: 350px;
-    z-index: -1;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    background: linear-gradient(45deg,#B993D6,#8CA6DB);
-}
-
-#home .right-side .smaill-circle-1,
-#home .right-side .smaill-circle-2{
-    height: 175px;
-    width: 175px;
-    border: 1px solid silver;
-    position: absolute;
-    z-index: -2; 
-    background: linear-gradient(45deg,#8CA6DB,#B993D6);
-    opacity: 0.6;
-}
-
-#home .right-side .smaill-circle-1{
-    top: 0;
-    left: 1060px;
-    border-radius: 0 0 0 100%;   
-}
-
-#home .right-side .smaill-circle-2{
-    top: 300px;
-    right: 0;
-    border-radius: 0 0 0 100%;
-}
-
-#courses .right-side,
-#aboutus .left-side,
-#instructors .right-side,
-#blogs .left-side,
-#resources .right-side,
-#faqs .left-side,
-#contact .right-side{
-    width: 500px;
-}
-
-#courses .right-side h1,
-#aboutus .left-side h1,
-#instructors .right-side h1,
-#blogs .left-side h1,
-#resources .right-side h1,
-#faqs .left-side h1,
-#contact .right-side h1{
-    font-weight: 600;
-}
-
-#courses .right-side p,
-#aboutus .left-side p,
-#instructors .right-side p,
-#blogs .left-side p,
-#resources .right-side p,
-#faqs .left-side p,
-#contact .right-side p{
-    text-align: justify;
-    color: #818181;
-    font-size: 15px;
-    margin-top: 30px;
-}
-
-#courses .right-side .explore-btn,
-#resources .right-side .explore-resources-btn{
-    margin-top: 30px;
-}
-
-#courses .right-side .explore-btn a,
-#resources .right-side .explore-resources-btn a{
-    text-decoration: none;
-    background-color: #333;
-    color: #fcfcfc;
-    font-weight: 500;
-    padding: 14px 30px;
-    border-radius: 5px;
-}
-
-#aboutus .right-side img{
-    height: 500px;
-}
-
-#aboutus .left-side .icons{
-    display: flex;
-    gap: 8px;
-    margin-top: 30px;
-}
-
-#aboutus .left-side .icons .facebook,
-#aboutus .left-side .icons .instagram,
-#aboutus .left-side .icons .linkedid,
-#aboutus .left-side .icons .twitter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 50px;
-    background-color: #fcfcfc;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    border-radius: 100%;
-}
-
-#aboutus .left-side .icons i{
-    font-size: 17px;
-}
-
-#contact .right-side .contact-details{
-    margin-top: 30px;
-}
-
-#contact .right-side .contact-details h5{
-    font-weight: 600;
-}
-
-#contact .right-side .contact-details p{
-    font-size: 15px;
-    margin-top: 0px;
 }
