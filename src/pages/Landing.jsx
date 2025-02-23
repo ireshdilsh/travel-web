@@ -7,6 +7,7 @@ export default function Landing() {
     <div>
        <section id='home'>
         <div className="left">
+          <h5>30 Days Moneback Guarantee</h5>
           <div className="title">
             <p>Your Gateway to</p>
             <p><span>Knowledge</span> and Growth</p>
