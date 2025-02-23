@@ -14,13 +14,13 @@ body{
 }
 
 #home{
+    width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 250px;
     padding: 50px 120px 100px 120px;
     margin-top: 60px;
-    border-radius: 20px;
     background-color: #6365f111;
 }
 
