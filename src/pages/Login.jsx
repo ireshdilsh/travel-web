@@ -1,6 +1,5 @@
 import React from 'react'
 import "../styles/Login.css"
-import logo from "../assets/Literary.png"
 import {Link} from "react-router-dom";
 
 export default function Login() {

@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import "../styles/Register.css"
-import logo from "../assets/Literary.png"
 import {Link, useNavigate} from "react-router-dom";
 import Swal from "sweetalert2";
 

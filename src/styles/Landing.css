@@ -12,3 +12,123 @@
 body{
     overflow-x: hidden;
 }
+
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 250px;
+    padding: 0 120px;
+    margin-top: 60px;
+}
+
+#home .left{
+    width: 600px;
+}
+
+#home .left .title p,
+#home .left .title p span{
+    font-size: 42px;
+    font-weight: 700;
+    color: #333;
+}
+
+#home .left .title p span{
+    background-color: #6366f1;
+    color: #fcfcfc;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+#home .left button{
+    margin-top: 10px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    background-color: #6366f1;
+    color: #fcfcfc;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    &:hover{
+        background-color: #5557cf;
+    }
+}
+
+#home .right{
+    position: relative;
+}
+
+#home .right img{
+    height: 400px;
+}
+
+#home .right .circle-1,
+#home .right .circle-2{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+#home .right .circle-1{
+    left: -80px;
+    top: 30px;
+    background-color: #6365f14a;
+}
+
+#home .right .circle-2{
+    right: -50px;
+    bottom: 0px;
+    background-color: rgba(255, 255, 0, 0.367);
+}
+
+#home .right .icons img{
+    position: absolute;
+    height: 25px;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+
+#home .right .icons .icon-1,
+#home .right .icons .icon-2,
+#home .right .icons .icon-3,
+#home .right .icons .icon-4,
+#home .right .icons .icon-5,
+#home .right .icons .icon-6{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+#home .right .icons .icon-1{
+    left: 0;
+    top: 0;
+}
+#home .right .icons .icon-2{
+    top: 30px;
+    left: 200px;
+}
+#home .right .icons .icon-3{
+    top: 130px;
+    left: 300px;
+}
+#home .right .icons .icon-4{
+    right: 0;
+    top: 320px;
+}
+#home .right .icons .icon-5{
+    left: -80px;
+    top: 200px;
+}
+#home .right .icons .icon-6{
+    bottom: -50px;
+    left: 100px;
+}
