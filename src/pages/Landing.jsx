@@ -45,6 +45,20 @@ export default function Landing() {
          </div>
         </div>
        </section>
+
+       <section id='logos'>
+        <h2>Trusted by <span><h2>over 1000</h2></span> companies.</h2>
+        <div className="company-logos">
+          <div className="logo-set-1">
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+          </div>
+          <div className="logo-set-2"></div>
+          <div className="logo-set-3"></div>
+        </div>
+       </section>
     </div>
   )
 }

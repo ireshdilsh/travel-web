@@ -137,3 +137,27 @@ body{
     bottom: -50px;
     left: 100px;
 }
+
+#logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 0 120px;
+}
+
+#logos h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    gap: 15px;
+}
+
+#logos span h2{
+    background-color: #6366f1;
+    padding: 5px 15px;
+    border-radius: 4px;
+    color: #fcfcfc;
+}
