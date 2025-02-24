@@ -250,7 +250,7 @@ body{
 #course .course-cards .set-2 .card-1:hover,
 #course .course-cards .set-2 .card-2:hover,
 #course .course-cards .set-2 .card-3:hover{
-    transform: scale(1.15);
+    transform: scale(1.11);
     transition: 0.3s;
 }
 
@@ -282,4 +282,8 @@ body{
     border: none;
     border-radius: 5px;
     margin-top: 25px;
+
+    &:hover{
+        background-color: #5557cf;
+    }
 }
