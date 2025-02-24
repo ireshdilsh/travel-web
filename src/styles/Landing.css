@@ -324,5 +324,67 @@ body {
     align-items: flex-start;
     flex-direction: column;
     padding: 0 160px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
+
+#sellers h2{
+    font-weight: 700;
+}
+
+#sellers .seller-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#sellers .seller-cards .set-1,
+#sellers .seller-cards .set-2{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+#sellers .seller-cards .set-1 .card-1,
+#sellers .seller-cards .set-1 .card-2,
+#sellers .seller-cards .set-1 .card-3,
+#sellers .seller-cards .set-2 .card-1,
+#sellers .seller-cards .set-2 .card-2,
+#sellers .seller-cards .set-2 .card-3 {
+  padding: 20px;
+  border-radius: 8px;
+  border: 1.7px solid #f1f1f1;
+  width: 370px;
+  position: relative;
+}
+
+#sellers .seller-cards .set-1 .card-1 .lable,
+#sellers .seller-cards .set-1 .card-2 .lable,
+#sellers .seller-cards .set-1 .card-3 .lable,
+#sellers .seller-cards .set-2 .card-1 .lable,
+#sellers .seller-cards .set-2 .card-2 .lable,
+#sellers .seller-cards .set-2 .card-3 .lable{
+    background-color: rgba(0, 128, 0, 0.316);
+    width: 28%;
+    padding: 5px 0 0 0;
+    height: 30px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sellers .seller-cards .set-1 .card-1 .lable p,
+#sellers .seller-cards .set-1 .card-2 .lable p,
+#sellers .seller-cards .set-1 .card-3 .lable p,
+#sellers .seller-cards .set-2 .card-1 .lable p,
+#sellers .seller-cards .set-2 .card-2 .lable p,
+#sellers .seller-cards .set-2 .card-3 .lable p{
+    margin-top: 10px;
+    color: rgb(0, 45, 0);
+    font-size: 12px;
+}
+

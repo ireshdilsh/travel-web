@@ -152,6 +152,45 @@ export default function Landing() {
             </section>
 
             <section id='sellers'>
+                <h2>Learners are viewing</h2>
+                <p>Check out the hottest courses that are currently trending! Join your peers and boost your skills today!</p>
+
+                <div className="seller-cards">
+                    <div className="set-1">
+                        <div className="card-1">
+                            <div className="lable">
+                                <p>Best Seller</p>
+                            </div>
+                        </div>
+                        <div className="card-2">
+                            <div className="lable">
+                                <p>Best Seller</p>
+                            </div>
+                        </div>
+                        <div className="card-3">
+                            <div className="lable">
+                                <p>Best Seller</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="set-2">
+                        <div className="card-1">
+                            <div className="lable">
+                                <p>Best Seller</p>
+                            </div>
+                        </div>
+                        <div className="card-2">
+                            <div className="lable">
+                                <p>Best Seller</p>
+                            </div>
+                        </div>
+                        <div className="card-3">
+                            <div className="lable">
+                                <p>Best Seller</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </section>
 
