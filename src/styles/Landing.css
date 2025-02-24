@@ -224,6 +224,14 @@ body{
     position: relative;
 }
 
+#course .course-cards .set-1 .card-1 h4,
+#course .course-cards .set-1 .card-2 h4,
+#course .course-cards .set-1 .card-3 h4,
+#course .course-cards .set-2 .card-1 h4,
+#course .course-cards .set-2 .card-2 h4,
+#course .course-cards .set-2 .card-3 h4{
+    font-weight: 500;
+}
 
 #course .course-cards .set-1 .card-1 p,
 #course .course-cards .set-1 .card-2 p,
