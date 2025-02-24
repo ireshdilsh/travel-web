@@ -15,8 +15,6 @@ export default function Register() {
         });
     }
 
-    
-
     const sweetAlertError = () => {
         Swal.fire({
             icon: "error",
@@ -41,7 +39,6 @@ export default function Register() {
         try {
              e.preventDefault();
              // customer save logic has complete this space
-
              sweetAlertSuccess();
              navigate("/literay_haven/user/dashboard");
         }catch (e) {
