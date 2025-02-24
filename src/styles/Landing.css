@@ -1,102 +1,102 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    color: rgb(115, 115, 115);
-    font-size: 13.8px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgb(115, 115, 115);
+  font-size: 13.8px;
 }
 
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
 
-#home{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 250px;
-    padding: 50px 120px 100px 120px;
-    margin-top: 60px;
-    background-color: rgba(99, 101, 241, 0.03);
+#home {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  padding: 50px 120px 100px 120px;
+  margin-top: 60px;
+  background-color: rgba(99, 101, 241, 0.03);
 }
 
-#home .left{
-    width: 600px;
+#home .left {
+  width: 600px;
 }
 
-#home .left h5{
-    font-weight: 500;
+#home .left h5 {
+  font-weight: 500;
 }
 
 #home .left .title p,
-#home .left .title p span{
-    font-size: 48px;
-    font-weight: 700;
-    color: #333;
+#home .left .title p span {
+  font-size: 48px;
+  font-weight: 700;
+  color: #333;
 }
 
-#home .left .title p span{
-    background-color: #6366f1;
-    color: #fcfcfc;
-    padding: 0 10px;
-    border-radius: 5px;
+#home .left .title p span {
+  background-color: #6366f1;
+  color: #fcfcfc;
+  padding: 0 10px;
+  border-radius: 5px;
 }
 
-#home .left button{
-    margin-top: 10px;
-    padding: 12px 30px;
-    border-radius: 6px;
-    background-color: #6366f1;
-    color: #fcfcfc;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    &:hover{
-        background-color: #5557cf;
-    }
+#home .left button {
+  margin-top: 10px;
+  padding: 12px 30px;
+  border-radius: 6px;
+  background-color: #6366f1;
+  color: #fcfcfc;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  &:hover {
+    background-color: #5557cf;
+  }
 }
 
-#home .right{
-    position: relative;
+#home .right {
+  position: relative;
 }
 
-#home .right img{
-    height: 400px;
+#home .right img {
+  height: 400px;
 }
 
 #home .right .circle-1,
-#home .right .circle-2{
-    position: absolute;
-    height: 250px;
-    width: 250px;
-    border-radius: 100%;
-    z-index: -1;
+#home .right .circle-2 {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  z-index: -1;
 }
 
-#home .right .circle-1{
-    left: -80px;
-    top: 30px;
-    background-color: #6365f14a;
+#home .right .circle-1 {
+  left: -80px;
+  top: 30px;
+  background-color: #6365f14a;
 }
 
-#home .right .circle-2{
-    right: -50px;
-    bottom: 0px;
-    background-color: rgba(255, 255, 0, 0.367);
+#home .right .circle-2 {
+  right: -50px;
+  bottom: 0px;
+  background-color: rgba(255, 255, 0, 0.367);
 }
 
-#home .right .icons img{
-    position: absolute;
-    height: 25px;
-    bottom: 0;
-    left: 0;
-    top: 0;
-    right: 0;
-    margin: auto;
+#home .right .icons img {
+  position: absolute;
+  height: 25px;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: auto;
 }
 
 #home .right .icons .icon-1,
@@ -104,111 +104,111 @@ body{
 #home .right .icons .icon-3,
 #home .right .icons .icon-4,
 #home .right .icons .icon-5,
-#home .right .icons .icon-6{
-    position: absolute;
-    height: 45px;
-    width: 45px;
-    border-radius: 100%;
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+#home .right .icons .icon-6 {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-#home .right .icons .icon-1{
-    left: 0;
-    top: 0;
+#home .right .icons .icon-1 {
+  left: 0;
+  top: 0;
 }
-#home .right .icons .icon-2{
-    top: 30px;
-    left: 200px;
+#home .right .icons .icon-2 {
+  top: 30px;
+  left: 200px;
 }
-#home .right .icons .icon-3{
-    top: 130px;
-    left: 300px;
+#home .right .icons .icon-3 {
+  top: 130px;
+  left: 300px;
 }
-#home .right .icons .icon-4{
-    right: 0;
-    top: 320px;
+#home .right .icons .icon-4 {
+  right: 0;
+  top: 320px;
 }
-#home .right .icons .icon-5{
-    left: -80px;
-    top: 200px;
+#home .right .icons .icon-5 {
+  left: -80px;
+  top: 200px;
 }
-#home .right .icons .icon-6{
-    bottom: -50px;
-    left: 100px;
-}
-
-#logos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 80px;
-    padding: 0 120px;
+#home .right .icons .icon-6 {
+  bottom: -50px;
+  left: 100px;
 }
 
-#logos h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-    gap: 15px;
+#logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+  padding: 0 120px;
 }
 
-#logos span h2{
-    background-color: #6366f1;
-    padding: 5px 15px;
-    border-radius: 4px;
-    color: #fcfcfc;
+#logos h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  gap: 15px;
 }
 
-#logos .company-logos{
-    margin-top: 20px;
+#logos span h2 {
+  background-color: #6366f1;
+  padding: 5px 15px;
+  border-radius: 4px;
+  color: #fcfcfc;
+}
+
+#logos .company-logos {
+  margin-top: 20px;
 }
 
 #logos .company-logos .logo-set-1,
-#logos .company-logos .logo-set-2{
-    display: flex;
-    margin-top: 40px;
-    gap: 200px;
+#logos .company-logos .logo-set-2 {
+  display: flex;
+  margin-top: 40px;
+  gap: 200px;
 }
 
-#logos .company-logos .logo-set-3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    gap: 200px;
+#logos .company-logos .logo-set-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 200px;
 }
 
-#course{
-    display: flex;
-    justify-content: left;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 0 160px;
-    margin-top: 150px;
+#course {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 160px;
+  margin-top: 150px;
 }
 
-#course h2{
-    font-weight: 700;
+#course h2 {
+  font-weight: 700;
 }
 
-#course .course-cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
+#course .course-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
 }
 
 #course .course-cards .set-1,
-#course .course-cards .set-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    margin-top: 50px;
+#course .course-cards .set-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
 }
 
 #course .course-cards .set-1 .card-1,
@@ -216,12 +216,12 @@ body{
 #course .course-cards .set-1 .card-3,
 #course .course-cards .set-2 .card-1,
 #course .course-cards .set-2 .card-2,
-#course .course-cards .set-2 .card-3{
-    padding: 20px;
-    border-radius: 8px;
-    border: 1.8px solid #fafafa;
-    width: 370px;
-    position: relative;
+#course .course-cards .set-2 .card-3 {
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #fafafa;
+  width: 370px;
+  position: relative;
 }
 
 #course .course-cards .set-1 .card-1 h4,
@@ -229,8 +229,8 @@ body{
 #course .course-cards .set-1 .card-3 h4,
 #course .course-cards .set-2 .card-1 h4,
 #course .course-cards .set-2 .card-2 h4,
-#course .course-cards .set-2 .card-3 h4{
-    font-weight: 500;
+#course .course-cards .set-2 .card-3 h4 {
+  font-weight: 500;
 }
 
 #course .course-cards .set-1 .card-1 p,
@@ -238,20 +238,19 @@ body{
 #course .course-cards .set-1 .card-3 p,
 #course .course-cards .set-2 .card-1 p,
 #course .course-cards .set-2 .card-2 p,
-#course .course-cards .set-2 .card-3 p{
-    margin-top: 40px;
-    text-align: justify;
+#course .course-cards .set-2 .card-3 p {
+  margin-top: 40px;
+  text-align: justify;
 }
-
 
 #course .course-cards .set-1 .card-1:hover,
 #course .course-cards .set-1 .card-2:hover,
 #course .course-cards .set-1 .card-3:hover,
 #course .course-cards .set-2 .card-1:hover,
 #course .course-cards .set-2 .card-2:hover,
-#course .course-cards .set-2 .card-3:hover{
-    transform: scale(1.11);
-    transition: 0.3s;
+#course .course-cards .set-2 .card-3:hover {
+  transform: scale(1.11);
+  transition: 0.3s;
 }
 
 #course .course-cards .set-1 .card-1 .color-bar,
@@ -259,15 +258,14 @@ body{
 #course .course-cards .set-1 .card-3 .color-bar,
 #course .course-cards .set-2 .card-1 .color-bar,
 #course .course-cards .set-2 .card-2 .color-bar,
-#course .course-cards .set-2 .card-3 .color-bar{
-    height: 6px;
-    border-radius: 8px 8px 0 0;
-    /* background-color: #6365f197; */
-    background: linear-gradient(45deg,#6366f1,#5557cf95);
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
+#course .course-cards .set-2 .card-3 .color-bar {
+  height: 6px;
+  border-radius: 8px 8px 0 0;
+  background-color: #6366f1;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 #course .course-cards .set-1 .card-1 button,
@@ -275,18 +273,18 @@ body{
 #course .course-cards .set-1 .card-3 button,
 #course .course-cards .set-2 .card-1 button,
 #course .course-cards .set-2 .card-2 button,
-#course .course-cards .set-2 .card-3 button{
-    padding: 10px 25px;
-    background-color: #6366f1;
-    color: #fcfcfc;
-    font-weight: 500;
-    border: none;
-    border-radius: 5px;
-    margin-top: 25px;
+#course .course-cards .set-2 .card-3 button {
+  padding: 10px 25px;
+  background-color: #6366f1;
+  color: #fcfcfc;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  margin-top: 25px;
 
-    &:hover{
-        background-color: #5557cf;
-    }
+  &:hover {
+    background-color: #5557cf;
+  }
 }
 
 #course .course-cards .set-1 .card-1 .sold-out,
@@ -294,7 +292,27 @@ body{
 #course .course-cards .set-1 .card-3 .sold-out,
 #course .course-cards .set-2 .card-1 .sold-out,
 #course .course-cards .set-2 .card-2 .sold-out,
-#course .course-cards .set-2 .card-3 .sold-out{
-    font-size: 11px;
-    text-decoration: underline;
+#course .course-cards .set-2 .card-3 .sold-out {
+  font-size: 11px;
+  text-decoration: underline;
+  margin-top: 0px;
+}
+
+#course .course-cards .set-1 .card-1 .riview,
+#course .course-cards .set-1 .card-2 .riview,
+#course .course-cards .set-1 .card-3 .riview,
+#course .course-cards .set-2 .card-1 .riview,
+#course .course-cards .set-2 .card-2 .riview,
+#course .course-cards .set-2 .card-3 .riview {
+  font-size: 13px;
+}
+
+#course .course-cards .set-1 .card-1 .riview img,
+#course .course-cards .set-1 .card-2 .riview img,
+#course .course-cards .set-1 .card-3 .riview img,
+#course .course-cards .set-2 .card-1 .riview img,
+#course .course-cards .set-2 .card-2 .riview img,
+#course .course-cards .set-2 .card-3 .riview img {
+  height: 18px;
+  margin-top: -3px;
 }
