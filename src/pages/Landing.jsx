@@ -54,14 +54,24 @@ export default function Landing() {
         <h2>Trusted by <span><h2>over 1000</h2></span> companies.</h2>
         <div className="company-logos">
           <div className="logo-set-1">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src="https://img.icons8.com/?size=100&id=Z5pgoU6ueRre&format=png&color=000000" alt="google-company-logo" />
+            <img src="https://img.icons8.com/?size=100&id=PvvcWRWxRKSR&format=png&color=000000" alt="meta-company-logo" />
+            <img src="https://img.icons8.com/?size=100&id=30840&format=png&color=000000" alt="apple-company-logo" />
+            <img src="https://img.icons8.com/?size=100&id=17836&format=png&color=000000" alt="android-company-logo" />
               
           </div>
-          <div className="logo-set-2"></div>
-          <div className="logo-set-3"></div>
+          <div className="logo-set-2">
+              <img src="https://img.icons8.com/?size=100&id=45080&format=png&color=000000" alt="ali-company-logo"/>
+              <img src="https://img.icons8.com/?size=100&id=gav46YArUSy1&format=png&color=000000" alt="adobe-logo"/>
+              <img src="https://img.icons8.com/?size=100&id=39913&format=png&color=000000" alt="oracle-logo"/>
+              <img src="https://img.icons8.com/?size=100&id=22989&format=png&color=000000" alt="microsoft-logo"/>
+          </div>
+
+            <div className="logo-set-3">
+                <img src="https://img.icons8.com/?size=100&id=pj15SuHu3Vlt&format=png&color=000000" alt="jetbrains-company-logo"/>
+                <img src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000" alt="github-logo"/>
+                <img src="https://img.icons8.com/?size=100&id=0Igl1ihGxnaQ&format=png&color=000000" alt="tesla-logo"/>
+            </div>
         </div>
        </section>
     </div>
