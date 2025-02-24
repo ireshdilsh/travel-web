@@ -262,7 +262,8 @@ body{
 #course .course-cards .set-2 .card-3 .color-bar{
     height: 6px;
     border-radius: 8px 8px 0 0;
-    background-color: #6366f1;
+    /* background-color: #6365f197; */
+    background: linear-gradient(45deg,#6366f1,#5557cf95);
     width: 100%;
     position: absolute;
     left: 0;
@@ -286,4 +287,14 @@ body{
     &:hover{
         background-color: #5557cf;
     }
+}
+
+#course .course-cards .set-1 .card-1 .sold-out,
+#course .course-cards .set-1 .card-2 .sold-out,
+#course .course-cards .set-1 .card-3 .sold-out,
+#course .course-cards .set-2 .card-1 .sold-out,
+#course .course-cards .set-2 .card-2 .sold-out,
+#course .course-cards .set-2 .card-3 .sold-out{
+    font-size: 11px;
+    text-decoration: underline;
 }

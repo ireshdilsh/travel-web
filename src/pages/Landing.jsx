@@ -91,6 +91,7 @@ export default function Landing() {
                             Discover effective digital marketing strategies, including SEO, social media, and content creation, to enhance your brand's online presence and drive engagement.
                         </p>
                         <button type="button">Enroll Now  99.99$</button>
+                        <p className='sold-out'>2000+ sold out</p>
                     </div>
                     <div className="card-2">
                         <div className="color-bar"></div>
@@ -99,6 +100,7 @@ export default function Landing() {
                             Learn the fundamentals of data science, including data analysis, machine learning, and visualization techniques, through hands-on projects and real-world applications.
                         </p>
                         <button type="button">Enroll Now  99.99$</button>
+                        <p className='sold-out'>2000+ sold out</p>
                     </div>
                     <div className="card-3">
                         <div className="color-bar"></div>
@@ -107,6 +109,7 @@ export default function Landing() {
                             Unleash your creativity in this workshop designed to help you develop compelling stories and characters through guided exercises and constructive feedback.
                         </p>
                         <button type="button">Enroll Now  99.99$</button>
+                        <p className='sold-out'>5000+ sold out</p>
                     </div>
                 </div>
 
@@ -118,6 +121,7 @@ export default function Landing() {
                             Build your first website from scratch using HTML, CSS, and JavaScript in this beginner-friendly course that emphasizes practical skills and real-world applications.
                         </p>
                         <button type="button">Enroll Now  49.99$</button>
+                        <p className='sold-out'>200,000+ sold out</p>
                     </div>
                     <div className="card-2">
                         <div className="color-bar"></div>
@@ -126,6 +130,7 @@ export default function Landing() {
                             Master essential personal finance skills, including budgeting, saving, and investing, to achieve financial stability and secure your future.
                         </p>
                         <button type="button">Enroll Now  49.99$</button>
+                        <p className='sold-out'>2000+ sold out</p>
                     </div>
                     <div className="card-3">
                         <div className="color-bar"></div>
@@ -134,6 +139,7 @@ export default function Landing() {
                             Explore the principles of graphic design and learn to use industry-standard software to create visually appealing graphics and layouts.
                         </p>
                         <button type="button">Enroll Now  49.99$</button>
+                        <p className='sold-out'>8000+ sold out</p>
                     </div>
                 </div>
             </div>
