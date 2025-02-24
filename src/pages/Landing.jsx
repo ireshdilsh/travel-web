@@ -1,8 +1,12 @@
 import React from 'react'
 import "../styles/Landing.css"
 import heroImg from "../assets/heroImg.png"
+import {useNavigate} from "react-router-dom";
 
 export default function Landing() {
+    
+    const navigate = useNavigate();
+    
   return (
     <div>
        <section id='home'>
@@ -54,6 +58,7 @@ export default function Landing() {
             <img src="" alt="" />
             <img src="" alt="" />
             <img src="" alt="" />
+              
           </div>
           <div className="logo-set-2"></div>
           <div className="logo-set-3"></div>
