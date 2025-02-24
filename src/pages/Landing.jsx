@@ -93,6 +93,9 @@ export default function Landing() {
                             <button type="button">Enroll Now  99.99$</button>
                             <p className='riview'>4.9 riview <img src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000" alt="" /></p>
                             <p className='sold-out'>2000+ sold out</p>
+                            <div className="box">
+                                <p>Best Choice</p>
+                            </div>
                         </div>
                         <div className="card-2">
                             <div className="color-bar"></div>
@@ -103,6 +106,9 @@ export default function Landing() {
                             <button type="button">Enroll Now  99.99$</button>
                             <p className='riview'>4.3 riview <img src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000" alt="" /></p>
                             <p className='sold-out'>2000+ sold out</p>
+                            <div className="box">
+                                <p>Best Choice</p>
+                            </div>
                         </div>
                         <div className="card-3">
                             <div className="color-bar"></div>
@@ -113,6 +119,9 @@ export default function Landing() {
                             <button type="button">Enroll Now  99.99$</button>
                             <p className='riview'>4.9 riview <img src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000" alt="" /></p>
                             <p className='sold-out'>5000+ sold out</p>
+                            <div className="box">
+                                <p>Best Choice</p>
+                            </div>
                         </div>
                     </div>
 
@@ -126,6 +135,9 @@ export default function Landing() {
                             <button type="button">Enroll Now  49.99$</button>
                             <p className='riview'>4.5 riview <img src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000" alt="" /></p>
                             <p className='sold-out'>200,000+ sold out</p>
+                            <div className="box">
+                                <p>Best Choice</p>
+                            </div>
                         </div>
                         <div className="card-2">
                             <div className="color-bar"></div>
@@ -136,6 +148,9 @@ export default function Landing() {
                             <button type="button">Enroll Now  49.99$</button>
                             <p className='riview'>4.3 riview <img src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000" alt="" /></p>
                             <p className='sold-out'>2000+ sold out</p>
+                            <div className="box">
+                                <p>Best Choice</p>
+                            </div>
                         </div>
                         <div className="card-3">
                             <div className="color-bar"></div>
@@ -146,52 +161,25 @@ export default function Landing() {
                             <button type="button">Enroll Now  49.99$</button>
                             <p className='riview'>4.0 riview <img src="https://img.icons8.com/?size=100&id=8ggStxqyboK5&format=png&color=000000" alt="" /></p>
                             <p className='sold-out'>8000+ sold out</p>
+                            <div className="box">
+                                <p>Best Choice</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id='sellers'>
-                <h2>Learners are viewing</h2>
+            <section id='goals'>
+                <h2>Learning focused on your goals</h2>
                 <p>Check out the hottest courses that are currently trending! Join your peers and boost your skills today!</p>
-
-                <div className="seller-cards">
-                    <div className="set-1">
-                        <div className="card-1">
-                            <div className="lable">
-                                <p>Best Seller</p>
-                            </div>
-                        </div>
-                        <div className="card-2">
-                            <div className="lable">
-                                <p>Best Seller</p>
-                            </div>
-                        </div>
-                        <div className="card-3">
-                            <div className="lable">
-                                <p>Best Seller</p>
-                            </div>
-                        </div>
+                <div className="goals-body">
+                    <div className="left">
+                            <h2>Left</h2>
                     </div>
-                    <div className="set-2">
-                        <div className="card-1">
-                            <div className="lable">
-                                <p>Best Seller</p>
-                            </div>
-                        </div>
-                        <div className="card-2">
-                            <div className="lable">
-                                <p>Best Seller</p>
-                            </div>
-                        </div>
-                        <div className="card-3">
-                            <div className="lable">
-                                <p>Best Seller</p>
-                            </div>
-                        </div>
-                    </div>
+                    <div className="right">
+                            <h2>Right</h2>
+                    </div>  
                 </div>
-
             </section>
 
         </div>
