@@ -151,6 +151,10 @@ export default function Landing() {
                 </div>
             </section>
 
+            <section id='sellers'>
+
+            </section>
+
         </div>
     )
 }
