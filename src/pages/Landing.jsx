@@ -12,7 +12,7 @@ export default function Landing() {
         <div>
             <section id='home'>
                 <div className="left">
-                    <h5>30 Days Moneback Guarantee</h5>
+                    <h5>30 Days Moneyback Guarantee</h5>
                     <div className="title">
                         <p>Your Gateway to</p>
                         <p><span>Knowledge</span> and Growth</p>
@@ -175,7 +175,39 @@ export default function Landing() {
                 <p>Check out the hottest courses that are currently trending! Join your peers and boost your skills today!</p>
                 <div className="goals-body">
                     <div className="left">
-                            <h2>Left</h2>
+                            <div className="cards">
+                                <div className="hand-skills">
+                                    <img src="https://img.icons8.com/?size=100&id=MEokqvhT02ni&format=png&color=000000" alt="" />
+                                   <div className="texts">
+                                   <h5>Hands-on training.</h5>
+                                   <p>An interactive online learning platform offering hands-on training to develop practical skills and expertise.</p>
+                                   </div>
+                                </div>
+
+                                <div className="certifaction-prep">
+                                    <img src="https://img.icons8.com/?size=100&id=OUfxTzQrJESy&format=png&color=000000" alt="" />
+                                    <div className="texts">
+                                    <h5>Certification prep</h5>
+                                    <p>An online platform providing hands-on training and resources for effective certification exam preparation.</p>
+                                    </div>
+                                </div>
+
+                                <div className="certifaction-prep">
+                                    <img src="https://img.icons8.com/?size=100&id=107067&format=png&color=000000" alt="" />
+                                  <div className="texts">
+                                  <h5>Insights and analytics</h5>
+                                  <p>An online platform delivering hands-on training with insights and analytics for data-driven decision-making.</p>
+                                  </div>
+                                </div>
+
+                                <div className="certifaction-prep">
+                                    <img src="https://img.icons8.com/?size=100&id=97390&format=png&color=000000" alt="" />
+                                    <div className="texts">
+                                    <h5>Customizable Content</h5>
+                                    <p>An online learning platform offering hands-on training with customizable content tailored to individual learning needs.</p>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                     <div className="right">
                             <h2>Right</h2>
