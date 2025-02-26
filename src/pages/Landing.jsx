@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/Landing.css"
 import heroImg from "../assets/heroImg.png"
+import quote from "../assets/cotoe.png"
 import { useNavigate } from "react-router-dom";
 
 export default function Landing() {
@@ -223,10 +224,18 @@ export default function Landing() {
                 <h2>Unlocking Potential: Success Stories from Lifelong Learners</h2>
                 <p> Explore inspiring stories of individuals who transformed their lives through continuous learning and achieved remarkable success.</p>
                 <div className="riview-body">
-                    <div className="card-1"></div>
-                    <div className="card-2"></div>
-                    <div className="card-3"></div>
-                    <div className="card-4"></div>
+                    <div className="card-1">
+                        <img src={quote} alt="" />
+                    </div>
+                    <div className="card-2">
+                    <img src={quote} alt="" />
+                    </div>
+                    <div className="card-3">
+                    <img src={quote} alt="" />
+                    </div>
+                    <div className="card-4">
+                    <img src={quote} alt="" />
+                    </div>
                 </div>
             </section>
 

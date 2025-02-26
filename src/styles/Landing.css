@@ -435,7 +435,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 15px;
 }
 
 #riview .riview-body .card-1,
@@ -446,5 +446,6 @@ body {
   border: 1.7px solid #f1f1f1;
   border-radius: 8px;
   padding: 20px;
-  width: 280px;
+  width: 290px;
 }
+
