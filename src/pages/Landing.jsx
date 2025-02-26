@@ -219,6 +219,11 @@ export default function Landing() {
                 </div>
             </section>
 
+            <section id='riview'>
+                <h2>Unlocking Potential: Success Stories from Lifelong Learners</h2>
+                <p> Explore inspiring stories of individuals who transformed their lives through continuous learning and achieved remarkable success.</p>
+            </section>
+
         </div>
     )
 }
