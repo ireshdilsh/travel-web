@@ -175,53 +175,59 @@ export default function Landing() {
                 <p>Check out the hottest courses that are currently trending! Join your peers and boost your skills today!</p>
                 <div className="goals-body">
                     <div className="left">
-                            <div className="cards">
-                                <div className="hand-skills">
-                                    <div className="color-bar"></div>
-                                    <img src="https://img.icons8.com/?size=100&id=eRycnOx8ELSA&format=png&color=000000" alt="" />
-                                   <div className="texts">
-                                   <h5>Hands-on training.</h5>
-                                   <p>An interactive online learning platform offering hands-on training to develop practical skills and expertise.</p>
-                                   </div>
-                                </div>
-
-                                <div className="certifaction-prep">
+                        <div className="cards">
+                            <div className="hand-skills">
                                 <div className="color-bar"></div>
-                                    <img src="https://img.icons8.com/?size=100&id=kgo9UyqwyPNo&format=png&color=000000" alt="" />
-                                    <div className="texts">
-                                    <h5>Certification prep</h5>
-                                    <p>An online platform providing hands-on training and resources for effective certification exam preparation.</p>
-                                    </div>
-                                </div>
-
-                                <div className="analytics">
-                                <div className="color-bar"></div>
-                                    <img src="https://img.icons8.com/?size=100&id=123466&format=png&color=000000" alt="" />
-                                  <div className="texts">
-                                  <h5>Insights and analytics</h5>
-                                  <p>An online platform delivering hands-on training with insights and analytics for data-driven decision-making.</p>
-                                  </div>
-                                </div>
-
-                                <div className="customizable">
-                                <div className="color-bar"></div>
-                                    <img src="https://img.icons8.com/?size=100&id=B5lIx4QRTxU3&format=png&color=000000" alt="" />
-                                    <div className="texts">
-                                    <h5>Customizable Content</h5>
-                                    <p>An online learning platform offering hands-on training with customizable content tailored to individual learning needs.</p>
-                                    </div>
+                                <img src="https://img.icons8.com/?size=100&id=eRycnOx8ELSA&format=png&color=000000" alt="" />
+                                <div className="texts">
+                                    <h5>Hands-on training.</h5>
+                                    <p>An interactive online learning platform offering hands-on training to develop practical skills and expertise.</p>
                                 </div>
                             </div>
+
+                            <div className="certifaction-prep">
+                                <div className="color-bar"></div>
+                                <img src="https://img.icons8.com/?size=100&id=kgo9UyqwyPNo&format=png&color=000000" alt="" />
+                                <div className="texts">
+                                    <h5>Certification prep</h5>
+                                    <p>An online platform providing hands-on training and resources for effective certification exam preparation.</p>
+                                </div>
+                            </div>
+
+                            <div className="analytics">
+                                <div className="color-bar"></div>
+                                <img src="https://img.icons8.com/?size=100&id=123466&format=png&color=000000" alt="" />
+                                <div className="texts">
+                                    <h5>Insights and analytics</h5>
+                                    <p>An online platform delivering hands-on training with insights and analytics for data-driven decision-making.</p>
+                                </div>
+                            </div>
+
+                            <div className="customizable">
+                                <div className="color-bar"></div>
+                                <img src="https://img.icons8.com/?size=100&id=B5lIx4QRTxU3&format=png&color=000000" alt="" />
+                                <div className="texts">
+                                    <h5>Customizable Content</h5>
+                                    <p>An online learning platform offering hands-on training with customizable content tailored to individual learning needs.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="right">
-                            <h2>Right</h2>
-                    </div>  
+                        <h2>Right</h2>
+                    </div>
                 </div>
             </section>
 
             <section id='riview'>
                 <h2>Unlocking Potential: Success Stories from Lifelong Learners</h2>
                 <p> Explore inspiring stories of individuals who transformed their lives through continuous learning and achieved remarkable success.</p>
+                <div className="riview-body">
+                    <div className="card-1"></div>
+                    <div className="card-2"></div>
+                    <div className="card-3"></div>
+                    <div className="card-4"></div>
+                </div>
             </section>
 
         </div>

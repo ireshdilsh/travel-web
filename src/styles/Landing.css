@@ -22,7 +22,7 @@ body {
   padding: 50px 120px 100px 120px;
   margin-top: 60px;
   /* background-color: rgba(99, 101, 241, 0.03); */
-    background-color: #fafafa94;
+  background-color: #fafafa94;
 }
 
 #home .left {
@@ -188,7 +188,7 @@ body {
   flex-direction: column;
   padding: 100px 160px;
   margin-top: 100px;
-    background-color: #fafafa94;
+  background-color: #fafafa94;
 }
 
 #course h2 {
@@ -318,53 +318,52 @@ body {
   margin-top: -3px;
 }
 
-#goals{
-    display: flex;
-    justify-content: left;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 0 160px;
-    margin-top: 100px;
+#goals {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 160px;
+  margin-top: 100px;
 }
 
-#goals h2{
-    font-weight: 700;
+#goals h2 {
+  font-weight: 700;
 }
 
-#goals .seller-cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
+#goals .seller-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
 }
 
-#goals .goals-body{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-    
+#goals .goals-body {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
 }
 
-.box{
-    margin-top: -10px;
-    width: 102px;
-    height: 35px;
-    border-radius: 5px;
-    background-color: rgba(0, 128, 0, 0.256);
+.box {
+  margin-top: -10px;
+  width: 102px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: rgba(0, 128, 0, 0.256);
 }
 
-.box p{
-    color: rgb(0, 58, 0);
-    font-size: 12px;
-    padding: 10px  15px;
-    font-weight: 500;
-    margin-top: 4px;
+.box p {
+  color: rgb(0, 58, 0);
+  font-size: 12px;
+  padding: 10px 15px;
+  font-weight: 500;
+  margin-top: 4px;
 }
 
-#goals .goals-body .left .cards{
+#goals .goals-body .left .cards {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -374,7 +373,7 @@ body {
 #goals .goals-body .left .cards .hand-skills,
 #goals .goals-body .left .cards .certifaction-prep,
 #goals .goals-body .left .cards .analytics,
-#goals .goals-body .left .cards .customizable{
+#goals .goals-body .left .cards .customizable {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -386,7 +385,7 @@ body {
   border-radius: 8px;
   position: relative;
 
-  &:hover{
+  &:hover {
     background-color: #fafafa;
   }
 }
@@ -394,21 +393,21 @@ body {
 #goals .goals-body .left .cards .hand-skills .texts h5,
 #goals .goals-body .left .cards .certifaction-prep .texts h5,
 #goals .goals-body .left .cards .analytics .texts h5,
-#goals .goals-body .left .cards .customizable .texts h5{
+#goals .goals-body .left .cards .customizable .texts h5 {
   font-weight: 600;
 }
 
 #goals .goals-body .left .cards .hand-skills img,
 #goals .goals-body .left .cards .certifaction-prep img,
 #goals .goals-body .left .cards .analytics img,
-#goals .goals-body .left .cards .customizable img{
+#goals .goals-body .left .cards .customizable img {
   height: 60px;
 }
 
 #goals .goals-body .left .cards .hand-skills .color-bar,
 #goals .goals-body .left .cards .certifaction-prep .color-bar,
 #goals .goals-body .left .cards .analytics .color-bar,
-#goals .goals-body .left .cards .customizable .color-bar{
+#goals .goals-body .left .cards .customizable .color-bar {
   position: absolute;
   left: -74px;
   top: 72px;
@@ -419,7 +418,7 @@ body {
   rotate: 90deg;
 }
 
-#riview{
+#riview {
   display: flex;
   justify-content: left;
   align-items: flex-start;
@@ -428,6 +427,24 @@ body {
   margin-top: 100px;
 }
 
-#riview h2{
+#riview h2 {
   font-weight: 700;
+}
+
+#riview .riview-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#riview .riview-body .card-1,
+#riview .riview-body .card-2,
+#riview .riview-body .card-3,
+#riview .riview-body .card-4 {
+  margin-top: 50px;
+  border: 1.7px solid #f1f1f1;
+  border-radius: 8px;
+  padding: 20px;
+  width: 280px;
 }
