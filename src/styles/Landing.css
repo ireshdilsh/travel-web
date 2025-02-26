@@ -344,7 +344,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 400px;
+    gap: 80px;
     
 }
 
@@ -362,4 +362,59 @@ body {
     padding: 10px  15px;
     font-weight: 500;
     margin-top: 4px;
+}
+
+#goals .goals-body .left .cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#goals .goals-body .left .cards .hand-skills,
+#goals .goals-body .left .cards .certifaction-prep,
+#goals .goals-body .left .cards .analytics,
+#goals .goals-body .left .cards .customizable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 600px;
+  margin-top: 20px;
+  border: 1.7px solid #f1f1f1;
+  padding: 35px;
+  border-radius: 8px;
+  position: relative;
+
+  &:hover{
+    background-color: #fafafa;
+  }
+}
+
+#goals .goals-body .left .cards .hand-skills .texts h5,
+#goals .goals-body .left .cards .certifaction-prep .texts h5,
+#goals .goals-body .left .cards .analytics .texts h5,
+#goals .goals-body .left .cards .customizable .texts h5{
+  font-weight: 600;
+}
+
+#goals .goals-body .left .cards .hand-skills img,
+#goals .goals-body .left .cards .certifaction-prep img,
+#goals .goals-body .left .cards .analytics img,
+#goals .goals-body .left .cards .customizable img{
+  height: 60px;
+}
+
+#goals .goals-body .left .cards .hand-skills .color-bar,
+#goals .goals-body .left .cards .certifaction-prep .color-bar,
+#goals .goals-body .left .cards .analytics .color-bar,
+#goals .goals-body .left .cards .customizable .color-bar{
+  position: absolute;
+  left: -74px;
+  top: 72px;
+  background-color: #6366f1;
+  height: 8px;
+  width: 26%;
+  border-radius: 0 0 8px 8px;
+  rotate: 90deg;
 }
