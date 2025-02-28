@@ -60,7 +60,6 @@ export default function Landing() {
                         <img src="https://img.icons8.com/?size=100&id=PvvcWRWxRKSR&format=png&color=000000" alt="meta-company-logo" />
                         <img src="https://img.icons8.com/?size=100&id=30840&format=png&color=000000" alt="apple-company-logo" />
                         <img src="https://img.icons8.com/?size=100&id=17836&format=png&color=000000" alt="android-company-logo" />
-
                     </div>
                     <div className="logo-set-2">
                         <img src="https://img.icons8.com/?size=100&id=45080&format=png&color=000000" alt="ali-company-logo" />
@@ -228,13 +227,13 @@ export default function Landing() {
                         <img src={quote} alt="" />
                     </div>
                     <div className="card-2">
-                    <img src={quote} alt="" />
+                        <img src={quote} alt="" />
                     </div>
                     <div className="card-3">
-                    <img src={quote} alt="" />
+                        <img src={quote} alt="" />
                     </div>
                     <div className="card-4">
-                    <img src={quote} alt="" />
+                        <img src={quote} alt="" />
                     </div>
                 </div>
             </section>
