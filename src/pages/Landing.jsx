@@ -5,9 +5,9 @@ import quote from "../assets/cotoe.png"
 import { useNavigate } from "react-router-dom";
 
 export default function Landing() {
+    
 
-    // create navigate variable for navigation
-    const navigate = useNavigate();
+    
 
     return (
         <div>
