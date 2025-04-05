@@ -226,15 +226,35 @@ export default function Landing() {
                 <div className="riview-body">
                     <div className="card-1">
                         <img src={quote} alt="" />
+                        <p>
+                            I found the perfect course in minutes! The site is clean, fast, and the payment process was smooth. I’ve already recommended it to a few friends.
+                            <p>— Anita R., Marketing Student</p>
+                        </p>
+                        <p>⭐⭐⭐⭐⭐</p>
                     </div>
                     <div className="card-2">
                         <img src={quote} alt="" />
+                        <p>
+                            Lots of variety—from tech to art! I bought a Python course and it was really detailed. Would love to see more beginner-level options too.
+                            <p>— James T., Web Developer</p>
+                        </p>
+                        <p>⭐⭐⭐⭐⭐</p>
                     </div>
                     <div className="card-3">
                         <img src={quote} alt="" />
+                        <p>
+                            I was surprised by the quality of content for such a low price. The video lessons are well-structured and easy to follow. Great value!
+                            <p>— Priya S., Small Business Owner</p>
+                        </p>
+                        <p>⭐⭐⭐⭐⭐</p>
                     </div>
                     <div className="card-4">
                         <img src={quote} alt="" />
+                        <p>
+                            I had an issue with a course not loading, but the support team responded quickly and fixed it. That kind of service makes a big difference.
+                            <p>— Daniel M., Graphic Designer</p>
+                        </p>
+                        <p>⭐⭐⭐⭐☆</p>
                     </div>
                 </div>
             </section>

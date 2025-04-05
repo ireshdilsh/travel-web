@@ -447,4 +447,28 @@ body {
   border-radius: 8px;
   padding: 20px;
   width: 290px;
+  height: 290px;
 }
+
+#riview .riview-body .card-1 p,
+#riview .riview-body .card-2 p,
+#riview .riview-body .card-3 p,
+#riview .riview-body .card-4 p{
+  margin-top: 15px;
+}
+
+#riview .riview-body .card-1 p p,
+#riview .riview-body .card-4 p p{
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#riview .riview-body .card-2 p p,
+#riview .riview-body .card-3 p p{
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 42px;
+}
+
+
