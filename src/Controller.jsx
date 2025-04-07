@@ -8,6 +8,10 @@ import Dashboard from './pages/Dashboard.jsx';
 
 export default function Controller() {
 
+    const name = () => {
+        console.log();
+    }
+
     return (
         <div>
             <BrowserRouter>
