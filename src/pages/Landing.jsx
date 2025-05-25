@@ -27,7 +27,28 @@ export default function Landing() {
       </nav>
 
       <div className="white-glass"></div>
-
+      <div className="hero-body">
+        <div className="right-side">
+          <div className="title">
+            <h6>Your Journey, Your Way_</h6>
+          </div>
+          <div className="sub-title">
+            <p>Explore the World <br />with Confidence</p>
+          </div>
+          <div className="discription">
+            <p>From sun-soaked beaches to mountain escapes, we offer personalized travel experiences, expert planning, and unforgettable memories. <br /> Discover new cultures, taste local cuisine, and travel stress-free with our trusted guidance.</p>
+          </div>
+          <div className="btns">
+            <div className="login-btn">
+            <button className='btn btn-dark'>Sign in Here</button>
+          </div>
+           <div className="register-btn">
+            <button>Sign up Here</button>
+          </div>
+          </div>
+        </div>
+        <div className="left-side"></div>
+      </div>
       </section>
     </div>
   )
