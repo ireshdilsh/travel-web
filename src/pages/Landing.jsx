@@ -4,7 +4,8 @@ import heroVideo from '../assets/hero-video.mp4'
 export default function Landing() {
   return (
     <div>
-      <video src={heroVideo}
+      <section id='home'>
+          <video src={heroVideo}
 
         autoPlay="true"
         loop
@@ -24,6 +25,10 @@ export default function Landing() {
           <a href="">Contact Us</a>
         </div>
       </nav>
+
+      <div className="white-glass"></div>
+
+      </section>
     </div>
   )
 }
