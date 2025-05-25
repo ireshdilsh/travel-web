@@ -1,11 +1,14 @@
 import React from 'react'
 import "../styles/Landing.css"
+import heroVideo from '../assets/hero.mp4'
 export default function Landing() {
   return (
     <div>
-
-        <h1>This is Landing Page</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum facere distinctio perspiciatis iusto. Rem, maxime. Iste quia beatae deleniti, asperiores dignissimos itaque animi. In quas explicabo esse! Esse, sint in.</p>
+       <video src={heroVideo} 
+        loop
+        playsInline>
+        </video>
+        <h1>Hello World</h1>
     </div>
   )
 }
