@@ -15,10 +15,13 @@ export default function Landing() {
         <nav>
           <div className="links">
             <a href="">Home</a>
-            <a href="">Places</a>
-            <a href="">Images</a>
-            <a href=""></a>
-            <a href=""></a>
+            <a href="">Destinations</a>
+            <a href="">Tours</a>
+            <a href="">Plan Your Trip</a>
+            <a href="">Gallery</a>
+            <a href="">Blog</a>
+            <a href="">About Us</a>
+            <a href="">Contact Us</a>
           </div>
         </nav>
     </div>
