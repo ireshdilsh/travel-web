@@ -5,9 +5,9 @@ import quote from "../assets/cotoe.png"
 import { useNavigate } from "react-router-dom";
 
 export default function Landing() {
-    
+
     const setFunction = () => {
-        
+
     }
 
     return (
