@@ -13,3 +13,9 @@ video{
   height: 550px;
   object-fit: cover;
 }
+
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
