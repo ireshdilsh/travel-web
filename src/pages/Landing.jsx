@@ -4,10 +4,10 @@ import heroVideo from '../assets/hero.mp4'
 export default function Landing() {
   return (
     <div>
-       <video src={heroVideo} 
+       {/* <video src={heroVideo} 
         loop
         playsInline>
-        </video>
+        </video> */}
     </div>
   )
 }
