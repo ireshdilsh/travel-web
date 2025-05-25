@@ -8,7 +8,6 @@ export default function Landing() {
         loop
         playsInline>
         </video>
-        <h1>Hello World</h1>
     </div>
   )
 }
