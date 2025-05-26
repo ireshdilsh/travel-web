@@ -112,11 +112,43 @@ nav .links a:hover::after{
 }
 
 #home .hero-body .left-side{
-  background-color: #fff;
-  height: 500px;
-  width: 400px;
-  padding: 25px;
-  border-radius: 8px;
-  margin-top: -100px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-top: -120px;
+}
+
+#home .hero-body .left-side .card-1,
+#home .hero-body .left-side .card-2,
+#home .hero-body .left-side .card-3,
+#home .hero-body .left-side .card-4{
+ width: 300px;
+ padding: 15px 15px 3px 15px;
+ background-color: #ffffffb5;
+ border-radius: 4px;
+ margin-top: 20px;
+ transition: 0.4s;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+ &:hover{
+      transform: scale(1.05);
+    }
+}
+
+#home .hero-body .left-side .card-2{
+  margin-left: -90px;
+}
+
+#home .hero-body .left-side .card-3{
+  margin-left: 90px;
+}
+
+#home .hero-body .left-side .card-1 h5,
+#home .hero-body .left-side .card-2 h5,
+#home .hero-body .left-side .card-3 h5,
+#home .hero-body .left-side .card-4 h5{
+  font-weight: 600;
+}
+
+#home .hero-body .left-side .card-1 p,
+#home .hero-body .left-side .card-2 p,
+#home .hero-body .left-side .card-3 p,
+#home .hero-body .left-side .card-4 p{
+  text-align: justify;
 }
