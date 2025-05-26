@@ -152,3 +152,88 @@ nav .links a:hover::after{
 #home .hero-body .left-side .card-4 p{
   text-align: justify;
 }
+
+#destination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 120px;
+}
+
+#destination h1{
+  font-weight: 700;
+}
+
+#destination .discription p{
+  text-align: center;
+}
+
+#destination .cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#destination .cards .set-1,
+#destination .cards .set-2{
+  display: flex;
+  gap: 10px;
+}
+
+#destination .cards .set-1 .card-1,
+#destination .cards .set-1 .card-2,
+#destination .cards .set-1 .card-3,
+#destination .cards .set-1 .card-4,
+#destination .cards .set-2 .card-1,
+#destination .cards .set-2 .card-2,
+#destination .cards .set-2 .card-3,
+#destination .cards .set-2 .card-4{
+  width: 300px;
+  padding: 15px;
+  border: 2px solid #fafafa;
+  border-radius: 4px;
+  transition: 0.4s;
+  &:hover{
+    transform: scale(1.05);
+  }
+}
+
+#destination .cards .set-1 .card-1 img,
+#destination .cards .set-1 .card-2 img,
+#destination .cards .set-1 .card-3 img,
+#destination .cards .set-1 .card-4 img,
+#destination .cards .set-2 .card-1 img,
+#destination .cards .set-2 .card-2 img,
+#destination .cards .set-2 .card-3 img,
+#destination .cards .set-2 .card-4 img{
+  height: 150px; 
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#destination .cards .set-1 .card-1 h5,
+#destination .cards .set-1 .card-2 h5,
+#destination .cards .set-1 .card-3 h5,
+#destination .cards .set-1 .card-4 h5,
+#destination .cards .set-2 .card-1 h5,
+#destination .cards .set-2 .card-2 h5,
+#destination .cards .set-2 .card-3 h5,
+#destination .cards .set-2 .card-4 h5{
+  font-weight: 700;
+}
+
+#destination .cards .set-1 .card-1 p,
+#destination .cards .set-1 .card-2 p,
+#destination .cards .set-1 .card-3 p,
+#destination .cards .set-1 .card-4 p,
+#destination .cards .set-2 .card-1 p,
+#destination .cards .set-2 .card-2 p,
+#destination .cards .set-2 .card-3 p,
+#destination .cards .set-2 .card-4 p{
+  margin-top: 15px;
+  text-align: justify;
+}
