@@ -174,6 +174,7 @@ nav .links a:hover::after{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
   gap: 10px;
 }
 
@@ -191,7 +192,7 @@ nav .links a:hover::after{
 #destination .cards .set-2 .card-2,
 #destination .cards .set-2 .card-3,
 #destination .cards .set-2 .card-4{
-  width: 300px;
+  width: 314px;
   padding: 15px;
   border: 2px solid #fafafa;
   border-radius: 4px;
@@ -236,4 +237,48 @@ nav .links a:hover::after{
 #destination .cards .set-2 .card-4 p{
   margin-top: 15px;
   text-align: justify;
+}
+
+#tours{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 120px;
+  background-color: #fafafa;
+}
+
+#tours h1{
+  font-weight: 700;
+}
+
+#tours .btn-bar{
+  display: flex;
+  gap: 15px;
+}
+
+#tours .btn-bar button{
+  height: 40px;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+  background-color: transparent;
+  border: 1.5px solid #333;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#tours .btn-bar button.active,
+#tours .btn-bar button:hover{
+  background-color: #333;
+  color: white;
+}
+
+#tours .cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
 }

@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import "../styles/Landing.css"
 import heroVideo from '../assets/hero-video.mp4'
 import japan from '../assets/japan.jpg'
@@ -9,29 +8,11 @@ import dubai from '../assets/dubai.jpg'
 import hawai from '../assets/hawai.jpg'
 import maldives from '../assets/maldive.jpg'
 import itali from '../assets/italy.jpg'
+import { useState } from 'react'
 
 export default function Landing() {
 
-  useEffect(() => {
-    const cards = document.querySelectorAll('.card');
-    let current = 0;
-
-    function animateNextCard() {
-      // Remove animation from all cards
-      cards.forEach(card => card.classList.remove('card-animate'));
-
-      // Add animation to current card
-      cards[current].classList.add('card-animate');
-
-      // Move to next card
-      current = (current + 1) % cards.length;
-
-      // Repeat every 5s
-      setTimeout(animateNextCard, 5000);
-    }
-
-    animateNextCard(); // start animation loop
-  }, []);
+  const [activeSection, setActiveSection] = useState('adventure');
 
   return (
     <div>
@@ -47,7 +28,7 @@ export default function Landing() {
         <div className="links">
           <a href="#home">Home</a>
           <a href="#destination">Destinations</a>
-          <a href="">Tours</a>
+          <a href="#tours">Tours</a>
           <a href="">Plan Your Trip</a>
           <a href="">Gallery</a>
           <a href="">Blog</a>
@@ -100,7 +81,7 @@ export default function Landing() {
 
       <section id='destination'>
         <div className="sub-title">
-          <h6>Top Destinations</h6>
+          <h6>Top Destinations_</h6>
         </div>
         <div className="title">
           <h1>100+ of the World’s Most Loved Places</h1>
@@ -153,6 +134,105 @@ export default function Landing() {
               <p>taly invites you to walk through history and flavor. Explore Rome’s ruins, Venice’s canals, Florence’s art, and the rolling hills of Tuscany. Taste world-renowned cuisine, sip fine wines, and enjoy la dolce vita. It’s a destination of timeless charm, cultural depth, and unforgettable moments.</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id='tours'>
+        <div className="title">
+          <h6>Discover Tours Made for You_</h6>
+        </div>
+        <div className="sub-title">
+          <h1>Curated Adventures, Unforgettable Memories</h1>
+        </div>
+        <div className="discription">
+          <p>Explore expertly crafted tours that match your style—adventure, culture, or relaxation. Enjoy seamless planning, local insights, and unforgettable moments every step of the way.</p>
+        </div>
+        <div className="btn-bar">
+           <button
+          className={activeSection === 'adventure' ? 'active' : ''}
+          onClick={() => setActiveSection('adventure')}
+        >
+          Adventure
+        </button>
+        <button
+          className={activeSection === 'nature' ? 'active' : ''}
+          onClick={() => setActiveSection('nature')}
+        >
+          Nature
+        </button>
+        <button
+          className={activeSection === 'culture' ? 'active' : ''}
+          onClick={() => setActiveSection('culture')}
+        >
+          Culture
+        </button>
+        <button
+          className={activeSection === 'relaxation' ? 'active' : ''}
+          onClick={() => setActiveSection('relaxation')}
+        >
+          Relaxation
+        </button>
+        <button
+          className={activeSection === 'family' ? 'active' : ''}
+          onClick={() => setActiveSection('family')}
+        >
+          Family
+        </button>
+        <button
+          className={activeSection === 'luxury' ? 'active' : ''}
+          onClick={() => setActiveSection('luxury')}
+        >
+          Luxury
+        </button>
+        </div>
+        <div className="cards">
+          <div
+        className="adventure-section"
+        style={{ display: activeSection === 'adventure' ? 'block' : 'none' }}
+      >
+        <h2>Adventure Tours</h2>
+        <p>Thrilling experiences with hiking, trekking, and outdoor exploration to excite your senses.</p>
+      </div>
+
+      <div
+        className="nature-section"
+        style={{ display: activeSection === 'nature' ? 'block' : 'none' }}
+      >
+        <h2>Nature Tours</h2>
+        <p>Explore the beauty of forests, mountains, and natural landscapes around the world.</p>
+      </div>
+
+      <div
+        className="culture-section"
+        style={{ display: activeSection === 'culture' ? 'block' : 'none' }}
+      >
+        <h2>Culture Tours</h2>
+        <p>Connect with communities, explore traditions, and experience human stories across cultures.</p>
+      </div>
+
+      <div
+        className="relaxation-section"
+        style={{ display: activeSection === 'relaxation' ? 'block' : 'none' }}
+      >
+        <h2>Relaxation Tours</h2>
+        <p>Unwind and recharge with spa visits, beach resorts, and serene environments.</p>
+      </div>
+
+      <div
+        className="family-section"
+        style={{ display: activeSection === 'family' ? 'block' : 'none' }}
+      >
+        <h2>Family Tours</h2>
+        <p>Fun and safe travel experiences designed for families with kids of all ages.</p>
+      </div>
+
+      <div
+        className="luxury-section"
+        style={{ display: activeSection === 'luxury' ? 'block' : 'none' }}
+      >
+        <h2>Luxury Tours</h2>
+        <p>Exclusive and premium travel with top accommodations, private guides, and unique experiences.</p>
+      </div>
         </div>
       </section>
     </div>
