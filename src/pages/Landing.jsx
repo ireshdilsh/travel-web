@@ -194,36 +194,44 @@ export default function Landing() {
           <div className="card-1">
             <h5>Mountain Hiking</h5>
             <p>Experience the thrill of mountain hiking as you trek through breathtaking landscapes. From rugged peaks to serene valleys, explore trails that challenge your limits and reward you with stunning views. Whether you’re a beginner or an expert, mountain hiking connects you with nature and refreshes your spirit. Discover hidden waterfalls, diverse wildlife, and the peacefulness of high altitudes in this unforgettable adventure.</p>
+            <button>Book Now</button>
           </div>
           <div className="card-2">
             <h5>Jungle Safari</h5>
             <p>Embark on an exciting jungle safari and witness the wild like never before. Travel deep into lush forests filled with exotic animals and rare birds. Feel the rush as you spot elephants, tigers, and colorful tropical birds in their natural habitat. This immersive adventure offers thrilling encounters with nature and a chance to learn about conservation efforts protecting these beautiful ecosystems.</p>
+            <button>Book Now</button>
           </div>
           <div className="card-3">
             <h5>White Water Rafting</h5>
             <p>Get your adrenaline pumping with white water rafting on roaring rivers. Navigate fast-flowing rapids and swirling currents with expert guides, perfect for adventure lovers. This exhilarating activity tests your teamwork and courage while surrounded by stunning scenery. Whether calm or wild, the river offers an unforgettable ride full of excitement, splashes, and laughter.</p>
+            <button>Book Now</button>
           </div>
           <div className="card-4">
             <h5>Desert Trekking</h5>
             <p>Explore vast deserts on a trekking adventure across golden dunes and rocky landscapes. Experience the magic of endless sand, clear night skies filled with stars, and the unique desert flora and fauna. Desert trekking challenges your endurance and connects you to ancient cultures and nomadic traditions. It’s a journey of solitude, wonder, and discovery in an otherworldly environment.</p>
+            <button>Book Now</button>
           </div>
         </div>
         <div className="set-2">
           <div className="card-1">
             <h5>Rock Climbing</h5>
             <p>Test your strength and agility with rock climbing adventures on natural cliffs or indoor walls. Scale challenging routes and conquer fears as you ascend heights with breathtaking views. Suitable for all skill levels, rock climbing offers physical exercise, mental focus, and a rewarding sense of achievement. Feel the thrill of conquering nature’s obstacles and connecting with the raw earth beneath your hands.</p>
+            <button>Book Now</button>
           </div>
           <div className="card-2">
             <h5>Kayaking & Canoeing</h5>
             <p>Paddle through calm lakes, winding rivers, or coastal waters in a kayaking or canoeing adventure. Enjoy peaceful moments surrounded by nature or thrilling rides through white water rapids. This versatile water sport lets you explore remote areas inaccessible by foot, discover hidden coves, and observe wildlife up close. It’s perfect for solo adventurers or groups seeking both relaxation and excitement.</p>
+            <button>Book Now</button>
           </div>
           <div className="card-3">
             <h5>Zip Lining</h5>
             <p>Fly through the treetops with an exhilarating zip lining experience. Soar over forests, valleys, and rivers as you speed along cables with stunning views all around. Zip lining is an adrenaline rush that combines fun and nature, perfect for all ages. Feel the wind in your hair and the freedom of flight while safely connected to expert guides and equipment.</p>
+            <button>Book Now</button>
           </div>
           <div className="card-4">
             <h5>Scuba Diving & Snorkeling</h5>
             <p>Dive into vibrant underwater worlds filled with coral reefs, colorful fish, and mysterious sea creatures. Scuba diving and snorkeling adventures let you explore marine life up close, from shallow lagoons to deep ocean sites. Discover shipwrecks, underwater caves, and breathtaking biodiversity. These activities offer a peaceful, awe-inspiring connection to nature beneath the waves, perfect for adventure seekers and nature lovers alike.</p>
+            <button>Book Now</button>
           </div>
         </div>
       </div>

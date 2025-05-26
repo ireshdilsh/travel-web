@@ -335,3 +335,21 @@ nav .links a:hover::after{
 #tours .cards .adventure-section .set-2 .card-4 p{
   text-align: justify;
 }
+
+#tours .cards .adventure-section .set-1 .card-1 button,
+#tours .cards .adventure-section .set-1 .card-2 button,
+#tours .cards .adventure-section .set-1 .card-3 button,
+#tours .cards .adventure-section .set-1 .card-4 button,
+#tours .cards .adventure-section .set-2 .card-1 button,
+#tours .cards .adventure-section .set-2 .card-2 button,
+#tours .cards .adventure-section .set-2 .card-3 button,
+#tours .cards .adventure-section .set-2 .card-4 button{
+  background-color: #333;
+  color: #fafafa;
+  border: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top: 15px;
+}
