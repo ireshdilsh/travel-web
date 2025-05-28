@@ -447,3 +447,307 @@ nav .links a:hover::after{
   border-radius: 5px;
   margin-bottom: 15px;
 }
+
+#tours .cards .culture-section .set-1,
+#tours .cards .culture-section .set-2{
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+#tours .cards .culture-section .set-1 .card-1,
+#tours .cards .culture-section .set-1 .card-2,
+#tours .cards .culture-section .set-1 .card-3,
+#tours .cards .culture-section .set-1 .card-4,
+#tours .cards .culture-section .set-2 .card-1,
+#tours .cards .culture-section .set-2 .card-2,
+#tours .cards .culture-section .set-2 .card-3,
+#tours .cards .culture-section .set-2 .card-4{
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 305px;
+  border-radius: 5px;
+}
+
+#tours .cards .culture-section .set-1 .card-1 h5,
+#tours .cards .culture-section .set-1 .card-2 h5,
+#tours .cards .culture-section .set-1 .card-3 h5,
+#tours .cards .culture-section .set-1 .card-4 h5,
+#tours .cards .culture-section .set-2 .card-1 h5,
+#tours .cards .culture-section .set-2 .card-2 h5,
+#tours .cards .culture-section .set-2 .card-3 h5,
+#tours .cards .culture-section .set-2 .card-4 h5{
+  margin: 15px 0;
+  font-weight: 600;
+}
+
+#tours .cards .culture-section .set-1 .card-1 p,
+#tours .cards .culture-section .set-1 .card-2 p,
+#tours .cards .culture-section .set-1 .card-3 p,
+#tours .cards .culture-section .set-1 .card-4 p,
+#tours .cards .culture-section .set-2 .card-1 p,
+#tours .cards .culture-section .set-2 .card-2 p,
+#tours .cards .culture-section .set-2 .card-3 p,
+#tours .cards .culture-section .set-2 .card-4 p{
+  text-align: justify;
+}
+
+#tours .cards .culture-section .set-1 .card-1 button,
+#tours .cards .culture-section .set-1 .card-2 button,
+#tours .cards .culture-section .set-1 .card-3 button,
+#tours .cards .culture-section .set-1 .card-4 button,
+#tours .cards .culture-section .set-2 .card-1 button,
+#tours .cards .culture-section .set-2 .card-2 button,
+#tours .cards .culture-section .set-2 .card-3 button,
+#tours .cards .culture-section .set-2 .card-4 button{
+  background-color: #333;
+  color: #fafafa;
+  border: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top: 15px;
+}
+
+#tours .cards .culture-section .set-1 .card-1 img,
+#tours .cards .culture-section .set-1 .card-2 img,
+#tours .cards .culture-section .set-1 .card-3 img,
+#tours .cards .culture-section .set-1 .card-4 img,
+#tours .cards .culture-section .set-2 .card-1 img,
+#tours .cards .culture-section .set-2 .card-3 img,
+#tours .cards .culture-section .set-2 .card-2 img,
+#tours .cards .culture-section .set-2 .card-4 img{
+  height: 150px; 
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#tours .cards .relaxation-section .set-1,
+#tours .cards .relaxation-section .set-2{
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+#tours .cards .relaxation-section .set-1 .card-1,
+#tours .cards .relaxation-section .set-1 .card-2,
+#tours .cards .relaxation-section .set-1 .card-3,
+#tours .cards .relaxation-section .set-1 .card-4,
+#tours .cards .relaxation-section .set-2 .card-1,
+#tours .cards .relaxation-section .set-2 .card-2,
+#tours .cards .relaxation-section .set-2 .card-3,
+#tours .cards .relaxation-section .set-2 .card-4{
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 305px;
+  border-radius: 5px;
+}
+
+#tours .cards .relaxation-section .set-1 .card-1 h5,
+#tours .cards .relaxation-section .set-1 .card-2 h5,
+#tours .cards .relaxation-section .set-1 .card-3 h5,
+#tours .cards .relaxation-section .set-1 .card-4 h5,
+#tours .cards .relaxation-section .set-2 .card-1 h5,
+#tours .cards .relaxation-section .set-2 .card-2 h5,
+#tours .cards .relaxation-section .set-2 .card-3 h5,
+#tours .cards .relaxation-section .set-2 .card-4 h5{
+  margin: 15px 0;
+  font-weight: 600;
+}
+
+#tours .cards .relaxation-section .set-1 .card-1 p,
+#tours .cards .relaxation-section .set-1 .card-2 p,
+#tours .cards .relaxation-section .set-1 .card-3 p,
+#tours .cards .relaxation-section .set-1 .card-4 p,
+#tours .cards .relaxation-section .set-2 .card-1 p,
+#tours .cards .relaxation-section .set-2 .card-2 p,
+#tours .cards .relaxation-section .set-2 .card-3 p,
+#tours .cards .relaxation-section .set-2 .card-4 p{
+  text-align: justify;
+}
+
+#tours .cards .relaxation-section .set-1 .card-1 button,
+#tours .cards .relaxation-section .set-1 .card-2 button,
+#tours .cards .relaxation-section .set-1 .card-3 button,
+#tours .cards .relaxation-section .set-1 .card-4 button,
+#tours .cards .relaxation-section .set-2 .card-1 button,
+#tours .cards .relaxation-section .set-2 .card-2 button,
+#tours .cards .relaxation-section .set-2 .card-3 button,
+#tours .cards .relaxation-section .set-2 .card-4 button{
+  background-color: #333;
+  color: #fafafa;
+  border: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top: 15px;
+}
+
+#tours .cards .relaxation-section .set-1 .card-1 img,
+#tours .cards .relaxation-section .set-1 .card-2 img,
+#tours .cards .relaxation-section .set-1 .card-3 img,
+#tours .cards .relaxation-section .set-1 .card-4 img,
+#tours .cards .relaxation-section .set-2 .card-1 img,
+#tours .cards .relaxation-section .set-2 .card-3 img,
+#tours .cards .relaxation-section .set-2 .card-2 img,
+#tours .cards .relaxation-section .set-2 .card-4 img{
+  height: 150px; 
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#tours .cards .family-section .set-1,
+#tours .cards .family-section .set-2{
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+#tours .cards .family-section .set-1 .card-1,
+#tours .cards .family-section .set-1 .card-2,
+#tours .cards .family-section .set-1 .card-3,
+#tours .cards .family-section .set-1 .card-4,
+#tours .cards .family-section .set-2 .card-1,
+#tours .cards .family-section .set-2 .card-2,
+#tours .cards .family-section .set-2 .card-3,
+#tours .cards .family-section .set-2 .card-4{
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 305px;
+  border-radius: 5px;
+}
+
+#tours .cards .family-section .set-1 .card-1 h5,
+#tours .cards .family-section .set-1 .card-2 h5,
+#tours .cards .family-section .set-1 .card-3 h5,
+#tours .cards .family-section .set-1 .card-4 h5,
+#tours .cards .family-section .set-2 .card-1 h5,
+#tours .cards .family-section .set-2 .card-2 h5,
+#tours .cards .family-section .set-2 .card-3 h5,
+#tours .cards .family-section .set-2 .card-4 h5{
+  margin: 15px 0;
+  font-weight: 600;
+}
+
+#tours .cards .family-section .set-1 .card-1 p,
+#tours .cards .family-section .set-1 .card-2 p,
+#tours .cards .family-section .set-1 .card-3 p,
+#tours .cards .family-section .set-1 .card-4 p,
+#tours .cards .family-section .set-2 .card-1 p,
+#tours .cards .family-section .set-2 .card-2 p,
+#tours .cards .family-section .set-2 .card-3 p,
+#tours .cards .family-section .set-2 .card-4 p{
+  text-align: justify;
+}
+
+#tours .cards .family-section .set-1 .card-1 button,
+#tours .cards .family-section .set-1 .card-2 button,
+#tours .cards .family-section .set-1 .card-3 button,
+#tours .cards .family-section .set-1 .card-4 button,
+#tours .cards .family-section .set-2 .card-1 button,
+#tours .cards .family-section .set-2 .card-2 button,
+#tours .cards .family-section .set-2 .card-3 button,
+#tours .cards .family-section .set-2 .card-4 button{
+  background-color: #333;
+  color: #fafafa;
+  border: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top: 15px;
+}
+
+#tours .cards .family-section .set-1 .card-1 img,
+#tours .cards .family-section .set-1 .card-2 img,
+#tours .cards .family-section .set-1 .card-3 img,
+#tours .cards .family-section .set-1 .card-4 img,
+#tours .cards .family-section .set-2 .card-1 img,
+#tours .cards .family-section .set-2 .card-3 img,
+#tours .cards .family-section .set-2 .card-2 img,
+#tours .cards .family-section .set-2 .card-4 img{
+  height: 150px; 
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#tours .cards .luxury-section .set-1,
+#tours .cards .luxury-section .set-2{
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+#tours .cards .luxury-section .set-1 .card-1,
+#tours .cards .luxury-section .set-1 .card-2,
+#tours .cards .luxury-section .set-1 .card-3,
+#tours .cards .luxury-section .set-1 .card-4,
+#tours .cards .luxury-section .set-2 .card-1,
+#tours .cards .luxury-section .set-2 .card-2,
+#tours .cards .luxury-section .set-2 .card-3,
+#tours .cards .luxury-section .set-2 .card-4{
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 305px;
+  border-radius: 5px;
+}
+
+#tours .cards .luxury-section .set-1 .card-1 h5,
+#tours .cards .luxury-section .set-1 .card-2 h5,
+#tours .cards .luxury-section .set-1 .card-3 h5,
+#tours .cards .luxury-section .set-1 .card-4 h5,
+#tours .cards .luxury-section .set-2 .card-1 h5,
+#tours .cards .luxury-section .set-2 .card-2 h5,
+#tours .cards .luxury-section .set-2 .card-3 h5,
+#tours .cards .luxury-section .set-2 .card-4 h5{
+  margin: 15px 0;
+  font-weight: 600;
+}
+
+#tours .cards .luxury-section .set-1 .card-1 p,
+#tours .cards .luxury-section .set-1 .card-2 p,
+#tours .cards .luxury-section .set-1 .card-3 p,
+#tours .cards .luxury-section .set-1 .card-4 p,
+#tours .cards .luxury-section .set-2 .card-1 p,
+#tours .cards .luxury-section .set-2 .card-2 p,
+#tours .cards .luxury-section .set-2 .card-3 p,
+#tours .cards .luxury-section .set-2 .card-4 p{
+  text-align: justify;
+}
+
+#tours .cards .luxury-section .set-1 .card-1 button,
+#tours .cards .luxury-section .set-1 .card-2 button,
+#tours .cards .luxury-section .set-1 .card-3 button,
+#tours .cards .luxury-section .set-1 .card-4 button,
+#tours .cards .luxury-section .set-2 .card-1 button,
+#tours .cards .luxury-section .set-2 .card-2 button,
+#tours .cards .luxury-section .set-2 .card-3 button,
+#tours .cards .luxury-section .set-2 .card-4 button{
+  background-color: #333;
+  color: #fafafa;
+  border: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top: 15px;
+}
+
+#tours .cards .luxury-section .set-1 .card-1 img,
+#tours .cards .luxury-section .set-1 .card-2 img,
+#tours .cards .luxury-section .set-1 .card-3 img,
+#tours .cards .luxury-section .set-1 .card-4 img,
+#tours .cards .luxury-section .set-2 .card-1 img,
+#tours .cards .luxury-section .set-2 .card-3 img,
+#tours .cards .luxury-section .set-2 .card-2 img,
+#tours .cards .luxury-section .set-2 .card-4 img{
+  height: 150px; 
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
