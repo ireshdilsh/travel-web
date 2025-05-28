@@ -254,6 +254,7 @@ nav .links a:hover::after{
 
 #tours .btn-bar{
   display: flex;
+  margin-top: 10px;
   gap: 15px;
 }
 
@@ -283,13 +284,20 @@ nav .links a:hover::after{
   gap: 10px;
 }
 
-#tours .cards .adventure-section{
+#tours .cards .adventure-section,
+#tours .cards .culture-section,
+#tours .cards .family-section,
+#tours .cards .relaxation-section,
+#tours .cards .luxury-section,
+#tours .cards .nature-section{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin-top: 20px;
+  margin-top: 15px;
+  padding: 0;
+  background-color: #fafafa;
 }
 
 #tours .cards .adventure-section .set-1,
@@ -366,10 +374,6 @@ nav .links a:hover::after{
   overflow: hidden;
   border-radius: 5px;
   margin-bottom: 15px;
-}
-
-#tours .cards .nature-section{
-  background-color: #fafafa;
 }
 
 #tours .cards .nature-section .set-1,
