@@ -240,8 +240,50 @@ export default function Landing() {
         className="nature-section"
         style={{ display: activeSection === 'nature' ? 'block' : 'none' }}
       >
-        <h2>Nature Tours</h2>
-        <p>Explore the beauty of forests, mountains, and natural landscapes around the world.</p>
+        <div className="set-1">
+         <div className="card-1">
+          <h5>Emerald Forest Escape</h5>
+          <p>Immerse yourself in the peaceful serenity of the Emerald Forest, where towering trees, moss-covered trails, and the sounds of chirping birds create a calming atmosphere. Hike through shaded paths, discover hidden waterfalls, and breathe in the crisp forest air. This destination is perfect for nature lovers seeking solitude, photographers in search of natural beauty, or anyone looking to disconnect from the modern world and reconnect with the earth. A truly rejuvenating and unforgettable forest experience awaits you here.</p>
+          <button>Book Now</button>
+         </div>
+         <div className="card-2">
+          <h5>Ocean Breeze Haven</h5>
+          <p>Discover the soothing magic of Ocean Breeze Haven, where soft sands meet gentle waves and sea breezes refresh your soul. Spend your days relaxing on the beach, collecting seashells, or watching dolphins play in the distance. Ideal for peaceful getaways, yoga by the sea, or simply basking in the sun, this coastal retreat offers a harmonious blend of natural beauty and relaxation. Unplug from the stress of life and unwind in nature’s tranquil seaside embrace.</p>
+          <button>Book Now</button>
+         </div>
+         <div className="card-3">
+          <h5>Whispering Valley Trek</h5>
+          <p>Whispering Valley invites you to explore its serene landscapes, where flowing rivers, lush greenery, and birdsong create a harmonious natural escape. Follow scenic hiking trails that wind through flower-filled meadows and gentle hills. This hidden gem is a paradise for hikers, bird watchers, and those seeking quiet moments in nature. Whether you're capturing photographs or enjoying a picnic in the valley breeze, this destination is a peaceful retreat that nurtures the spirit and refreshes the mind.</p>
+          <button>Book Now</button>
+         </div>
+         <div className="card-4">
+          <h5>Sunset Ridge Lookout</h5>
+          <p>Sunset Ridge Lookout offers breathtaking views from high above, where the sky explodes with colors during the golden hour. Hike to the summit for panoramic vistas of rolling hills and distant lakes. As the sun sets, feel a deep sense of calm wash over you. Ideal for photographers, couples, and anyone craving stillness in nature, this ridge is a must-visit destination. It’s more than a viewpoint—it’s a moment of pure peace and natural beauty.</p>
+          <button>Book Now</button>
+         </div>
+        </div>
+        <div className="set-2">
+          <div className="card-1">
+            <h5>Rainforest Discovery Trail</h5>
+            <p>Venture deep into the lush, tropical Rainforest Discovery Trail, where towering canopies, vibrant birds, and hidden waterfalls await. This immersive nature trail is rich with biodiversity and offers an exciting opportunity to witness the beauty of untouched ecosystems. Walk beneath ferns, spot colorful frogs, and listen to the rhythm of the jungle. Perfect for eco-tourists, explorers, and families, this destination provides an unforgettable adventure through one of nature’s most enchanting environments.</p>
+            <button>Book Now</button>
+          </div>
+          <div className="card-2">
+            <h5>Blooming Meadow Escape</h5>
+            <p>Step into a living painting with the Blooming Meadow Escape, where colorful wildflowers stretch across rolling fields. From spring blossoms to summer greens, this peaceful destination is perfect for nature walks, relaxing picnics, and quiet reading sessions under the sun. Birds flutter overhead and butterflies dance among the petals, creating a dreamlike experience. Whether you're a nature photographer or just someone seeking serenity, this floral wonderland offers a perfect balance of beauty and calm.</p>
+            <button>Book Now</button>
+          </div>
+          <div className="card-3">
+            <h5>Crystal Glacier Walk</h5>
+            <p>Experience the majesty of nature’s icy wonders on the Crystal Glacier Walk. Traverse ancient frozen landscapes where glistening ice catches the sunlight and silence echoes between towering walls of blue. Guided treks offer safe passage through this surreal terrain, allowing you to witness the raw beauty of nature’s coldest environments. Ideal for thrill-seekers and lovers of rare landscapes, this glacier journey is a breathtaking adventure you won’t forget. Dress warm—nature’s chill has never felt so magical.</p>
+            <button>Book Now</button>
+          </div>
+          <div className="card-4">
+            <h5>Sacred Grove Sanctuary</h5>
+            <p>Escape to the Sacred Grove Sanctuary, a quiet forest known for its ancient trees and peaceful energy. Soft light filters through the canopy, and every step along the mossy path brings a sense of calm. This tranquil retreat is perfect for meditation, quiet reflection, and forest bathing. Let go of stress and reconnect with yourself in a space where time slows down. A visit here is more than a walk in the woods—it’s a soulful experience.</p>
+            <button>Book Now</button>
+          </div>
+        </div>
       </div>
 
       <div
