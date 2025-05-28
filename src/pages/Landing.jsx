@@ -29,11 +29,11 @@ export default function Landing() {
           <a href="#home">Home</a>
           <a href="#destination">Destinations</a>
           <a href="#tours">Tours</a>
-          <a href="">Plan Your Trip</a>
-          <a href="">Gallery</a>
-          <a href="">Blog</a>
-          <a href="">About Us</a>
-          <a href="">Contact Us</a>
+          <a href="#plan-your-trip">Plan Your Trip</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#blog">Blog</a>
+          <a href="#about">About Us</a>
+          <a href="#contact">Contact Us</a>
         </div>
       </nav>
 
@@ -487,6 +487,68 @@ export default function Landing() {
       </div>
         </div>
       </section>
+
+      <section id="plan-your-trip">
+        <div className="title">
+          <h6>Plan Your Trip_</h6>
+        </div>
+        <div className="sub-title">
+          <h1>Make your travel easy and fun.</h1>
+        </div>
+        <div className="discription">
+          <p>Easily plan your trip in just a few steps. Choose your destination, add activities you love, and create your travel schedule. Whether it's a relaxing beach holiday or an exciting city tour, you can organize everything in one place. Start planning now and enjoy a stress-free journey!</p>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <div className="title">
+          <h6>Travel Gallery_</h6>
+        </div>
+        <div className="sub-title">
+          <h1>See the world through our lens</h1>
+        </div>
+        <div className="discription">
+          <p>Explore beautiful photos from different places around the world. Our gallery shows stunning views, happy travelers, and unforgettable moments. From mountains and beaches to cities and cultures—discover what makes each trip special. Get inspired and start dreaming of your next adventure!</p>
+        </div>
+      </section>
+
+      <section id="blog">
+         <div className="title">
+          <h6>Travel Blog_</h6>
+        </div>
+        <div className="sub-title">
+          <h1>Tips, stories, and inspiration from around the world</h1>
+        </div>
+        <div className="discription">
+          <p>Read travel stories, tips, and guides from amazing destinations. Our blog shares helpful advice, fun experiences, and ideas to make your trips better. Whether you’re planning your first journey or your next big adventure, find inspiration and learn something new with every post!</p>
+        </div>
+      </section>
+      <section id="about">
+         <div className="title">
+          <h6>About Us_</h6>
+        </div>
+        <div className="sub-title">
+          <h1>Your journey starts here</h1>
+        </div>
+        <div className="discription">
+          <p>We are passionate about helping people explore the world. Our goal is to make travel easy, fun, and unforgettable. Whether you love adventure, nature, culture, or relaxation, we help you plan the perfect trip. Join us and start your journey today—with confidence and excitement!</p>
+        </div>
+      </section>
+      <section id="contact">
+         <div className="title">
+          <h6>Contact Us_</h6>
+        </div>
+        <div className="sub-title">
+          <h1>We’re here to help you plan your journey</h1>
+        </div>
+        <div className="discription">
+          <p>Have questions or need help planning your trip? Reach out to us anytime! Whether it’s about destinations, bookings, or suggestions—we’re happy to assist. Fill out the form below or send us an email. Let’s make your travel experience smooth and enjoyable!</p>
+        </div>
+      </section>
+
+      <footer>
+        <p>© 2025 WanderWorld Travel. All rights reserved.</p>
+      </footer>
     </div>
   )
 }

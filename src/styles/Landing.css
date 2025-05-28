@@ -755,3 +755,100 @@ nav .links a:hover::after{
   border-radius: 5px;
   margin-bottom: 15px;
 }
+
+#plan-your-trip{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 120px;
+}
+
+#plan-your-trip h1{
+  font-weight: 700;
+}
+
+#plan-your-trip .discription p{
+  text-align: center;
+}
+
+#gallery{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 120px;
+  background-color: #fafafa;
+}
+
+#gallery .sub-title h1{
+  font-weight: 700;
+}
+
+#gallery .discription p{
+  text-align: center;
+}
+
+#blog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 120px;
+}
+
+#blog .sub-title h1{
+  font-weight: 700;
+}
+
+#blog .discription p{
+  text-align: center;
+}
+
+#about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 120px;
+  background-color: #fafafa;
+}
+
+#about .sub-title h1{
+  font-weight: 700;
+}
+
+#about .discription p{
+  text-align: center;
+}
+
+#contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 120px;
+}
+
+#contact .sub-title h1{
+  font-weight: 700;
+}
+
+#contact .discription p{
+  text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+
+footer p{
+  margin-top: 10px;
+  font-size: 11px;
+  color: #fff;
+  font-weight: 600;
+}
