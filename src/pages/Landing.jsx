@@ -559,31 +559,42 @@ export default function Landing() {
                   </div>
                   <div className="trip-type">
                     <label class="form-label">Number of Travelers</label>
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>Preferred Type of Travel</option>
-                    <option value="1">Adventure</option>
-                    <option value="2">Nature</option>
-                    <option value="3">Cultural</option>
-                    <option value="3">Relaxation</option>
-                    <option value="3">Family</option>
-                    <option value="3">Luxury</option>
-                  </select>
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Preferred Type of Travel</option>
+                      <option value="1">Adventure</option>
+                      <option value="2">Nature</option>
+                      <option value="3">Cultural</option>
+                      <option value="3">Relaxation</option>
+                      <option value="3">Family</option>
+                      <option value="3">Luxury</option>
+                    </select>
                   </div>
                 </div>
                 <div className="set-2">
                   <div className="budget">
-                      <label class="form-label">Trip Budget</label>
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>Open this select the budget</option>
-                    <option value="1">less than 10 000</option>
-                    <option value="2">10 000 - 50 000</option>
-                    <option value="3">50 000 - 100 000</option>
-                  </select>
+                    <label class="form-label">Trip Budget</label>
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Open this select the budget</option>
+                      <option value="1">less than 10 000</option>
+                      <option value="2">10 000 - 50 000</option>
+                      <option value="3">50 000 - 100 000</option>
+                    </select>
                   </div>
+                  <div className="accommodation">
+                    <label class="form-label">Accommodation Type</label>
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Open this select the accommodation</option>
+                      <option value="1">Hotel</option>
+                      <option value="2">Guesthouse</option>
+                      <option value="3">Villa</option>
+                      <option value="3">Hostel</option>
+                    </select>
+                  </div> 
                 </div>
               </div>
             </div>
             <hr />
+              <button className="btn btn-dark">Plan My Trip</button>
           </div>
         </div>
       </section>
