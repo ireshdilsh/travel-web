@@ -789,7 +789,7 @@ nav .links a:hover::after{
   border-radius: 10px;
   padding: 45px;
   height: 700px;
-  width: 1000px;
+  width: 1200px;
   position: absolute;
   left: 0;
   top: 0;
@@ -804,6 +804,17 @@ nav .links a:hover::after{
   flex-direction: column;
   gap: 15px;
   margin-top: 25px;
+}
+
+#plan-your-trip .planned-body .form .personal-info .body{
+  display: flex;
+  gap: 15px;
+}
+
+#plan-your-trip .planned-body .form .personal-info .body input,
+#plan-your-trip .planned-body .form .personal-info .body select{
+  width: 265px;
+  height: 35px;
 }
 
 #gallery{
