@@ -799,20 +799,27 @@ nav .links a:hover::after{
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-#plan-your-trip .planned-body .form .personal-info{
+#plan-your-trip .planned-body .form .personal-info,
+#plan-your-trip .planned-body .form .travel-info{
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-top: 25px;
 }
 
-#plan-your-trip .planned-body .form .personal-info .body{
+#plan-your-trip .planned-body .form .personal-info .body,
+#plan-your-trip .planned-body .form .travel-info .body .set-1,
+#plan-your-trip .planned-body .form .travel-info .body .set-2{
   display: flex;
   gap: 15px;
 }
 
-#plan-your-trip .planned-body .form .personal-info .body input,
-#plan-your-trip .planned-body .form .personal-info .body select{
+#plan-your-trip .planned-body .form .travel-info .body .set-2{
+  margin-top: 10px;
+}
+
+#plan-your-trip .planned-body .form input,
+#plan-your-trip .planned-body .form select{
   width: 265px;
   height: 35px;
 }
