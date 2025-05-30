@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -9,32 +9,32 @@
   color: #333;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
-video{
+video {
   background-size: cover;
   width: 100vw;
   height: 600px;
   object-fit: cover;
 }
 
-nav{
+nav {
   position: absolute;
   top: 50px;
   left: 120px;
   z-index: 1;
 }
 
-nav .links{
+nav .links {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 35px;
 }
 
-nav .links a{
+nav .links a {
   color: #333;
   font-size: 14px;
   text-decoration: none;
@@ -42,7 +42,7 @@ nav .links a{
   position: relative;
 }
 
-nav .links a::after{
+nav .links a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -54,20 +54,20 @@ nav .links a::after{
   transition: transform 0.4s;
 }
 
-nav .links a:hover::after{
+nav .links a:hover::after {
   transform: scaleX(-1);
 }
 
-#home .white-glass{
+#home .white-glass {
   height: 600px;
-  background: linear-gradient(to right,#fff,#ffffffd7,transparent);
+  background: linear-gradient(to right, #fff, #ffffffd7, transparent);
   opacity: 0.8;
   width: 100vw;
   position: absolute;
   top: 0px;
 }
 
-#home .hero-body{
+#home .hero-body {
   position: absolute;
   top: 150px;
   left: 120px;
@@ -75,22 +75,22 @@ nav .links a:hover::after{
   gap: 120px;
 }
 
-#home .hero-body .right-side .sub-title p{
+#home .hero-body .right-side .sub-title p {
   font-size: 56px;
   font-weight: 800;
 }
 
-#home .hero-body .right-side .discription p{
+#home .hero-body .right-side .discription p {
   margin-top: -10px;
 }
 
-#home .hero-body .right-side .login-btn button{
+#home .hero-body .right-side .login-btn button {
   width: 150px;
   height: 45px;
   margin-top: 15px;
 }
 
-#home .hero-body .right-side .register-btn button{
+#home .hero-body .right-side .register-btn button {
   outline: none;
   border: none;
   width: 150px;
@@ -98,62 +98,64 @@ nav .links a:hover::after{
   margin-top: 15px;
   border-radius: 5px;
   background-color: transparent;
-  border:  1.5px solid #333;
+  border: 1.5px solid #333;
   color: #333;
   font-weight: 500;
-  &:hover{
+
+  &:hover {
     background-color: #ffffff30;
   }
 }
 
-#home .hero-body .right-side .btns{
+#home .hero-body .right-side .btns {
   display: flex;
   gap: 15px;
 }
 
-#home .hero-body .left-side{
+#home .hero-body .left-side {
   margin-top: -120px;
 }
 
 #home .hero-body .left-side .card-1,
 #home .hero-body .left-side .card-2,
 #home .hero-body .left-side .card-3,
-#home .hero-body .left-side .card-4{
- width: 300px;
- padding: 15px 15px 3px 15px;
- background-color: #ffffffb5;
- border-radius: 4px;
- margin-top: 20px;
- transition: 0.4s;
- box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
- &:hover{
-      transform: scale(1.05);
-    }
+#home .hero-body .left-side .card-4 {
+  width: 300px;
+  padding: 15px 15px 3px 15px;
+  background-color: #ffffffb5;
+  border-radius: 4px;
+  margin-top: 20px;
+  transition: 0.4s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
-#home .hero-body .left-side .card-2{
+#home .hero-body .left-side .card-2 {
   margin-left: -90px;
 }
 
-#home .hero-body .left-side .card-3{
+#home .hero-body .left-side .card-3 {
   margin-left: 90px;
 }
 
 #home .hero-body .left-side .card-1 h5,
 #home .hero-body .left-side .card-2 h5,
 #home .hero-body .left-side .card-3 h5,
-#home .hero-body .left-side .card-4 h5{
+#home .hero-body .left-side .card-4 h5 {
   font-weight: 600;
 }
 
 #home .hero-body .left-side .card-1 p,
 #home .hero-body .left-side .card-2 p,
 #home .hero-body .left-side .card-3 p,
-#home .hero-body .left-side .card-4 p{
+#home .hero-body .left-side .card-4 p {
   text-align: justify;
 }
 
-#destination{
+#destination {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,15 +163,15 @@ nav .links a:hover::after{
   padding: 80px 120px;
 }
 
-#destination h1{
+#destination h1 {
   font-weight: 700;
 }
 
-#destination .discription p{
+#destination .discription p {
   text-align: center;
 }
 
-#destination .cards{
+#destination .cards {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -179,7 +181,7 @@ nav .links a:hover::after{
 }
 
 #destination .cards .set-1,
-#destination .cards .set-2{
+#destination .cards .set-2 {
   display: flex;
   gap: 10px;
 }
@@ -191,13 +193,14 @@ nav .links a:hover::after{
 #destination .cards .set-2 .card-1,
 #destination .cards .set-2 .card-2,
 #destination .cards .set-2 .card-3,
-#destination .cards .set-2 .card-4{
+#destination .cards .set-2 .card-4 {
   width: 314px;
   padding: 15px;
   border: 2px solid #fafafa;
   border-radius: 4px;
   transition: 0.4s;
-  &:hover{
+
+  &:hover {
     transform: scale(1.05);
   }
 }
@@ -209,8 +212,8 @@ nav .links a:hover::after{
 #destination .cards .set-2 .card-1 img,
 #destination .cards .set-2 .card-2 img,
 #destination .cards .set-2 .card-3 img,
-#destination .cards .set-2 .card-4 img{
-  height: 150px; 
+#destination .cards .set-2 .card-4 img {
+  height: 150px;
   overflow: hidden;
   border-radius: 5px;
   margin-bottom: 15px;
@@ -223,7 +226,7 @@ nav .links a:hover::after{
 #destination .cards .set-2 .card-1 h5,
 #destination .cards .set-2 .card-2 h5,
 #destination .cards .set-2 .card-3 h5,
-#destination .cards .set-2 .card-4 h5{
+#destination .cards .set-2 .card-4 h5 {
   font-weight: 700;
 }
 
@@ -234,12 +237,12 @@ nav .links a:hover::after{
 #destination .cards .set-2 .card-1 p,
 #destination .cards .set-2 .card-2 p,
 #destination .cards .set-2 .card-3 p,
-#destination .cards .set-2 .card-4 p{
+#destination .cards .set-2 .card-4 p {
   margin-top: 15px;
   text-align: justify;
 }
 
-#tours{
+#tours {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -248,17 +251,17 @@ nav .links a:hover::after{
   background-color: #fafafa;
 }
 
-#tours h1{
+#tours h1 {
   font-weight: 700;
 }
 
-#tours .btn-bar{
+#tours .btn-bar {
   display: flex;
   margin-top: 10px;
   gap: 15px;
 }
 
-#tours .btn-bar button{
+#tours .btn-bar button {
   height: 40px;
   width: 100px;
   border-radius: 50px;
@@ -270,12 +273,12 @@ nav .links a:hover::after{
 }
 
 #tours .btn-bar button.active,
-#tours .btn-bar button:hover{
+#tours .btn-bar button:hover {
   background-color: #333;
   color: white;
 }
 
-#tours .cards{
+#tours .cards {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -289,7 +292,7 @@ nav .links a:hover::after{
 #tours .cards .family-section,
 #tours .cards .relaxation-section,
 #tours .cards .luxury-section,
-#tours .cards .nature-section{
+#tours .cards .nature-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -301,7 +304,7 @@ nav .links a:hover::after{
 }
 
 #tours .cards .adventure-section .set-1,
-#tours .cards .adventure-section .set-2{
+#tours .cards .adventure-section .set-2 {
   display: flex;
   gap: 15px;
   margin-top: 15px;
@@ -314,7 +317,7 @@ nav .links a:hover::after{
 #tours .cards .adventure-section .set-2 .card-1,
 #tours .cards .adventure-section .set-2 .card-2,
 #tours .cards .adventure-section .set-2 .card-3,
-#tours .cards .adventure-section .set-2 .card-4{
+#tours .cards .adventure-section .set-2 .card-4 {
   padding: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   width: 305px;
@@ -328,7 +331,7 @@ nav .links a:hover::after{
 #tours .cards .adventure-section .set-2 .card-1 h5,
 #tours .cards .adventure-section .set-2 .card-2 h5,
 #tours .cards .adventure-section .set-2 .card-3 h5,
-#tours .cards .adventure-section .set-2 .card-4 h5{
+#tours .cards .adventure-section .set-2 .card-4 h5 {
   margin: 15px 0;
   font-weight: 600;
 }
@@ -340,7 +343,7 @@ nav .links a:hover::after{
 #tours .cards .adventure-section .set-2 .card-1 p,
 #tours .cards .adventure-section .set-2 .card-2 p,
 #tours .cards .adventure-section .set-2 .card-3 p,
-#tours .cards .adventure-section .set-2 .card-4 p{
+#tours .cards .adventure-section .set-2 .card-4 p {
   text-align: justify;
 }
 
@@ -351,7 +354,7 @@ nav .links a:hover::after{
 #tours .cards .adventure-section .set-2 .card-1 button,
 #tours .cards .adventure-section .set-2 .card-2 button,
 #tours .cards .adventure-section .set-2 .card-3 button,
-#tours .cards .adventure-section .set-2 .card-4 button{
+#tours .cards .adventure-section .set-2 .card-4 button {
   background-color: #333;
   color: #fafafa;
   border: none;
@@ -369,15 +372,15 @@ nav .links a:hover::after{
 #tours .cards .adventure-section .set-2 .card-1 img,
 #tours .cards .adventure-section .set-2 .card-2 img,
 #tours .cards .adventure-section .set-2 .card-3 img,
-#tours .cards .adventure-section .set-2 .card-4 img{
-  height: 150px; 
+#tours .cards .adventure-section .set-2 .card-4 img {
+  height: 150px;
   overflow: hidden;
   border-radius: 5px;
   margin-bottom: 15px;
 }
 
 #tours .cards .nature-section .set-1,
-#tours .cards .nature-section .set-2{
+#tours .cards .nature-section .set-2 {
   display: flex;
   gap: 15px;
   margin-top: 15px;
@@ -390,7 +393,7 @@ nav .links a:hover::after{
 #tours .cards .nature-section .set-2 .card-1,
 #tours .cards .nature-section .set-2 .card-2,
 #tours .cards .nature-section .set-2 .card-3,
-#tours .cards .nature-section .set-2 .card-4{
+#tours .cards .nature-section .set-2 .card-4 {
   padding: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   width: 305px;
@@ -404,7 +407,7 @@ nav .links a:hover::after{
 #tours .cards .nature-section .set-2 .card-1 h5,
 #tours .cards .nature-section .set-2 .card-2 h5,
 #tours .cards .nature-section .set-2 .card-3 h5,
-#tours .cards .nature-section .set-2 .card-4 h5{
+#tours .cards .nature-section .set-2 .card-4 h5 {
   margin: 15px 0;
   font-weight: 600;
 }
@@ -416,7 +419,7 @@ nav .links a:hover::after{
 #tours .cards .nature-section .set-2 .card-1 p,
 #tours .cards .nature-section .set-2 .card-2 p,
 #tours .cards .nature-section .set-2 .card-3 p,
-#tours .cards .nature-section .set-2 .card-4 p{
+#tours .cards .nature-section .set-2 .card-4 p {
   text-align: justify;
 }
 
@@ -427,7 +430,7 @@ nav .links a:hover::after{
 #tours .cards .nature-section .set-2 .card-1 button,
 #tours .cards .nature-section .set-2 .card-2 button,
 #tours .cards .nature-section .set-2 .card-3 button,
-#tours .cards .nature-section .set-2 .card-4 button{
+#tours .cards .nature-section .set-2 .card-4 button {
   background-color: #333;
   color: #fafafa;
   border: none;
@@ -445,15 +448,15 @@ nav .links a:hover::after{
 #tours .cards .nature-section .set-2 .card-1 img,
 #tours .cards .nature-section .set-2 .card-3 img,
 #tours .cards .nature-section .set-2 .card-2 img,
-#tours .cards .nature-section .set-2 .card-4 img{
-  height: 150px; 
+#tours .cards .nature-section .set-2 .card-4 img {
+  height: 150px;
   overflow: hidden;
   border-radius: 5px;
   margin-bottom: 15px;
 }
 
 #tours .cards .culture-section .set-1,
-#tours .cards .culture-section .set-2{
+#tours .cards .culture-section .set-2 {
   display: flex;
   gap: 15px;
   margin-top: 15px;
@@ -466,7 +469,7 @@ nav .links a:hover::after{
 #tours .cards .culture-section .set-2 .card-1,
 #tours .cards .culture-section .set-2 .card-2,
 #tours .cards .culture-section .set-2 .card-3,
-#tours .cards .culture-section .set-2 .card-4{
+#tours .cards .culture-section .set-2 .card-4 {
   padding: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   width: 305px;
@@ -480,7 +483,7 @@ nav .links a:hover::after{
 #tours .cards .culture-section .set-2 .card-1 h5,
 #tours .cards .culture-section .set-2 .card-2 h5,
 #tours .cards .culture-section .set-2 .card-3 h5,
-#tours .cards .culture-section .set-2 .card-4 h5{
+#tours .cards .culture-section .set-2 .card-4 h5 {
   margin: 15px 0;
   font-weight: 600;
 }
@@ -492,7 +495,7 @@ nav .links a:hover::after{
 #tours .cards .culture-section .set-2 .card-1 p,
 #tours .cards .culture-section .set-2 .card-2 p,
 #tours .cards .culture-section .set-2 .card-3 p,
-#tours .cards .culture-section .set-2 .card-4 p{
+#tours .cards .culture-section .set-2 .card-4 p {
   text-align: justify;
 }
 
@@ -503,7 +506,7 @@ nav .links a:hover::after{
 #tours .cards .culture-section .set-2 .card-1 button,
 #tours .cards .culture-section .set-2 .card-2 button,
 #tours .cards .culture-section .set-2 .card-3 button,
-#tours .cards .culture-section .set-2 .card-4 button{
+#tours .cards .culture-section .set-2 .card-4 button {
   background-color: #333;
   color: #fafafa;
   border: none;
@@ -521,15 +524,15 @@ nav .links a:hover::after{
 #tours .cards .culture-section .set-2 .card-1 img,
 #tours .cards .culture-section .set-2 .card-3 img,
 #tours .cards .culture-section .set-2 .card-2 img,
-#tours .cards .culture-section .set-2 .card-4 img{
-  height: 150px; 
+#tours .cards .culture-section .set-2 .card-4 img {
+  height: 150px;
   overflow: hidden;
   border-radius: 5px;
   margin-bottom: 15px;
 }
 
 #tours .cards .relaxation-section .set-1,
-#tours .cards .relaxation-section .set-2{
+#tours .cards .relaxation-section .set-2 {
   display: flex;
   gap: 15px;
   margin-top: 15px;
@@ -542,7 +545,7 @@ nav .links a:hover::after{
 #tours .cards .relaxation-section .set-2 .card-1,
 #tours .cards .relaxation-section .set-2 .card-2,
 #tours .cards .relaxation-section .set-2 .card-3,
-#tours .cards .relaxation-section .set-2 .card-4{
+#tours .cards .relaxation-section .set-2 .card-4 {
   padding: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   width: 305px;
@@ -556,7 +559,7 @@ nav .links a:hover::after{
 #tours .cards .relaxation-section .set-2 .card-1 h5,
 #tours .cards .relaxation-section .set-2 .card-2 h5,
 #tours .cards .relaxation-section .set-2 .card-3 h5,
-#tours .cards .relaxation-section .set-2 .card-4 h5{
+#tours .cards .relaxation-section .set-2 .card-4 h5 {
   margin: 15px 0;
   font-weight: 600;
 }
@@ -568,7 +571,7 @@ nav .links a:hover::after{
 #tours .cards .relaxation-section .set-2 .card-1 p,
 #tours .cards .relaxation-section .set-2 .card-2 p,
 #tours .cards .relaxation-section .set-2 .card-3 p,
-#tours .cards .relaxation-section .set-2 .card-4 p{
+#tours .cards .relaxation-section .set-2 .card-4 p {
   text-align: justify;
 }
 
@@ -579,7 +582,7 @@ nav .links a:hover::after{
 #tours .cards .relaxation-section .set-2 .card-1 button,
 #tours .cards .relaxation-section .set-2 .card-2 button,
 #tours .cards .relaxation-section .set-2 .card-3 button,
-#tours .cards .relaxation-section .set-2 .card-4 button{
+#tours .cards .relaxation-section .set-2 .card-4 button {
   background-color: #333;
   color: #fafafa;
   border: none;
@@ -597,15 +600,15 @@ nav .links a:hover::after{
 #tours .cards .relaxation-section .set-2 .card-1 img,
 #tours .cards .relaxation-section .set-2 .card-3 img,
 #tours .cards .relaxation-section .set-2 .card-2 img,
-#tours .cards .relaxation-section .set-2 .card-4 img{
-  height: 150px; 
+#tours .cards .relaxation-section .set-2 .card-4 img {
+  height: 150px;
   overflow: hidden;
   border-radius: 5px;
   margin-bottom: 15px;
 }
 
 #tours .cards .family-section .set-1,
-#tours .cards .family-section .set-2{
+#tours .cards .family-section .set-2 {
   display: flex;
   gap: 15px;
   margin-top: 15px;
@@ -618,7 +621,7 @@ nav .links a:hover::after{
 #tours .cards .family-section .set-2 .card-1,
 #tours .cards .family-section .set-2 .card-2,
 #tours .cards .family-section .set-2 .card-3,
-#tours .cards .family-section .set-2 .card-4{
+#tours .cards .family-section .set-2 .card-4 {
   padding: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   width: 305px;
@@ -632,7 +635,7 @@ nav .links a:hover::after{
 #tours .cards .family-section .set-2 .card-1 h5,
 #tours .cards .family-section .set-2 .card-2 h5,
 #tours .cards .family-section .set-2 .card-3 h5,
-#tours .cards .family-section .set-2 .card-4 h5{
+#tours .cards .family-section .set-2 .card-4 h5 {
   margin: 15px 0;
   font-weight: 600;
 }
@@ -644,7 +647,7 @@ nav .links a:hover::after{
 #tours .cards .family-section .set-2 .card-1 p,
 #tours .cards .family-section .set-2 .card-2 p,
 #tours .cards .family-section .set-2 .card-3 p,
-#tours .cards .family-section .set-2 .card-4 p{
+#tours .cards .family-section .set-2 .card-4 p {
   text-align: justify;
 }
 
@@ -655,7 +658,7 @@ nav .links a:hover::after{
 #tours .cards .family-section .set-2 .card-1 button,
 #tours .cards .family-section .set-2 .card-2 button,
 #tours .cards .family-section .set-2 .card-3 button,
-#tours .cards .family-section .set-2 .card-4 button{
+#tours .cards .family-section .set-2 .card-4 button {
   background-color: #333;
   color: #fafafa;
   border: none;
@@ -673,15 +676,15 @@ nav .links a:hover::after{
 #tours .cards .family-section .set-2 .card-1 img,
 #tours .cards .family-section .set-2 .card-3 img,
 #tours .cards .family-section .set-2 .card-2 img,
-#tours .cards .family-section .set-2 .card-4 img{
-  height: 150px; 
+#tours .cards .family-section .set-2 .card-4 img {
+  height: 150px;
   overflow: hidden;
   border-radius: 5px;
   margin-bottom: 15px;
 }
 
 #tours .cards .luxury-section .set-1,
-#tours .cards .luxury-section .set-2{
+#tours .cards .luxury-section .set-2 {
   display: flex;
   gap: 15px;
   margin-top: 15px;
@@ -694,7 +697,7 @@ nav .links a:hover::after{
 #tours .cards .luxury-section .set-2 .card-1,
 #tours .cards .luxury-section .set-2 .card-2,
 #tours .cards .luxury-section .set-2 .card-3,
-#tours .cards .luxury-section .set-2 .card-4{
+#tours .cards .luxury-section .set-2 .card-4 {
   padding: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   width: 305px;
@@ -708,7 +711,7 @@ nav .links a:hover::after{
 #tours .cards .luxury-section .set-2 .card-1 h5,
 #tours .cards .luxury-section .set-2 .card-2 h5,
 #tours .cards .luxury-section .set-2 .card-3 h5,
-#tours .cards .luxury-section .set-2 .card-4 h5{
+#tours .cards .luxury-section .set-2 .card-4 h5 {
   margin: 15px 0;
   font-weight: 600;
 }
@@ -720,7 +723,7 @@ nav .links a:hover::after{
 #tours .cards .luxury-section .set-2 .card-1 p,
 #tours .cards .luxury-section .set-2 .card-2 p,
 #tours .cards .luxury-section .set-2 .card-3 p,
-#tours .cards .luxury-section .set-2 .card-4 p{
+#tours .cards .luxury-section .set-2 .card-4 p {
   text-align: justify;
 }
 
@@ -731,7 +734,7 @@ nav .links a:hover::after{
 #tours .cards .luxury-section .set-2 .card-1 button,
 #tours .cards .luxury-section .set-2 .card-2 button,
 #tours .cards .luxury-section .set-2 .card-3 button,
-#tours .cards .luxury-section .set-2 .card-4 button{
+#tours .cards .luxury-section .set-2 .card-4 button {
   background-color: #333;
   color: #fafafa;
   border: none;
@@ -749,14 +752,14 @@ nav .links a:hover::after{
 #tours .cards .luxury-section .set-2 .card-1 img,
 #tours .cards .luxury-section .set-2 .card-3 img,
 #tours .cards .luxury-section .set-2 .card-2 img,
-#tours .cards .luxury-section .set-2 .card-4 img{
-  height: 150px; 
+#tours .cards .luxury-section .set-2 .card-4 img {
+  height: 150px;
   overflow: hidden;
   border-radius: 5px;
   margin-bottom: 15px;
 }
 
-#plan-your-trip{
+#plan-your-trip {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -764,15 +767,15 @@ nav .links a:hover::after{
   padding: 80px 120px;
 }
 
-#plan-your-trip h1{
+#plan-your-trip h1 {
   font-weight: 700;
 }
 
-#plan-your-trip .discription p{
+#plan-your-trip .discription p {
   text-align: center;
 }
 
-#plan-your-trip .planned-body img{
+#plan-your-trip .planned-body img {
   height: 800px;
   background-size: cover;
   object-fit: cover;
@@ -780,11 +783,11 @@ nav .links a:hover::after{
   z-index: -1;
 }
 
-#plan-your-trip .planned-body{
+#plan-your-trip .planned-body {
   position: relative;
 }
 
-#plan-your-trip .planned-body .form{
+#plan-your-trip .planned-body .form {
   background-color: #fff;
   border-radius: 10px;
   padding: 45px;
@@ -799,14 +802,14 @@ nav .links a:hover::after{
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-#plan-your-trip .planned-body .form button{
+#plan-your-trip .planned-body .form button {
   padding: 10px 16px;
   margin-top: 10px;
   margin-left: 1000px;
 }
 
 #plan-your-trip .planned-body .form .personal-info,
-#plan-your-trip .planned-body .form .travel-info{
+#plan-your-trip .planned-body .form .travel-info {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -815,22 +818,22 @@ nav .links a:hover::after{
 
 #plan-your-trip .planned-body .form .personal-info .body,
 #plan-your-trip .planned-body .form .travel-info .body .set-1,
-#plan-your-trip .planned-body .form .travel-info .body .set-2{
+#plan-your-trip .planned-body .form .travel-info .body .set-2 {
   display: flex;
   gap: 15px;
 }
 
-#plan-your-trip .planned-body .form .travel-info .body .set-2{
+#plan-your-trip .planned-body .form .travel-info .body .set-2 {
   margin-top: 10px;
 }
 
 #plan-your-trip .planned-body .form input,
-#plan-your-trip .planned-body .form select{
+#plan-your-trip .planned-body .form select {
   width: 265px;
   height: 35px;
 }
 
-#gallery{
+#gallery {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -839,15 +842,15 @@ nav .links a:hover::after{
   background-color: #fafafa;
 }
 
-#gallery .sub-title h1{
+#gallery .sub-title h1 {
   font-weight: 700;
 }
 
-#gallery .discription p{
+#gallery .discription p {
   text-align: center;
 }
 
-#blog{
+#blog {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -855,15 +858,15 @@ nav .links a:hover::after{
   padding: 80px 120px;
 }
 
-#blog .sub-title h1{
+#blog .sub-title h1 {
   font-weight: 700;
 }
 
-#blog .discription p{
+#blog .discription p {
   text-align: center;
 }
 
-#about{
+#about {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -872,15 +875,86 @@ nav .links a:hover::after{
   background-color: #fafafa;
 }
 
-#about .sub-title h1{
+#about .sub-title h1 {
   font-weight: 700;
 }
 
-#about .discription p{
+#about .discription p {
   text-align: center;
 }
 
-#contact{
+#about .about-body {
+  display: flex;
+  gap: 80px;
+  margin-top: 20px;
+}
+
+#about .about-body .left-side .card-1,
+#about .about-body .left-side .card-2,
+#about .about-body .left-side .card-3,
+#about .about-body .left-side .card-4,
+#about .about-body .left-side .card-5,
+#about .about-body .left-side .card-6 {
+  width: 670px;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #33333374;
+  border-radius: 5px;
+  position: relative;
+  transition: 0.4s;
+
+  &:hover {
+    transform: scale(1.06);
+  }
+}
+
+#about .about-body .left-side .card-1 .color-bar,
+#about .about-body .left-side .card-2 .color-bar,
+#about .about-body .left-side .card-3 .color-bar,
+#about .about-body .left-side .card-4 .color-bar,
+#about .about-body .left-side .card-5 .color-bar,
+#about .about-body .left-side .card-6 .color-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #33333374;
+  border-radius: 50px 0 0 50px;
+}
+
+#about .about-body .left-side .card-1 p,
+#about .about-body .left-side .card-2 p,
+#about .about-body .left-side .card-3 p,
+#about .about-body .left-side .card-4 p,
+#about .about-body .left-side .card-5 p,
+#about .about-body .left-side .card-6 p {
+  margin-top: 10px;
+}
+
+#about .about-body .right-side p {
+  margin-top: 10px;
+  text-align: justify;
+}
+
+#about .about-footer{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#about .about-footer p{
+  text-align: center;
+  margin-top: 10px;
+}
+
+#about .about-footer #bold-text {
+  font-weight: 700;
+}
+
+#contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -888,11 +962,11 @@ nav .links a:hover::after{
   padding: 80px 120px;
 }
 
-#contact .sub-title h1{
+#contact .sub-title h1 {
   font-weight: 700;
 }
 
-#contact .discription p{
+#contact .discription p {
   text-align: center;
 }
 
@@ -904,7 +978,7 @@ nav .links a:hover::after{
   background-color: #333;
 }
 
-.copy-right p{
+.copy-right p {
   margin-top: 15px;
   font-size: 11px;
   color: #fff;

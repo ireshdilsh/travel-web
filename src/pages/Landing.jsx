@@ -632,6 +632,59 @@ export default function Landing() {
         <div className="discription">
           <p>We are passionate about helping people explore the world. Our goal is to make travel easy, fun, and unforgettable. Whether you love adventure, nature, culture, or relaxation, we help you plan the perfect trip. Join us and start your journey today—with confidence and excitement!</p>
         </div>
+        <div className="about-body">
+          <div className="left-side">
+            <div className="card-1">
+              <div className="color-bar"></div>
+              <h5>Personalized Travel Planning</h5>
+              <p>Based on your interests, preferences, budget, and timeline, we create custom itineraries that suit your style. Whether you want an adventurous escape or a peaceful retreat, we make sure your plan fits you perfectly.</p>
+            </div>
+            <div className="card-2">
+              <div className="color-bar"></div>
+              <h5>Destination Guides</h5>
+              <p>We offer detailed travel guides for destinations around the world. From the best places to eat to the must-see attractions, you’ll find everything you need to know in one place.</p>
+            </div>
+            <div className="card-3">
+              <div className="color-bar"></div>
+              <h5>Accommodation & Transport Booking</h5>
+              <p>Through our trusted network of partners, we help you find the most suitable hotels, guesthouses, and transport options—without overpaying.</p>
+            </div>
+            <div className="card-4">
+              <div className="color-bar"></div>
+              <h5>Local Insights</h5>
+              <p>We believe in authentic experiences. That’s why we share insider tips, local customs, and cultural advice to help you blend in and truly enjoy your stay.</p>
+            </div>
+            <div className="card-5">
+              <div className="color-bar"></div>
+              <h5>Real-Time Support</h5>
+              <p>Our customer service is available to assist you before, during, and after your trip. We’re just a message away if you ever need help on the go.</p>
+            </div>
+            <div className="card-6">
+              <div className="color-bar"></div>
+              <h5>Eco-Friendly & Responsible Travel</h5>
+              <p>We promote sustainable tourism practices to protect the environment and respect local communities. Travel the world, but leave a positive footprint.</p>
+            </div>
+          </div>
+          <div className="right-side">
+            <p>At WanderWorld Travel, we believe that the world is meant to be explored — and we’re here to help you do just that. Travel is more than just moving from one place to another. It’s a chance to discover new cultures, meet fascinating people, experience breathtaking landscapes, and create memories that last a lifetime. Our mission is simple: to make travel easy, fun, and unforgettable for everyone, no matter their destination or budget.</p>
+            <p>Founded on a deep passion for adventure and global discovery, WanderWorld Travel was built to inspire people to go beyond their everyday routines and step into the extraordinary. Whether you’re a solo backpacker in search of new thrills, a couple planning a romantic escape, a family looking for bonding moments, or a group of friends seeking excitement — we’re here to turn your travel dreams into a reality.</p>
+            <h5>Why We Exist</h5>
+            <p>In today’s fast-paced world, people are constantly juggling work, studies, and responsibilities. Travel often becomes a luxury, something to be postponed. At WanderWorld Travel, we’re changing that mindset. We believe travel should be accessible, stress-free, and tailored to your needs — whether you want to explore the ancient streets of a historic city, hike through lush green trails, lounge on sunny beaches, or immerse yourself in vibrant festivals.</p>
+            <p>We exist to eliminate the confusion and hassle that often come with planning a trip. No more spending countless hours comparing sites, trying to fit everything into your budget, or worrying about missing out on hidden gems. With our smart planning tools and expert support, you can explore the world with clarity and confidence.</p>
+            <h5>Our Vision</h5>
+            <p>Our vision is to become the most trusted travel planning platform for explorers of all kinds. We aim to build a global community of travelers who are curious, responsible, and open to discovering the beauty of every corner of the Earth. Through continuous innovation and a strong focus on user experience, we strive to redefine what it means to plan and enjoy a journey.</p>
+            <h5>Who We Serve</h5>
+            <p>WanderWorld Travel is for everyone — from first-time travelers to seasoned explorers. Whether you’re visiting a nearby city or flying across the globe, we provide the resources and support to make every trip a success. Our user-friendly website and mobile platform are designed to be intuitive, informative, and inspiring for all types of travelers.</p>
+            <p>We also partner with local businesses, tour guides, and content creators to give our users a richer, more connected travel experience.</p>
+         </div>
+        </div>
+        <div className="about-footer">
+          <h5>Our Journey So Far</h5>
+            <p>From humble beginnings, WanderWorld Travel has grown into a thriving travel community. We’ve helped thousands of travelers plan meaningful trips, explore new destinations, and create unforgettable memories. Our dedication to quality and customer satisfaction has earned us recognition as a trusted name in the travel planning space.As we continue to grow, we remain committed to listening to our users, improving our platform, and staying true to our mission.</p>
+            <h5>Join Us on the Journey</h5>
+            <p>At WanderWorld Travel, we don’t just help you plan trips — we help you live them. We’re here to fuel your curiosity, guide your adventures, and support you every step of the way. Whether you're planning a weekend escape or a months-long world tour, we're excited to be part of your journey.</p>
+            <p id="bold-text">Your journey starts here — with WanderWorld Travel.</p>
+        </div>
       </section>
       <section id="contact">
         <div className="title">
