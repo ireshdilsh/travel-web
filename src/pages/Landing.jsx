@@ -8,6 +8,9 @@ import dubai from '../assets/dubai.jpg'
 import hawai from '../assets/hawai.jpg'
 import maldives from '../assets/maldive.jpg'
 import itali from '../assets/italy.jpg'
+// import mapImage from '../assets/map.jpg'
+import mapImae from '../assets/map.jpg'
+
 import { useState } from 'react'
 
 export default function Landing() {
@@ -497,6 +500,12 @@ export default function Landing() {
         </div>
         <div className="discription">
           <p>Easily plan your trip in just a few steps. Choose your destination, add activities you love, and create your travel schedule. Whether it's a relaxing beach holiday or an exciting city tour, you can organize everything in one place. Start planning now and enjoy a stress-free journey!</p>
+        </div>
+        <div className="planned-body">
+          <img src={mapImae} alt="" />
+          <div className="form">
+            
+          </div>
         </div>
       </section>
 
