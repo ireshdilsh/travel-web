@@ -8,7 +8,6 @@ import dubai from '../assets/dubai.jpg'
 import hawai from '../assets/hawai.jpg'
 import maldives from '../assets/maldive.jpg'
 import itali from '../assets/italy.jpg'
-// import mapImage from '../assets/map.jpg'
 import mapImae from '../assets/map.jpg'
 
 import { useState } from 'react'
@@ -589,12 +588,12 @@ export default function Landing() {
                       <option value="3">Villa</option>
                       <option value="3">Hostel</option>
                     </select>
-                  </div> 
+                  </div>
                 </div>
               </div>
             </div>
             <hr />
-              <button className="btn btn-dark">Plan My Trip</button>
+            <button className="btn btn-dark">Plan My Trip</button>
           </div>
         </div>
       </section>
@@ -676,14 +675,14 @@ export default function Landing() {
             <h5>Who We Serve</h5>
             <p>WanderWorld Travel is for everyone — from first-time travelers to seasoned explorers. Whether you’re visiting a nearby city or flying across the globe, we provide the resources and support to make every trip a success. Our user-friendly website and mobile platform are designed to be intuitive, informative, and inspiring for all types of travelers.</p>
             <p>We also partner with local businesses, tour guides, and content creators to give our users a richer, more connected travel experience.</p>
-         </div>
+          </div>
         </div>
         <div className="about-footer">
           <h5>Our Journey So Far</h5>
-            <p>From humble beginnings, WanderWorld Travel has grown into a thriving travel community. We’ve helped thousands of travelers plan meaningful trips, explore new destinations, and create unforgettable memories. Our dedication to quality and customer satisfaction has earned us recognition as a trusted name in the travel planning space.As we continue to grow, we remain committed to listening to our users, improving our platform, and staying true to our mission.</p>
-            <h5>Join Us on the Journey</h5>
-            <p>At WanderWorld Travel, we don’t just help you plan trips — we help you live them. We’re here to fuel your curiosity, guide your adventures, and support you every step of the way. Whether you're planning a weekend escape or a months-long world tour, we're excited to be part of your journey.</p>
-            <p id="bold-text">Your journey starts here — with WanderWorld Travel.</p>
+          <p>From humble beginnings, WanderWorld Travel has grown into a thriving travel community. We’ve helped thousands of travelers plan meaningful trips, explore new destinations, and create unforgettable memories. Our dedication to quality and customer satisfaction has earned us recognition as a trusted name in the travel planning space.As we continue to grow, we remain committed to listening to our users, improving our platform, and staying true to our mission.</p>
+          <h5>Join Us on the Journey</h5>
+          <p>At WanderWorld Travel, we don’t just help you plan trips — we help you live them. We’re here to fuel your curiosity, guide your adventures, and support you every step of the way. Whether you're planning a weekend escape or a months-long world tour, we're excited to be part of your journey.</p>
+          <p id="bold-text">Your journey starts here — with WanderWorld Travel.</p>
         </div>
       </section>
       <section id="contact">
@@ -705,7 +704,6 @@ export default function Landing() {
       <div className="copy-right">
         <p>© 2025 WanderWorld Travel. All rights reserved.</p>
       </div>
-
     </div>
   )
 }
