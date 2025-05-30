@@ -504,7 +504,10 @@ export default function Landing() {
         <div className="planned-body">
           <img src={mapImae} alt="" />
           <div className="form">
-            
+            <div className="title">
+              <h4>Let’s Plan Your Adventure</h4>
+              <p>Tell us about your trip preferences, destinations, and budget — and we’ll create a personalized itinerary just for you.</p>
+            </div>
           </div>
         </div>
       </section>
