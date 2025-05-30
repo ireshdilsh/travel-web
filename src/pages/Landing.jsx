@@ -547,8 +547,13 @@ export default function Landing() {
       </section>
 
       <footer>
-        <p>© 2025 WanderWorld Travel. All rights reserved.</p>
+        <p></p>
       </footer>
+
+      <div className="copy-right">
+        <p>© 2025 WanderWorld Travel. All rights reserved.</p>
+      </div>
+
     </div>
   )
 }

@@ -838,7 +838,7 @@ nav .links a:hover::after{
   text-align: center;
 }
 
-footer {
+.copy-right {
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -846,7 +846,7 @@ footer {
   background-color: #333;
 }
 
-footer p{
+.copy-right p{
   margin-top: 10px;
   font-size: 11px;
   color: #fff;
