@@ -741,8 +741,7 @@ export default function Landing() {
         <p>© 2025 WanderWorld Travel. All rights reserved.</p>
       </div>
     </div>
+
   )
 }
-
-
 
