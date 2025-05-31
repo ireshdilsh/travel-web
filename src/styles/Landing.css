@@ -994,8 +994,40 @@ nav .links a:hover::after {
   border-radius: 5px;
 }
 
+#contact .contact-body .bottom-side .set-1{
+  display: flex;
+  margin-top: 30px;
+  gap: 25px;
+}
+
+#contact .contact-body .bottom-side .set-2{
+  display: flex;
+  margin-top: 15px;
+  gap: 25px;
+}
+
+#contact .contact-body .bottom-side .set-1 input,
+#contact .contact-body .bottom-side .set-2 input{
+  width: 320px;
+  height: 36px;
+}
+
+#contact .contact-body .bottom-side .message{
+  margin-top: 15px;
+}
+
+#contact .contact-body .bottom-side .message textarea{
+  height: 180px;
+}
+
+#contact .contact-body .bottom-side button{
+  margin-top: 20px;
+  padding: 8px 15px;
+ margin-left: 548px;
+}
+
 .copy-right {
-  margin-top: 50px;
+  margin-top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;

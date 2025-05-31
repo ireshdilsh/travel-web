@@ -701,8 +701,34 @@ export default function Landing() {
             <img src={location} alt="" />
           </div>
           <div className="bottom-side">
-            <h4>Let's Collaberate</h4>
-            
+            <h4>Let’s Collaborate</h4>
+            <p>Have questions or need assistance? Fill out the form below and our team will get back to you as soon as possible.</p>
+            <div className="set-1">
+              <div className="name">
+                <label class="form-label">First Name</label>
+                <input type="text" class="form-control" aria-describedby="emailHelp" />
+              </div>
+              <div className="name">
+                <label class="form-label">Last Name</label>
+                <input type="text" class="form-control" aria-describedby="emailHelp" />
+              </div>
+            </div>
+            <div className="set-2">
+              <div className="email">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div className="name">
+                <label class="form-label">Contact No</label>
+                <input type="text" class="form-control" aria-describedby="emailHelp" />
+              </div>
+            </div>
+            <div className="message">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button class="btn btn-dark">Submit Message</button>
           </div>
         </div>
       </section>
