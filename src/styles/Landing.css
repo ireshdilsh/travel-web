@@ -780,7 +780,6 @@ nav .links a:hover::after {
   background-size: cover;
   object-fit: cover;
   width: 1550px;
-  z-index: -1;
 }
 
 #plan-your-trip .planned-body {
@@ -968,6 +967,31 @@ nav .links a:hover::after {
 
 #contact .discription p {
   text-align: center;
+}
+
+#contact .contact-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 15px;
+}
+
+#contact .contact-body .top-side img{
+  object-fit: cover;
+  background-size: cover;
+  overflow: hidden;
+  height: 250px;
+  width: 1265px;
+}
+
+#contact .contact-body .bottom-side{
+  padding: 40px;
+  width: 60%;
+  background-color: #fff;
+  border: 1.5px solid #e9e9e9;
+  border-radius: 5px;
 }
 
 .copy-right {

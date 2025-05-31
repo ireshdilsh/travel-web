@@ -9,6 +9,7 @@ import hawai from '../assets/hawai.jpg'
 import maldives from '../assets/maldive.jpg'
 import itali from '../assets/italy.jpg'
 import mapImae from '../assets/map.jpg'
+import location from '../assets/contact-location.png'
 
 import { useState } from 'react'
 
@@ -694,6 +695,15 @@ export default function Landing() {
         </div>
         <div className="discription">
           <p>Have questions or need help planning your trip? Reach out to us anytime! Whether it’s about destinations, bookings, or suggestions—we’re happy to assist. Fill out the form below or send us an email. Let’s make your travel experience smooth and enjoyable!</p>
+        </div>
+        <div className="contact-body">
+          <div className="top-side">
+            <img src={location} alt="" />
+          </div>
+          <div className="bottom-side">
+            <h4>Let's Collaberate</h4>
+            
+          </div>
         </div>
       </section>
 
