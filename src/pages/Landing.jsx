@@ -645,10 +645,17 @@ export default function Landing() {
           </div>
           <div className="set-3">
             <div>
-
+                <div>
+                 <img src={img9} alt="" />
+                 <img src={img10} alt="" />
+                </div>
+                <div>
+                  <img src={img11} alt="" />
+                  <img src={img12} alt="" />
+                </div>
             </div>
             <div>
-              
+              <img src={img1} id="img1" alt="" />
             </div>
           </div>
         </div>

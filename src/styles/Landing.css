@@ -887,10 +887,31 @@ nav .links a:hover::after {
   height: 300px;
   width: 350px;
   border-radius: 0 20px 0 20px;
+   margin-top: 5px;
 }
 
 #gallery .gallery-body .set-2 div #img6{
   width: 630px;
+}
+
+#gallery .gallery-body .set-3 div img{
+  object-fit: cover;
+  background-size: cover;
+  overflow: hidden;
+  height: 260px;
+  width: 443px;
+  border-radius: 0 20px 0 20px;
+}
+
+#gallery .gallery-body .set-3 div #img1{
+  height: 525px;
+   margin-top: 7px;
+}
+
+#gallery .gallery-body .set-3 div div{
+  display: flex;
+  gap: 7px;
+   margin-top: 5px;
 }
 
 #blog {
