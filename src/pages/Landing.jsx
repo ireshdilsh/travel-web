@@ -11,6 +11,20 @@ import itali from '../assets/italy.jpg'
 import mapImae from '../assets/map.jpg'
 import location from '../assets/contact-location.png'
 
+// gallery images
+import img1 from '../gallery/img-1.webp'
+import img2 from '../gallery/img-2.jpg'
+import img3 from '../gallery/img-3.jpg'
+import img4 from '../gallery/img-4.jpg'
+import img5 from '../gallery/img-5.jpeg'
+import img6 from '../gallery/img-6.webp'
+import img7 from '../gallery/img-7.jpg'
+import img8 from '../gallery/img-8.jpg'
+import img9 from '../gallery/img-9.jpg'
+import img10 from '../gallery/img-10.jpg'
+import img11 from '../gallery/img-11.jpg'
+import img12 from '../gallery/img-12.webp'
+
 import { useState } from 'react'
 
 export default function Landing() {
@@ -611,10 +625,32 @@ export default function Landing() {
         </div>
         <div className="gallery-body">
           <div className="set-1">
-            
+            <div>
+              <img src={img5} alt="" />
+              <img src={img2} alt="" />
+            </div>
+            <div>
+              <img src={img3} alt="" />
+              <img src={img4} alt="" />
+            </div>
           </div>
-          <div className="set-2"></div>
-          <div className="set-3"></div>
+          <div className="set-2">
+            <div>
+              <img src={img6} id="img6" alt="" />
+            </div>
+            <div>
+              <img src={img7} alt="" />
+              <img src={img8} alt="" />
+            </div>
+          </div>
+          <div className="set-3">
+            <div>
+
+            </div>
+            <div>
+              
+            </div>
+          </div>
         </div>
       </section>
 
