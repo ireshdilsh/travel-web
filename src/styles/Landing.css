@@ -849,6 +849,21 @@ nav .links a:hover::after {
   text-align: center;
 }
 
+#gallery .gallery-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#gallery .gallery-body .set-1,
+#gallery .gallery-body .set-2,
+#gallery .gallery-body .set-3{
+  display: flex;
+  gap: 20px;
+}
+
 #blog {
   display: flex;
   flex-direction: column;

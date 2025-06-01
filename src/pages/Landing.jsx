@@ -609,6 +609,13 @@ export default function Landing() {
         <div className="discription">
           <p>Explore beautiful photos from different places around the world. Our gallery shows stunning views, happy travelers, and unforgettable moments. From mountains and beaches to cities and cultures—discover what makes each trip special. Get inspired and start dreaming of your next adventure!</p>
         </div>
+        <div className="gallery-body">
+          <div className="set-1">
+            
+          </div>
+          <div className="set-2"></div>
+          <div className="set-3"></div>
+        </div>
       </section>
 
       <section id="blog">
