@@ -849,7 +849,7 @@ nav .links a:hover::after {
   text-align: center;
 }
 
-#gallery .gallery-body{
+#gallery .gallery-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -859,19 +859,19 @@ nav .links a:hover::after {
 
 #gallery .gallery-body .set-1,
 #gallery .gallery-body .set-2,
-#gallery .gallery-body .set-3{
+#gallery .gallery-body .set-3 {
   display: flex;
   gap: 7px;
   margin-top: 8px;
 }
 
 #gallery .gallery-body .set-1 div,
-#gallery .gallery-body .set-2 div{
+#gallery .gallery-body .set-2 div {
   display: flex;
   gap: 7px;
 }
 
-#gallery .gallery-body .set-1 div img{
+#gallery .gallery-body .set-1 div img {
   object-fit: cover;
   background-size: cover;
   overflow: hidden;
@@ -880,21 +880,21 @@ nav .links a:hover::after {
   border-radius: 0 20px 0 20px;
 }
 
-#gallery .gallery-body .set-2 div img{
+#gallery .gallery-body .set-2 div img {
   object-fit: cover;
   background-size: cover;
   overflow: hidden;
   height: 300px;
   width: 350px;
   border-radius: 0 20px 0 20px;
-   margin-top: 5px;
+  margin-top: 5px;
 }
 
-#gallery .gallery-body .set-2 div #img6{
+#gallery .gallery-body .set-2 div #img6 {
   width: 630px;
 }
 
-#gallery .gallery-body .set-3 div img{
+#gallery .gallery-body .set-3 div img {
   object-fit: cover;
   background-size: cover;
   overflow: hidden;
@@ -903,15 +903,15 @@ nav .links a:hover::after {
   border-radius: 0 20px 0 20px;
 }
 
-#gallery .gallery-body .set-3 div #img1{
+#gallery .gallery-body .set-3 div #img1 {
   height: 525px;
-   margin-top: 7px;
+  margin-top: 7px;
 }
 
-#gallery .gallery-body .set-3 div div{
+#gallery .gallery-body .set-3 div div {
   display: flex;
   gap: 7px;
-   margin-top: 5px;
+  margin-top: 5px;
 }
 
 #blog {
@@ -1034,7 +1034,7 @@ nav .links a:hover::after {
   text-align: center;
 }
 
-#contact .contact-body{
+#contact .contact-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1043,7 +1043,7 @@ nav .links a:hover::after {
   margin-top: 15px;
 }
 
-#contact .contact-body .top-side img{
+#contact .contact-body .top-side img {
   object-fit: cover;
   background-size: cover;
   overflow: hidden;
@@ -1051,7 +1051,7 @@ nav .links a:hover::after {
   width: 1265px;
 }
 
-#contact .contact-body .bottom-side{
+#contact .contact-body .bottom-side {
   padding: 40px;
   width: 60%;
   background-color: #fff;
@@ -1059,36 +1059,36 @@ nav .links a:hover::after {
   border-radius: 5px;
 }
 
-#contact .contact-body .bottom-side .set-1{
+#contact .contact-body .bottom-side .set-1 {
   display: flex;
   margin-top: 30px;
   gap: 25px;
 }
 
-#contact .contact-body .bottom-side .set-2{
+#contact .contact-body .bottom-side .set-2 {
   display: flex;
   margin-top: 15px;
   gap: 25px;
 }
 
 #contact .contact-body .bottom-side .set-1 input,
-#contact .contact-body .bottom-side .set-2 input{
+#contact .contact-body .bottom-side .set-2 input {
   width: 325px;
   height: 36px;
 }
 
-#contact .contact-body .bottom-side .message{
+#contact .contact-body .bottom-side .message {
   margin-top: 15px;
 }
 
-#contact .contact-body .bottom-side .message textarea{
+#contact .contact-body .bottom-side .message textarea {
   height: 180px;
 }
 
-#contact .contact-body .bottom-side button{
+#contact .contact-body .bottom-side button {
   margin-top: 20px;
   padding: 8px 15px;
- margin-left: 548px;
+  margin-left: 548px;
 }
 
 .copy-right {
