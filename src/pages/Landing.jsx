@@ -693,9 +693,24 @@ export default function Landing() {
             </div>
           </div>
           <div className="set-2">
-            <div className="card-1"></div>
-            <div className="card-2"></div>
-            <div className="card-3"></div>
+            <div className="card-1">
+              <h5>Face to Face with the King of the Jungle</h5>
+              <img src={img9} alt="" />
+              <p>Experience the thrill of a lifetime on a lion safari. Watch the majestic predators roam freely in their habitat—raw, wild, and breathtakingly powerful.</p>
+              <button className="btn btn-dark">Read More</button>
+            </div>
+            <div className="card-2">
+              <h5>A Majestic Journey on Gentle Giants</h5>
+              <img src={img8} alt="" />
+              <p>Climb aboard a gentle elephant and stroll through nature. Feel the rhythm of the jungle on an unforgettable ride that connects you to ancient traditions.</p>
+              <button className="btn btn-dark">Read More</button>
+            </div>
+            <div className="card-3">
+              <h5>A Desert Voyage Through Time</h5>
+              <img src={img6} alt="" />
+              <p>Embark on a timeless camel ride through golden dunes. Discover ancient trade routes, nomadic stories, and the soulful silence of the desert’s vast beauty.</p>
+              <button className="btn btn-dark">Read More</button>
+            </div>
           </div>
         </div>
       </section>
