@@ -671,6 +671,33 @@ export default function Landing() {
         <div className="discription">
           <p>Read travel stories, tips, and guides from amazing destinations. Our blog shares helpful advice, fun experiences, and ideas to make your trips better. Whether you’re planning your first journey or your next big adventure, find inspiration and learn something new with every post!</p>
         </div>
+        <div className="blog-body">
+          <div className="set-1">
+            <div className="card-1">
+                <h5>Journey Through the Wild – Backpacking Bliss</h5>
+              <img src={img1} alt="" />
+                <p>Experience the joy of solo backpacking through lush, tropical landscapes. Discover culture, adventure, and soul-refreshing freedom with every step. Perfect for wanderers seeking genuine escape.</p>
+              <button className="btn btn-dark">Read More</button>
+            </div>
+            <div className="card-2">
+              <h5>Elephant Encounters – Wild Hearts in Harmony</h5>
+              <img src={img2} alt="" />
+              <p>Witness the majestic beauty of elephants in their natural habitat. A soulful journey into conservation, connection, and the awe of Sri Lanka’s wildlife sanctuaries.</p>
+              <button className="btn btn-dark">Read More</button>
+            </div>
+            <div className="card-3">
+              <h5>Sigiriya Rock – Fortress in the Sky</h5>
+              <img src={img4} alt="" />
+              <p>Climb to the ancient summit of Sigiriya Rock Fortress. Discover the legends, history, and breathtaking views that make this UNESCO World Heritage Site unforgettable.</p>
+              <button className="btn btn-dark">Read More</button>
+            </div>
+          </div>
+          <div className="set-2">
+            <div className="card-1"></div>
+            <div className="card-2"></div>
+            <div className="card-3"></div>
+          </div>
+        </div>
       </section>
       <section id="about">
         <div className="title">

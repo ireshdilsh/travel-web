@@ -930,6 +930,68 @@ nav .links a:hover::after {
   text-align: center;
 }
 
+#blog .blog-body{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#blog .blog-body .set-1,
+#blog .blog-body .set-2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#blog .blog-body .set-1 img,
+#blog .blog-body .set-2 img{
+  object-fit: cover;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 5px;
+  width: 361px;
+  height: 400px;
+  margin-top: 10px;
+}
+
+#blog .blog-body .set-1 .card-1,
+#blog .blog-body .set-1 .card-2,
+#blog .blog-body .set-1 .card-3,
+#blog .blog-body .set-2 .card-1,
+#blog .blog-body .set-2 .card-2,
+#blog .blog-body .set-2 .card-3{
+  padding: 25px;
+  width: 416px;
+  border: 1.8px solid #fafafa;
+  border-radius: 5px;
+  transition: 0.4s;
+  &:hover{
+    transform: scale(1.03);
+  }
+}
+
+#blog .blog-body .set-1 .card-1 p,
+#blog .blog-body .set-1 .card-2 p,
+#blog .blog-body .set-1 .card-3 p,
+#blog .blog-body .set-2 .card-1 p,
+#blog .blog-body .set-2 .card-2 p,
+#blog .blog-body .set-2 .card-3 p{
+  text-align: justify;
+  margin-top: 15px;
+}
+
+#blog .blog-body .set-1 .card-1 button,
+#blog .blog-body .set-1 .card-2 button,
+#blog .blog-body .set-1 .card-3 button,
+#blog .blog-body .set-2 .card-1 button,
+#blog .blog-body .set-2 .card-2 button,
+#blog .blog-body .set-2 .card-3 button{
+  padding: 8px 20px;
+  margin-top: 10px;
+}
+
 #about {
   display: flex;
   flex-direction: column;
